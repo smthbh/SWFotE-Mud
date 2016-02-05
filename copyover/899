@@ -1,0 +1,15 @@
+#OBJECT
+Vnum         700
+Room         899
+Rvnum        899
+Level        1
+End
+
+#OBJECT
+Vnum         799
+Room         899
+Rvnum        899
+Level        1
+End
+
+#END

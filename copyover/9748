@@ -1,0 +1,16 @@
+#OBJECT
+Vnum         9746
+Room         9748
+Rvnum        9748
+Level        1
+Values       1000 5 0 5 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         150
+Level        1
+Values       10 10 10 0 0 0
+End
+
+#END

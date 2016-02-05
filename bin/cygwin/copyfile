@@ -1,0 +1,22 @@
+#! /bin/csh -f
+
+
+#This Script was created by Greg (Keberus) Mosley
+#SW:DoD
+#www.t-n-k-games.com
+#This little script is the major reason copyover for this mud is now possible
+
+#I would just like to say thanks to whoever came up with the startup script enancement to tell the mud
+#not to startup if the port was in use...I used thier Idea for part of this. 
+
+# Setup working directory
+cd ../bin
+set wd = `pwd`
+cd ../src
+
+# Check if already running
+   set matches = `ps ux | grep "$wd" | grep -c "swr"`
+    if ( $matches >= 1 ) then
+           # Already running
+            mv ../bin/swr.exe ../bin/swr_old.exe || echo "Don't Worry, this probably means you've changed more stuff but haven't done a Copyover Yet!"
+    endif

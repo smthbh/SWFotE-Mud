@@ -1,0 +1,21 @@
+#PLANET
+Name         HP9015-l~
+Filename     HP9015-l.planet~
+X            506
+Y            151
+Z            2020
+Sector       0
+Type    	   1
+PopSupport   0
+Starsystem   AB90152 - Asteroid belt~
+Area         asteroid2.are~
+Resource 1 0 0 0 0 0
+Resource 2 0 0 0 0 0
+Resource 3 0 0 0 0 0
+Resource 4 0 0 0 0 0
+Resource 5 0 0 0 0 0
+Resource 6 0 0 0 0 0
+Resource 7 0 0 0 0 0
+End
+
+#END

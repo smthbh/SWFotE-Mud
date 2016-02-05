@@ -1,0 +1,10985 @@
+#AREA   Byss~
+
+
+
+#AUTHOR Bardock~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 6103500
+
+#MOBILES
+#2501
+low_mob~
+imperial recruit~
+An Imperial Recruit walks past.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2502
+imperial royal guard~
+an Imperial Royal Guard~
+A soldier dressed in a red uniform stands tall here.
+~
+~
+1073741827 0 0 Z
+35 0 12 7d10+350 3d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+7 7 0 0 0 0 16 2
+0 0 0 0 0 0 0 0
+#2503
+Sand Trooper General Darren Javis~
+General Darren Javis~
+A Tall Sand Trooper is sitting at his desk.
+~
+The guard is bulky and looks smart. These guards have had a year training
+in the Imperial Extreme Boot Camp and are the most well trained bodyguards
+in the galaxy. They are proficient with hand to hand and ranged combat.
+They are even capable of using the Force to dull pain! These guys arn't a
+force to be reckoned with. He looks at you with a cold stare and suddenly
+you feel spooked.
+~
+4175 0 0 Z
+36 0 10 7d10+360 10d10+2
+100 0
+8 8 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 2047 0 0 0 0 3
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+emote stands up from his desk
+mpsleep 5
+say What the hell are you doing in my office?!
+emote pulls two blasters from side holster
+mpoload 1506
+mpoload 1506
+mpsleep 3
+wear e-11
+wear e-11
+setblaster full
+mpsleep 3
+say Time to die!
+mpkill $n
+~
+|
+#2504
+imperial guard~
+an Imperial guard~
+An Imperial guard stands here, doing his job.
+~
+The guard is bulky and looks smart. These guards have had a year training
+in the Imperial Extreme Boot Camp and are the most well trained bodyguards
+in the galaxy. They are proficient with hand to hand and ranged combat.
+They are even capable of using the Force to dull pain! These guys arn't a
+force to be reckoned with. He looks at you with a cold stare and suddenly
+you feel spooked.
+~
+4175 4194304 0 Z
+36 0 10 7d10+360 10d10+2
+100 0
+8 8 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 2047 0 0 0 0 3
+0 0 0 0 0 0 0 0
+#2505
+space trucker~
+a space trucker~
+A roguish man with shabby clothing is here, eating food.
+~
+The guard is bulky and looks smart. These guards have had a year training
+in the Imperial Extreme Boot Camp and are the most well trained bodyguards
+in the galaxy. They are proficient with hand to hand and ranged combat.
+They are even capable of using the Force to dull pain! These guys arn't a
+force to be reckoned with. He looks at you with a cold stare and suddenly
+you feel spooked.
+~
+4207 4194304 0 Z
+36 0 10 10d23+1300 10d10+2
+0 0
+8 8 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 0 0 1 1 2
+20 10 2047 8 2097152 0 0 2
+0 0 0 0 0 0 0 0
+#2506
+shelden tagassay~
+Shelden Tagassay~
+Some god abandoned a newly created shelden tagassay here.
+~
+~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2507
+byss imperial customs officer~
+a Imperial customs officer~
+A Imperial customs officer is here, looking for contraband.
+~
+~
+1073745931 0 0 Z
+36 0 10 7d10+360 3d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+7 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#4448
+xenomorph drone~
+a xenomorph drone~
+An xenomorph drone stands here, grinning and drooling.
+~
+~
+4131 0 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 0 0 1 1 0
+6 6 0 0 0 0 48 3
+0 0 0 0 0 0 0 0
+#4449
+hi_mob~
+imperial recruit~
+An Imperial Recruit walks past.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2501
+low_obj~
+a small canteen~
+A belt sized canteen was dropped here.~
+~
+17 8192 1
+10 10 0 0
+1 10 1
+#2502
+crate~
+a crate~
+A huge crate is here.~
+~
+15 0 0
+0 0 0 0
+1000 0 0
+#2503
+desk~
+a desk~
+A desk is sitting here.~
+~
+12 0 0
+0 0 0 6
+10 3250 325
+A
+18 2
+#2504
+Farma vision enhancer~
+a Farma vision enhancer~
+A Farma vision enhancer is here.~
+~
+13 0 131073
+0 0 0 0
+1 0 0
+A
+26 4194304
+#2900
+~
+a ~
+A  is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#4448
+golden monkey~
+a golden monkey~
+A golden monkey is here.~
+~
+13 1073741824 1
+0 0 0 0
+1 0 0
+#4499
+low_obj~
+a small canteen~
+A belt sized canteen was dropped here.~
+~
+17 8192 1
+10 10 0 0
+1 10 1
+#0
+
+
+#ROOMS
+#2501
+Void~
+~
+0 4 1 0 0 0 1040
+S
+#2502
+Imperial Freight Complex Landing Pad~
+This is part of a giant landing pad for cargo ships and freighters
+to land and unload cargo. The pad is a nice smooth duracrete
+and has landing spots painted on so that the incoming ships
+will not cause trouble when landing. Everyday, ships pour into
+Byss and land here to deliver cargo, etc.
+~
+0 48 1 0 0 0 1040
+D0
+~
+~
+0 -1 2503 0
+D1
+~
+~
+0 -1 2509 0
+D2
+~
+~
+0 -1 2511 0
+D3
+~
+~
+0 -1 2513 0
+S
+#2503
+Imperial Freight Complex~
+To the south is the gigantic landing pad. There are security
+countermeasures here to search cargo and people for illegal
+items. Illegal items result in arrests and confiscating of items,
+never to be returned. There are seats all around for people
+to sit down to rest.
+~
+0 8 1 0 0 0 1040
+D0
+~
+~
+0 -1 2514 0
+D1
+~
+~
+0 -1 2504 0
+D2
+~
+~
+0 -1 2502 0
+D3
+~
+~
+0 -1 2505 0
+S
+#2504
+Imperial Security Station~
+This is a heavily fortified office where Imperial security personnel
+can work and play during their shifts. The armory is at the
+back of the office and in front are just some desks filled with
+datapads. It is pretty well lighted in here, as the personnel
+have to read about new cargo transactions for the whole day.
+~
+0 72 1 0 0 0 1040
+D3
+~
+~
+0 -1 2503 0
+R M 0 2504 3 2504
+R M 0 2504 3 2504
+R M 0 2504 3 2504
+R O 0 2503 1 2504
+S
+#2505
+Imperial Warehouse~
+This is just the entrance of a giant warehouse where Imperial
+cargo are unloaded. It is not very bright in here, but there
+is still some light. There are tons of crates everywhere, piling
+up to the ceiling. Some powerloaders are here to help people
+move the crates around to desired spots.
+~
+0 8 1 0 0 0 1040
+D0
+~
+~
+0 -1 2508 0
+D1
+~
+~
+0 -1 2503 0
+D3
+~
+~
+0 -1 2506 0
+R O 0 2502 1 2505
+S
+#2506
+Imperial Warehouse~
+This is a giant warehouse where the Imperial cargo are placed.
+It is not very bright in here, but there is still some light.
+There are tons of crates everywhere, piling up to the ceiling.
+Some powerloaders are here to help people move the crates around
+to desired spots.
+~
+0 8 1 0 0 0 1040
+D0
+~
+~
+0 -1 2507 0
+D1
+~
+~
+0 -1 2505 0
+R O 0 2502 1 2506
+S
+#2507
+Imperial Warehouse~
+This is a giant warehouse where the Imperial cargo are placed.
+It is not very bright in here, but there is still some light.
+There are tons of crates everywhere, piling up to the ceiling.
+Some powerloaders are here to help people move the crates around
+to desired spots.
+~
+0 8 1 0 0 0 1040
+D1
+~
+~
+0 -1 2508 0
+D2
+~
+~
+0 -1 2506 0
+R O 0 2502 1 2507
+S
+#2508
+Imperial Warehouse~
+This is a giant warehouse where the Imperial cargo are placed.
+It is not very bright in here, but there is still some light.
+There are tons of crates everywhere, piling up to the ceiling.
+Some powerloaders are here to help people move the crates around
+to desired spots.
+~
+0 8 1 0 0 0 1040
+D2
+~
+~
+0 -1 2505 0
+D3
+~
+~
+0 -1 2507 0
+R O 0 2502 1 2508
+S
+#2509
+Imperial Freight Complex Landing Pad~
+This is part of a giant landing pad for cargo ships and freighters
+to land and unload cargo. The pad is a nice smooth duracrete
+and has landing spots painted on so that the incoming ships
+will not cause trouble when landing. Everyday, ships pour into
+Byss and land here to deliver cargo, etc.
+~
+0 48 1 0 0 0 1040
+D2
+~
+~
+0 -1 2510 0
+D3
+~
+~
+0 -1 2502 0
+S
+#2510
+Imperial Freight Complex Landing Pad~
+This is part of a giant landing pad for cargo ships and freighters
+to land and unload cargo. The pad is a nice smooth duracrete
+and has landing spots painted on it so that the incoming ships
+will not cause trouble when landing. Everyday, ships pour into
+Byss and land here to deliver cargo, etc.
+~
+0 48 1 0 0 0 1040
+D0
+~
+~
+0 -1 2509 0
+D3
+~
+~
+0 -1 2511 0
+S
+#2511
+Imperial Freight Complex Landing Pad~
+This is part of a giant landing pad for cargo ships and freighters
+to land and unload cargo. The pad is a nice smooth duracrete
+and has landing spots painted on it so that the incoming ships
+will not cause trouble when landing. Everyday, ships pour into
+Byss and land here to deliver cargo, etc.
+~
+0 48 1 0 0 0 1040
+D0
+~
+~
+0 -1 2502 0
+D1
+~
+~
+0 -1 2510 0
+D3
+~
+~
+0 -1 2512 0
+S
+#2512
+Imperial Freight Complex Landing Pad~
+This is part of a giant landing pad for cargo ships and freighters
+to land and unload cargo. The pad is a nice smooth duracrete
+and has landing spots painted on it so that the incoming ships
+will not cause trouble when landing. Everyday, ships pour into
+Byss to deliver cargo, etc.
+~
+0 48 1 0 0 0 1040
+D0
+~
+~
+0 -1 2513 0
+D1
+~
+~
+0 -1 2511 0
+S
+#2513
+Imperial Freight Complex Landing Pad~
+This is part of a giant landing pad for cargo ships and freighters
+to land and unload cargo. The pad is a nice smooth duracrete
+and has landing spots painted on so that the incoming ships
+will not cause trouble when landing. Everyday, ships pour into
+Byss and land here to deliver cargo, etc. 
+~
+0 48 1 0 0 0 1040
+D1
+~
+~
+0 -1 2502 0
+D2
+~
+~
+0 -1 2512 0
+S
+#2514
+Imperial Freight Complex~
+To the east is the infamous Byss Bistro, where millions of people
+gather to eat their meals. The food there is pretty delicious,
+and not very expensive. To the north is the exit of the huge
+complex. If anyone needs to talk to the supervisor of the facility,
+his office is to the west.
+~
+0 8 1 0 0 0 1040
+D0
+~
+~
+0 -1 2517 0
+D1
+~
+~
+0 -1 2515 0
+D2
+~
+~
+0 -1 2503 0
+D3
+~
+~
+0 -1 2516 0
+S
+#2515
+Byss Bistro~
+Many people come here everyday to rest and grab some food to
+eat. Most of the time, it is filled with Imperial personnel
+and "space truckers", the people who work on the cargo ships
+and freighters. There are tables and chairs everywhere, and
+food dispensors are scattered about, giving food to the hungry.
+~
+0 72 1 0 0 0 1040
+D3
+~
+~
+0 -1 2514 0
+R M 0 2505 4 2515
+R M 0 2505 4 2515
+R M 0 2505 4 2515
+R M 0 2505 4 2515
+S
+#2516
+Imperial Freight Complex Office~
+The office has bare white walls and is lighted very well. The
+manager's desk sits in the middle of the room, large and heavy-looking.
+Personals and paperwork decorate the desk and stacks of reports
+and inventories pile the floor. On the corner are some chairs
+and on another corner are some file cabinets.
+~
+0 72 1 0 0 0 1040
+D1
+~
+~
+0 -1 2514 0
+R O 0 2503 1 2516
+S
+#2517
+Imperial Freight Complex Entrance~
+This is the entrance of the complex. Security countermeasures
+are here to make sure that people are safe in the complex. To
+the east is a shop where tons of people line up to gather materials
+for their travels. Many people pass through here every day.
+~
+0 8 1 0 0 0 1040
+D0
+~
+~
+0 -1 2520 0
+D1
+~
+~
+0 -1 2518 0
+D2
+~
+~
+0 -1 2514 0
+D3
+~
+~
+0 -1 2519 0
+S
+#2518
+Imperial Freight Complex Shop~
+The store is filled with tools and materials to help "space truckers"
+get through their boring cargo runs. Food rations, toolkits,
+and canteens are among the supplies sold here. Stuff like these
+help crews during times of emergency too.There are multiple
+counters for people to line up, so it would take less time to
+actually acquire the supplies.
+~
+0 8 1 0 0 0 1040
+D3
+~
+~
+0 -1 2517 0
+S
+#2519
+Empty Space~
+~
+0 8 1 0 0 0 1040
+D1
+~
+~
+0 -1 2517 0
+S
+#2520
+A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D2
+~
+~
+0 -1 2517 0
+D7
+~
+~
+0 -1 2521 0
+S
+#2521
+A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D7
+~
+~
+0 -1 2522 0
+D8
+~
+~
+0 -1 2520 0
+S
+#2522
+A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D6
+~
+~
+0 -1 2525 0
+D8
+~
+~
+0 -1 2521 0
+D9
+~
+~
+0 -1 2523 0
+S
+#2523
+A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D6
+~
+~
+0 -1 2522 0
+D7
+~
+~
+0 -1 2524 0
+S
+#2524
+Entrance to Throne City~
+To the west is a giant arch doorway, with Throne City carved
+on it. It seems that millions are flocking into the city, about
+to do their duties. Fortifications that are made to protect
+the city extends all around it. To the east is the seemly endless
+barren desert that Byss once was. Now it is a place of opportunity,
+especially for the Empire.
+~
+0 0 1 0 0 0 1040
+D0
+~
+~
+0 -1 2682 0
+D2
+~
+~
+0 -1 2752 0
+D3
+~
+~
+0 -1 2552 0
+D8
+~
+~
+0 -1 2523 0
+S
+#2525
+A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D6
+~
+~
+0 -1 2526 0
+D9
+~
+~
+0 -1 2522 0
+S
+#2526
+A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D6
+~
+~
+0 -1 2527 0
+D9
+~
+~
+0 -1 2525 0
+S
+#2527
+A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D0
+~
+~
+0 -1 2538 0
+D1
+~
+~
+0 -1 2528 0
+D9
+~
+~
+0 -1 2526 0
+S
+#2528
+Entrance To An Imperial Training Facility~
+To the east looms a large Imperial training facility, where Imperial
+soldiers are trained to become a part of the Empire's gigantic
+army. This is the main facility where the Empire gets its loyal
+troops from. A desert with grayish rocks and sand can be seen
+all around. There is a nicely carved rock with directions on
+top of it.
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2529 0
+D3
+~
+~
+0 -1 2527 0
+S
+#2529
+Imperial Training Facility~
+This facility is an advanced training facility for the Empire
+to train its troops. The facility was made to train the more
+elite troopers of the Empire, like the dreaded Dark Troopers.
+The hallway here is wide and large, but very plain. To the north
+is the Weight Room and to the south is the Mess Hall.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2532 0
+D1
+~
+~
+0 -1 2530 0
+D2
+~
+~
+0 -1 2535 0
+D3
+~
+~
+0 -1 2528 0
+S
+#2530
+Imperial Training Facility~
+This is where soldiers usually come after a long day of training.
+To the north is their barracks, where they can take a nap or
+whatever to forget about all the aches and pain caused by intense
+military training. To the south, is the commander's office/bedroom,
+where the commander can sit back and sleep in his comfy room.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2533 0
+D1
+~
+~
+0 -1 2531 0
+D2
+~
+~
+0 -1 2536 0
+D3
+~
+~
+0 -1 2529 0
+S
+#2531
+Imperial Training Facility~
+The uniformed echos of soldiers are really loud here, as their
+training area is to the north. To the south is the Infirmary,
+where wounded soldiers are taken to get patched up. The hallway
+ends here. On the east wall is a giant Imperial flag, hung nicely
+for all to see.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2534 0
+D2
+~
+~
+0 -1 2537 0
+D3
+~
+~
+0 -1 2530 0
+S
+#2532
+Weight Room~
+The floor is padded and weight training equipment are neatly
+lined up, ready to be used. Metal weights are stored on the
+corners, color coded to make sure that they do not get mixed
+up. The walls are filled with giant words like motivation or
+discipine. They must be used to "encourage" the troops.
+~
+0 72 1 0 0 0 1040
+D2
+~
+~
+0 -1 2529 0
+S
+#2533
+Living Quarters~
+Here are many bunks and personal lockers for the troops to rest
+and do whatever they want after a long day of the normal recruit
+of the military. There are a few tables here for troops to play
+cards. There are also showers off to the corner of the room.
+The floor is a nice and clean grey and everywhere seems neat,
+due to the constant "drop in" from the drill sergeants.
+~
+0 8388680 1 0 0 0 1040
+D2
+~
+~
+0 -1 2530 0
+S
+#2534
+Training Area~
+The training area is large, and an obsticle course runs along
+the edge of the room. In the center of the room, there is a
+flat plain for soldiers to stand at attention and perform their
+daily physical excercises. There is a row of lockers next to
+the entrance for soldiers to put their unused equipment in so
+they don't lose it.
+~
+0 72 1 0 0 0 1040
+D2
+~
+~
+0 -1 2531 0
+S
+#2535
+Mess Hall~
+The mess hall is long, and is comprised of rows of long metal
+tables with benches. Off to the side is the food line, where
+soldiers get a hearty meal to supply themselves with the energy
+needed during training. A few replicators are here for officers
+to get special food that is not offered to the regulars.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2529 0
+S
+#2536
+Commander's Office~
+The commander's office is large, and doubles as both the bedroom
+and the office. There is a bunk in back of the room, with curtains
+for privacy. The desk is cluttered with datapads containing
+all sorts of information. Medals and holopictures fill the room,
+showing that its owner is a very skilled soldier.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2530 0
+R O 0 2503 1 2536
+S
+#2537
+Infirmary~
+Biobeds and trays full of surgical tools are nicely set up, surrounded
+by medical cabinets and shelves to store medical supplies. This
+place seems to be stertile and comfortable for the wounded Imperial
+soldiers that get hurt in training accidents. There are also
+screens to monitor patients. Curtains give the patients some
+privacy.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2531 0
+S
+#2538
+The End Of A Dusty Path~
+~
+0 0 1 0 0 0 1040
+D2
+~
+~
+0 -1 2527 0
+D7
+~
+~
+0 -1 2539 0
+S
+#2539
+A Shooting Range~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2540 0
+D7
+~
+~
+0 -1 2548 0
+D8
+~
+~
+0 -1 2538 0
+S
+#2540
+A Shooting Range~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2541 0
+D2
+~
+~
+0 -1 2543 0
+D3
+~
+~
+0 -1 2539 0
+S
+#2541
+A Shooting Range~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2542 0
+D3
+~
+~
+0 -1 2540 0
+S
+#2542
+A Shooting Range~
+~
+0 0 1 0 0 0 1040
+D3
+~
+~
+0 -1 2541 0
+S
+#2543
+A Large Tent~
+~
+0 0 1 0 0 0 1040
+D0
+~
+~
+0 -1 2540 0
+S
+#2544
+A Flat Plain~
+~
+0 4 1 0 0 0 1040
+S
+#2545
+A Flat Plain~
+~
+0 4 1 0 0 0 1040
+S
+#2546
+A Flat Plain~
+~
+0 4 1 0 0 0 1040
+S
+#2547
+A Flat Plain~
+~
+0 4 1 0 0 0 1040
+S
+#2548
+A Flat Plain~
+~
+0 0 1 0 0 0 1040
+D0
+~
+~
+0 -1 2551 0
+D3
+~
+~
+0 -1 2549 0
+D8
+~
+~
+0 -1 2539 0
+S
+#2549
+A Flat Plain~
+~
+0 0 1 0 0 0 1040
+D0
+~
+~
+0 -1 2550 0
+D1
+~
+~
+0 -1 2548 0
+S
+#2550
+A Flat Plain~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2551 0
+D2
+~
+~
+0 -1 2549 0
+S
+#2551
+A Flat Plain~
+~
+0 0 1 0 0 0 1040
+D2
+~
+~
+0 -1 2548 0
+D3
+~
+~
+0 -1 2550 0
+S
+#2552
+Emperor Street~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2524 0
+D3
+~
+~
+0 -1 2553 0
+S
+#2553
+Emperor Street~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2552 0
+D3
+~
+~
+0 -1 2554 0
+S
+#2554
+Emperor Street~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2553 0
+D3
+~
+~
+0 -1 2555 0
+S
+#2555
+Emperor Street~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2554 0
+D3
+~
+~
+0 -1 2556 0
+S
+#2556
+Emperor Street~
+~
+0 0 1 0 0 0 1040
+D1
+~
+~
+0 -1 2555 0
+D3
+~
+~
+0 -1 2557 0
+S
+#2557
+Intersection of Emperor and Admiralty~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2569 0
+D1
+~
+~
+0 -1 2556 0
+D2
+~
+~
+0 -1 2580 0
+D3
+~
+~
+0 -1 2558 0
+S
+#2558
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2557 0
+D3
+~
+~
+0 -1 2559 0
+S
+#2559
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2558 0
+D3
+~
+~
+0 -1 2560 0
+S
+#2560
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2753 0
+D1
+~
+~
+0 -1 2559 0
+D3
+~
+~
+0 -1 2561 0
+S
+#2561
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2560 0
+D3
+~
+~
+0 -1 2562 0
+S
+#2562
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2561 0
+D3
+~
+~
+0 -1 2563 0
+S
+#2563
+Intersection of Emperor and Royal~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2597 0
+D1
+~
+~
+0 -1 2562 0
+D2
+~
+~
+0 -1 2608 0
+D3
+~
+~
+0 -1 2564 0
+S
+#2564
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2563 0
+D3
+~
+~
+0 -1 2565 0
+S
+#2565
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2564 0
+D3
+~
+~
+0 -1 2566 0
+S
+#2566
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2565 0
+D3
+~
+~
+0 -1 2567 0
+S
+#2567
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2566 0
+D3
+~
+~
+0 -1 2568 0
+S
+#2568
+Emperor Street~
+~
+0 4 1 0 0 0 1040
+D1
+~
+~
+0 -1 2567 0
+D3
+~
+~
+0 -1 2591 0
+S
+#2569
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2570 0
+D2
+~
+~
+0 -1 2557 0
+S
+#2570
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2571 0
+D2
+~
+~
+0 -1 2569 0
+S
+#2571
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2572 0
+D2
+~
+~
+0 -1 2570 0
+S
+#2572
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2573 0
+D2
+~
+~
+0 -1 2571 0
+S
+#2573
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2574 0
+D2
+~
+~
+0 -1 2572 0
+S
+#2574
+Intersection of Admiralty and Throne~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2575 0
+D1
+~
+~
+0 -1 2646 0
+D2
+~
+~
+0 -1 2573 0
+D3
+~
+~
+0 -1 2647 0
+S
+#2575
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2576 0
+D2
+~
+~
+0 -1 2574 0
+S
+#2576
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2577 0
+D2
+~
+~
+0 -1 2575 0
+S
+#2577
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2578 0
+D2
+~
+~
+0 -1 2576 0
+S
+#2578
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2579 0
+D2
+~
+~
+0 -1 2577 0
+S
+#2579
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D2
+~
+~
+0 -1 2578 0
+S
+#2580
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2557 0
+D2
+~
+~
+0 -1 2581 0
+S
+#2581
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2580 0
+D2
+~
+~
+0 -1 2582 0
+S
+#2582
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2581 0
+D2
+~
+~
+0 -1 2583 0
+S
+#2583
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2582 0
+D2
+~
+~
+0 -1 2584 0
+S
+#2584
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2583 0
+D2
+~
+~
+0 -1 2585 0
+S
+#2585
+Intersection of Admiralty and Stormtrooper~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2584 0
+D1
+~
+~
+0 -1 2666 0
+D2
+~
+~
+0 -1 2586 0
+D3
+~
+~
+0 -1 2667 0
+S
+#2586
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2585 0
+D2
+~
+~
+0 -1 2587 0
+S
+#2587
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2586 0
+D2
+~
+~
+0 -1 2588 0
+S
+#2588
+Admiralty Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2587 0
+D2
+~
+~
+0 -1 2589 0
+S
+#2589
+Admiralty Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2588 0
+D2
+~
+~
+0 -1 2590 0
+S
+#2590
+Admiralty Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2589 0
+S
+#2591
+Intersection of Emperor and Power~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2619 0
+D1
+~
+~
+0 -1 2568 0
+D2
+~
+~
+0 -1 2631 0
+D3
+~
+~
+0 -1 2592 0
+S
+#2592
+Emperor Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2591 0
+D3
+~
+~
+0 -1 2593 0
+S
+#2593
+Emperor Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2592 0
+D3
+~
+~
+0 -1 2594 0
+S
+#2594
+Emperor Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2593 0
+D3
+~
+~
+0 -1 2595 0
+S
+#2595
+Emperor Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2594 0
+D3
+~
+~
+0 -1 2596 0
+S
+#2596
+Emperor Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2595 0
+S
+#2597
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2598 0
+D2
+~
+~
+0 -1 2563 0
+S
+#2598
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2599 0
+D2
+~
+~
+0 -1 2597 0
+S
+#2599
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2600 0
+D2
+~
+~
+0 -1 2598 0
+S
+#2600
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2601 0
+D2
+~
+~
+0 -1 2599 0
+S
+#2601
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2602 0
+D2
+~
+~
+0 -1 2600 0
+S
+#2602
+Intersection of Royal and Throne~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2603 0
+D1
+~
+~
+0 -1 2651 0
+D2
+~
+~
+0 -1 2601 0
+D3
+~
+~
+0 -1 2652 0
+S
+#2603
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2604 0
+D2
+~
+~
+0 -1 2602 0
+S
+#2604
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2605 0
+D2
+~
+~
+0 -1 2603 0
+S
+#2605
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2606 0
+D2
+~
+~
+0 -1 2604 0
+S
+#2606
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2607 0
+D2
+~
+~
+0 -1 2605 0
+S
+#2607
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2606 0
+S
+#2608
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2563 0
+D2
+~
+~
+0 -1 2609 0
+S
+#2609
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2608 0
+D2
+~
+~
+0 -1 2610 0
+S
+#2610
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2609 0
+D2
+~
+~
+0 -1 2611 0
+S
+#2611
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2610 0
+D2
+~
+~
+0 -1 2612 0
+S
+#2612
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2611 0
+D2
+~
+~
+0 -1 2613 0
+S
+#2613
+Intersection of Royal and Stormtrooper~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2612 0
+D1
+~
+~
+0 -1 2671 0
+D2
+~
+~
+0 -1 2614 0
+D3
+~
+~
+0 -1 2672 0
+S
+#2614
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2613 0
+D2
+~
+~
+0 -1 2615 0
+S
+#2615
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2614 0
+D2
+~
+~
+0 -1 2616 0
+S
+#2616
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2615 0
+D2
+~
+~
+0 -1 2617 0
+S
+#2617
+Royal Avenue~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2616 0
+D2
+~
+~
+0 -1 2618 0
+S
+#2618
+Royal Avenue~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 2617 0
+S
+#2619
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2620 0
+D2
+~
+~
+0 -1 2591 0
+S
+#2620
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2621 0
+D2
+~
+~
+0 -1 2619 0
+S
+#2621
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2622 0
+D2
+~
+~
+0 -1 2620 0
+S
+#2622
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2623 0
+D2
+~
+~
+0 -1 2621 0
+S
+#2623
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2624 0
+D2
+~
+~
+0 -1 2622 0
+S
+#2624
+Intersection of Power and Throne~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2625 0
+D1
+~
+~
+0 -1 2656 0
+D2
+~
+~
+0 -1 2623 0
+D3
+~
+~
+0 -1 2657 0
+S
+#2625
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2626 0
+D2
+~
+~
+0 -1 2624 0
+S
+#2626
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2627 0
+D2
+~
+~
+0 -1 2625 0
+S
+#2627
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2629 0
+D2
+~
+~
+0 -1 2626 0
+S
+#2629
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2630 0
+D2
+~
+~
+0 -1 2627 0
+S
+#2630
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2629 0
+S
+#2631
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2591 0
+D2
+~
+~
+0 -1 2632 0
+S
+#2632
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2631 0
+D2
+~
+~
+0 -1 2633 0
+S
+#2633
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2632 0
+D2
+~
+~
+0 -1 2634 0
+S
+#2634
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2633 0
+D2
+~
+~
+0 -1 2635 0
+S
+#2635
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2634 0
+D2
+~
+~
+0 -1 2636 0
+S
+#2636
+Intersection of Power and Stormtrooper~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2635 0
+D1
+~
+~
+0 -1 2676 0
+D2
+~
+~
+0 -1 2637 0
+D3
+~
+~
+0 -1 2677 0
+S
+#2637
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2636 0
+D2
+~
+~
+0 -1 2638 0
+S
+#2638
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2637 0
+D2
+~
+~
+0 -1 2639 0
+S
+#2639
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2638 0
+D2
+~
+~
+0 -1 2640 0
+S
+#2640
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2639 0
+D2
+~
+~
+0 -1 2641 0
+S
+#2641
+Power Lane~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2640 0
+S
+#2642
+Throne Road~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2643 0
+S
+#2643
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2642 0
+D3
+~
+~
+0 -1 2644 0
+S
+#2644
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2643 0
+D3
+~
+~
+0 -1 2645 0
+S
+#2645
+Throne Road~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2644 0
+D3
+~
+~
+0 -1 2646 0
+S
+#2646
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2645 0
+D3
+~
+~
+0 -1 2574 0
+S
+#2647
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2574 0
+D3
+~
+~
+0 -1 2648 0
+S
+#2648
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2647 0
+D3
+~
+~
+0 -1 2649 0
+S
+#2649
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2648 0
+D3
+~
+~
+0 -1 2650 0
+S
+#2650
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2649 0
+D3
+~
+~
+0 -1 2651 0
+S
+#2651
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2650 0
+D3
+~
+~
+0 -1 2602 0
+S
+#2652
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2602 0
+D3
+~
+~
+0 -1 2653 0
+S
+#2653
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2652 0
+D3
+~
+~
+0 -1 2654 0
+S
+#2654
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2653 0
+D3
+~
+~
+0 -1 2655 0
+S
+#2655
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2654 0
+D3
+~
+~
+0 -1 2656 0
+S
+#2656
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2655 0
+D3
+~
+~
+0 -1 2624 0
+S
+#2657
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2624 0
+D3
+~
+~
+0 -1 2658 0
+S
+#2658
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2657 0
+D3
+~
+~
+0 -1 2659 0
+S
+#2659
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2658 0
+D3
+~
+~
+0 -1 2660 0
+S
+#2660
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2659 0
+D3
+~
+~
+0 -1 2661 0
+S
+#2661
+Throne Road~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2660 0
+S
+#2662
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2663 0
+S
+#2663
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2662 0
+D3
+~
+~
+0 -1 2664 0
+S
+#2664
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2663 0
+D3
+~
+~
+0 -1 2665 0
+S
+#2665
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2664 0
+D3
+~
+~
+0 -1 2666 0
+S
+#2666
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2665 0
+D3
+~
+~
+0 -1 2585 0
+S
+#2667
+Stormtrooper Street~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2585 0
+D3
+~
+~
+0 -1 2668 0
+S
+#2668
+Stormtrooper Street~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2667 0
+D3
+~
+~
+0 -1 2669 0
+S
+#2669
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2668 0
+D3
+~
+~
+0 -1 2670 0
+S
+#2670
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2669 0
+D3
+~
+~
+0 -1 2671 0
+S
+#2671
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2670 0
+D3
+~
+~
+0 -1 2613 0
+S
+#2672
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2613 0
+D3
+~
+~
+0 -1 2673 0
+S
+#2673
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2672 0
+D3
+~
+~
+0 -1 2674 0
+S
+#2674
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2673 0
+D3
+~
+~
+0 -1 2675 0
+S
+#2675
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2674 0
+D3
+~
+~
+0 -1 2676 0
+S
+#2676
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2675 0
+D3
+~
+~
+0 -1 2636 0
+S
+#2677
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2636 0
+D3
+~
+~
+0 -1 2678 0
+S
+#2678
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2677 0
+D3
+~
+~
+0 -1 2679 0
+S
+#2679
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2678 0
+D3
+~
+~
+0 -1 2680 0
+S
+#2680
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2679 0
+D3
+~
+~
+0 -1 2681 0
+S
+#2681
+Stormtrooper Street~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2680 0
+S
+#2682
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2683 0
+D2
+~
+~
+0 -1 2524 0
+S
+#2683
+Fortified Area~
+To the east is a huge, thick wall of an unknown alloy. It appears
+to be VERY strong, built to withstand an orbital bombardment.
+On the top of the wall are sentry guns, which fire upon any
+hostiles that come near. Here are piles of obstructions and
+fortifications to provide further security for the city.
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2684 0
+D2
+~
+~
+0 -1 2682 0
+S
+#2684
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2685 0
+D2
+~
+~
+0 -1 2683 0
+S
+#2685
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2686 0
+D2
+~
+~
+0 -1 2684 0
+S
+#2686
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2687 0
+D2
+~
+~
+0 -1 2685 0
+S
+#2687
+1~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2686 0
+D7
+~
+~
+0 -1 2688 0
+S
+#2688
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2689 0
+D8
+~
+~
+0 -1 2687 0
+S
+#2689
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2690 0
+D8
+~
+~
+0 -1 2688 0
+S
+#2690
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2691 0
+D8
+~
+~
+0 -1 2689 0
+S
+#2691
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2692 0
+D8
+~
+~
+0 -1 2690 0
+S
+#2692
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2693 0
+D8
+~
+~
+0 -1 2691 0
+S
+#2693
+1~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2694 0
+D8
+~
+~
+0 -1 2692 0
+S
+#2694
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2693 0
+D3
+~
+~
+0 -1 2695 0
+S
+#2695
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2694 0
+D3
+~
+~
+0 -1 2696 0
+S
+#2696
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2695 0
+D3
+~
+~
+0 -1 2697 0
+S
+#2697
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2696 0
+D3
+~
+~
+0 -1 2698 0
+S
+#2698
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2697 0
+D3
+~
+~
+0 -1 2699 0
+S
+#2699
+1~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2698 0
+D3
+~
+~
+0 -1 2700 0
+S
+#2700
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2699 0
+D3
+~
+~
+0 -1 2701 0
+S
+#2701
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2700 0
+D3
+~
+~
+0 -1 2702 0
+S
+#2702
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2701 0
+D3
+~
+~
+0 -1 2703 0
+S
+#2703
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2702 0
+D3
+~
+~
+0 -1 2704 0
+S
+#2704
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2703 0
+D3
+~
+~
+0 -1 2705 0
+S
+#2705
+1~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2704 0
+D9
+~
+~
+0 -1 2706 0
+S
+#2706
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2705 0
+D9
+~
+~
+0 -1 2707 0
+S
+#2707
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2706 0
+D9
+~
+~
+0 -1 2708 0
+S
+#2708
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2707 0
+D9
+~
+~
+0 -1 2709 0
+S
+#2709
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2708 0
+D9
+~
+~
+0 -1 2710 0
+S
+#2710
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2709 0
+D9
+~
+~
+0 -1 2711 0
+S
+#2711
+1~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2712 0
+D6
+~
+~
+0 -1 2710 0
+S
+#2712
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2711 0
+D2
+~
+~
+0 -1 2713 0
+S
+#2713
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2712 0
+D2
+~
+~
+0 -1 2714 0
+S
+#2714
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2713 0
+D2
+~
+~
+0 -1 2715 0
+S
+#2715
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2714 0
+D2
+~
+~
+0 -1 2716 0
+S
+#2716
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2715 0
+D2
+~
+~
+0 -1 2717 0
+S
+#2717
+1~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2716 0
+D2
+~
+~
+0 -1 2718 0
+S
+#2718
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2717 0
+D2
+~
+~
+0 -1 2719 0
+S
+#2719
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2718 0
+D2
+~
+~
+0 -1 2720 0
+S
+#2720
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2719 0
+D2
+~
+~
+0 -1 2721 0
+S
+#2721
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2720 0
+D2
+~
+~
+0 -1 2722 0
+S
+#2722
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2721 0
+D2
+~
+~
+0 -1 2723 0
+S
+#2723
+1~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2722 0
+D8
+~
+~
+0 -1 2724 0
+S
+#2724
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2723 0
+D8
+~
+~
+0 -1 2725 0
+S
+#2725
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2724 0
+D8
+~
+~
+0 -1 2726 0
+S
+#2726
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2725 0
+D8
+~
+~
+0 -1 2727 0
+S
+#2727
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D7
+~
+~
+0 -1 2726 0
+D8
+~
+~
+0 -1 2728 0
+S
+#2728
+Fortified Area~
+~
+0 1073741828 1 0 0 0 1040
+D7
+~
+~
+0 -1 2727 0
+D8
+~
+~
+0 -1 2729 0
+S
+#2729
+1~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2730 0
+D7
+~
+~
+0 -1 2728 0
+S
+#2730
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2731 0
+D3
+~
+~
+0 -1 2729 0
+S
+#2731
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2732 0
+D3
+~
+~
+0 -1 2730 0
+S
+#2732
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2733 0
+D3
+~
+~
+0 -1 2731 0
+S
+#2733
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2734 0
+D3
+~
+~
+0 -1 2732 0
+S
+#2734
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2735 0
+D3
+~
+~
+0 -1 2733 0
+S
+#2735
+1~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2736 0
+D3
+~
+~
+0 -1 2734 0
+S
+#2736
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2737 0
+D3
+~
+~
+0 -1 2735 0
+S
+#2737
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2738 0
+D3
+~
+~
+0 -1 2736 0
+S
+#2738
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2739 0
+D3
+~
+~
+0 -1 2737 0
+S
+#2739
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2740 0
+D3
+~
+~
+0 -1 2738 0
+S
+#2740
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2741 0
+D3
+~
+~
+0 -1 2739 0
+S
+#2741
+1~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2740 0
+D6
+~
+~
+0 -1 2742 0
+S
+#2742
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2743 0
+D9
+~
+~
+0 -1 2741 0
+S
+#2743
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2744 0
+D9
+~
+~
+0 -1 2742 0
+S
+#2744
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2745 0
+D9
+~
+~
+0 -1 2743 0
+S
+#2745
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2746 0
+D9
+~
+~
+0 -1 2744 0
+S
+#2746
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D6
+~
+~
+0 -1 2747 0
+D9
+~
+~
+0 -1 2745 0
+S
+#2747
+1~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2748 0
+D9
+~
+~
+0 -1 2746 0
+S
+#2748
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2749 0
+D2
+~
+~
+0 -1 2747 0
+S
+#2749
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2750 0
+D2
+~
+~
+0 -1 2748 0
+S
+#2750
+Fortified Area~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2751 0
+D2
+~
+~
+0 -1 2749 0
+S
+#2751
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2752 0
+D2
+~
+~
+0 -1 2750 0
+S
+#2752
+Fortified Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2524 0
+D2
+~
+~
+0 -1 2751 0
+S
+#2753
+Entrance to the Imperial Citadel~
+Welcome to the Imperial Citadel! Fancy architecture is what comes
+to mind to all newcomers and oldcomers. All around are expensive
+furniture and fine works of art. The windows and door allow
+the sun to shine its light into the room, making the entrance
+a beautiful place. For security measures, the windows and doors
+are specially made to deflect blaster bolts and are very thick.
+~
+0 72 1 0 0 0 1040
+D2
+~
+~
+0 -1 2560 0
+D6
+~
+~
+0 -1 2754 0
+D7
+~
+~
+0 -1 2766 0
+S
+#2754
+Guard Post~
+This is the first line of defense for the citadel. The hallway
+is small and there is a door northwest of here with an automatic
+door. A guard post on each side of the hallway is reserved for
+Imperial Royal Guards, which is protected by the same duraglass
+alloy used in the entrance windows/doors. A forcefield is in
+front of the guard posts, to make sure that no one that is unwanted
+can pass.
+~
+0 72 1 0 0 0 1040
+D6
+~
+~
+0 -1 2755 0
+D9
+~
+~
+0 -1 2753 0
+S
+#2755
+Guard Post~
+Southeast of here is a durasteel alloy door that cannot be destroyed
+by even the strongest types of blasters. It is thick, heavily
+reinforced, and able to absorb blaster bolts. Here is another
+pair of guard posts for Imperial Royal Guards to check out the
+people who get in from the other side. There is a forcefield
+northeast that is deactivated when a person is allowed through.
+~
+0 72 1 0 0 0 1040
+D6
+~
+~
+0 -1 2756 0
+D9
+~
+~
+0 -1 2754 0
+S
+#2756
+Hallway to Foyer of Imperial Citadel~
+This is a long hallway that leads to the foyer of the Imperial
+Citadel. The holopaintings of past Emperors adorn the hallway,
+highly decorated and colorful. The walls are a nice bluish gray
+and the carpet has a nice pattern on it. Light from the foyer
+shines brightly here, eliminating the need for lighting.
+~
+0 72 1 0 0 0 1040
+D6
+~
+~
+0 -1 2757 0
+D9
+~
+~
+0 -1 2755 0
+S
+#2757
+Foyer of Imperial Citadel~
+The foyer of the Imperial Citadel is HUGE! It is around half
+of the floor level of the Imperial Citadel. There are many expensive
+furniture all around the place, and various other things such
+as gems and ancient weaponry are placed all over the wall. On
+the ceiling are beautifully designed lights that make the whole
+place seem like a fairy tale castle.
+~
+0 8 1 0 0 0 1040
+D3
+~
+~
+0 -1 2758 0
+D9
+~
+~
+0 -1 2756 0
+S
+#2758
+Foyer of Imperial Citadel~
+The foyer of the Imperial Citadel is HUGE! It is around half
+of the floor level of the Imperial Citadel. There are many expensive
+furniture all around the place, and various other things such
+as gems and ancient weaponry are placed all over the wall. On
+the ceiling are beautifully designed lights that make the whole
+place seem like a fairy tail castle.
+~
+0 8 1 0 0 0 1040
+D1
+~
+~
+0 -1 2757 0
+D3
+~
+~
+0 -1 2759 0
+S
+#2759
+Foyer of Imperial Citadel~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2758 0
+D2
+~
+~
+0 -1 2769 0
+D3
+~
+~
+0 -1 2760 0
+S
+#2760
+Foyer of Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2759 0
+D2
+~
+~
+0 -1 2768 0
+D3
+~
+~
+0 -1 2761 0
+S
+#2761
+Foyer of Imperial Citadel~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2760 0
+D2
+~
+~
+0 -1 2767 0
+D3
+~
+~
+0 -1 2762 0
+S
+#2762
+Foyer of Imperial Citadel~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2761 0
+D3
+~
+~
+0 -1 2763 0
+S
+#2763
+Foyer of Imperial Citadel~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2762 0
+D8
+~
+~
+0 -1 2764 0
+S
+#2764
+Entrance to Foyer of Imperial Citadel~
+This is a long hallway that leads to the foyer of the Imperial
+Citadel. The holopaintings of past Emperors adorn the hallway,
+highly decorated and colorful. The walls are a nice bluish gray
+and the carpet has a nice pattern on it. Light from the foyer
+shines brightly here, eliminating the need for lighting.
+~
+0 72 1 0 0 0 1040
+D7
+~
+~
+0 -1 2763 0
+D8
+~
+~
+0 -1 2765 0
+S
+#2765
+Guard Post~
+Southeast of here is a durasteel alloy door that cannot be destroyed
+by even the strongest types of blasters. It is thick, heavily
+reinforced, and able to absorb blaster bolts. Here is another
+pair of guard posts for Imperial Royal Guards to check out the
+people who get in from the other side. There is a forcefield
+northeast that is deactivated when a person is allowed through.
+~
+0 72 1 0 0 0 1040
+D7
+~
+~
+0 -1 2764 0
+D8
+~
+~
+0 -1 2766 0
+S
+#2766
+Guard Post~
+This is the first line of defense for the citadel. The hallway
+is small and there is a wall northwest of here with an automatic
+door. A guard post on each side of the hallway is reserved for
+Imperial Royal Guards, which is protected by the same duraglass
+alloy used in the entrance windows/door. A forcefield is in
+front of the guard posts, to make sure that no one who is unwanted
+can pass.
+~
+0 72 1 0 0 0 1040
+D7
+~
+~
+0 -1 2765 0
+D8
+~
+~
+0 -1 2753 0
+S
+#2767
+Security Station~
+This is the place where all security is overlooked for the first
+floor. The entrance to this room is also fortified with an automatic
+door that requires special codes to get in. There is a small
+weapons locker on the south wall, and monitor screens surround
+the room. In the center of the room is a table displaying a
+holomap of the ground floor.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2761 0
+S
+#2768
+Hallway to Turbolift~
+This is a nicely decorated hallway with bright lights. A turbolift
+is at the end of the hallway, ready to transport anyone to the
+higher levels. To the north is the foyer, which is the welcoming
+place for important visitors. The Imperial logo is on the carpet
+floor here.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2760 0
+D2
+~
+~
+0 -1 2770 0
+S
+#2769
+Security Station~
+This is the place where all security is overlooked for the first
+floor. The entrance to this room is also fortified with an automatic
+door that requires special codes to get in. There is a small
+weapons locker on the south wall, and monitor screens surround
+the room. In the center of the room is a table displaying a
+holomap of the ground floor.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2759 0
+S
+#2770
+Turbolift~
+This turbolift goes through all the floors of the Imperial Citadel.It
+is medium sized, and quite fast. The walls are blueish gray
+and the floor is the same color, just with the green Imperial
+logo on it. On the ceiling is a security camera, looking down
+upon anyone in the turbolift. Off the to right of the door is
+a console awaiting commands. A list of the floors is next to
+it.
+~
+0 72 1 0 0 0 1040
+D0
+~
+~
+0 -1 2768 0
+S
+#2771
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2772 0
+S
+#2772
+Imperial Citadel First Floor~
+This is a hallway that goes around the first floor of the Imperial
+Citadel. The floor is a nice blueish gray, and the walls are
+the same color. There are many decorations on the walls, like
+holopaintings and sculpture. Light shimmers and illuminates
+the hallway, making beautiful colors. Ironically, there is a
+darkness that hides behind the beauty.
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2786 0
+D1
+~
+~
+0 -1 2773 0
+D2
+~
+~
+0 -1 2771 0
+D3
+~
+~
+0 -1 2783 0
+S
+#2773
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2787 0
+D1
+~
+~
+0 -1 2774 0
+D2
+~
+~
+0 -1 2785 0
+D3
+~
+~
+0 -1 2772 0
+S
+#2774
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2788 0
+D1
+~
+~
+0 -1 2775 0
+D3
+~
+~
+0 -1 2773 0
+S
+#2775
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2789 0
+D1
+~
+~
+0 -1 2790 0
+D3
+~
+~
+0 -1 2774 0
+D9
+~
+~
+0 -1 2776 0
+S
+#2776
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2791 0
+D6
+~
+~
+0 -1 2775 0
+D9
+~
+~
+0 -1 2777 0
+S
+#2777
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2792 0
+D6
+~
+~
+0 -1 2776 0
+D9
+~
+~
+0 -1 2778 0
+S
+#2778
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2793 0
+D2
+~
+~
+0 -1 2794 0
+D6
+~
+~
+0 -1 2777 0
+D7
+~
+~
+0 -1 2779 0
+S
+#2779
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2795 0
+D7
+~
+~
+0 -1 2780 0
+D8
+~
+~
+0 -1 2778 0
+S
+#2780
+Imperial Citadel First Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2796 0
+D7
+~
+~
+0 -1 2781 0
+D8
+~
+~
+0 -1 2779 0
+S
+#2781
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2798 0
+D1
+~
+~
+0 -1 2782 0
+D3
+~
+~
+0 -1 2797 0
+D8
+~
+~
+0 -1 2780 0
+S
+#2782
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2799 0
+D1
+~
+~
+0 -1 2783 0
+D3
+~
+~
+0 -1 2781 0
+S
+#2783
+Imperial Citadel First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2800 0
+D1
+~
+~
+0 -1 2772 0
+D2
+~
+~
+0 -1 2784 0
+D3
+~
+~
+0 -1 2782 0
+S
+#2784
+1~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2783 0
+S
+#2785
+1~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2773 0
+S
+#2786
+1~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2772 0
+S
+#2787
+1~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2773 0
+S
+#2788
+1~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2774 0
+S
+#2789
+1~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2775 0
+S
+#2790
+1~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2775 0
+S
+#2791
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2776 0
+S
+#2792
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2777 0
+S
+#2793
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2778 0
+S
+#2794
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2778 0
+S
+#2795
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2779 0
+S
+#2796
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2780 0
+S
+#2797
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2781 0
+S
+#2798
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2781 0
+S
+#2799
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2782 0
+S
+#2800
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2783 0
+S
+#2801
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2802 0
+S
+#2802
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2814 0
+D1
+~
+~
+0 -1 2803 0
+D2
+~
+~
+0 -1 2801 0
+D3
+~
+~
+0 -1 2813 0
+S
+#2803
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2815 0
+D1
+~
+~
+0 -1 2804 0
+D2
+~
+~
+0 -1 2830 0
+D3
+~
+~
+0 -1 2802 0
+S
+#2804
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2816 0
+D1
+~
+~
+0 -1 2805 0
+D3
+~
+~
+0 -1 2803 0
+S
+#2805
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2817 0
+D1
+~
+~
+0 -1 2818 0
+D3
+~
+~
+0 -1 2804 0
+D9
+~
+~
+0 -1 2806 0
+S
+#2806
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2819 0
+D6
+~
+~
+0 -1 2805 0
+D9
+~
+~
+0 -1 2807 0
+S
+#2807
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2820 0
+D6
+~
+~
+0 -1 2806 0
+D9
+~
+~
+0 -1 2808 0
+S
+#2808
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2821 0
+D2
+~
+~
+0 -1 2822 0
+D3
+~
+~
+0 -1 2823 0
+D6
+~
+~
+0 -1 2807 0
+D7
+~
+~
+0 -1 2809 0
+S
+#2809
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2824 0
+D7
+~
+~
+0 -1 2810 0
+D8
+~
+~
+0 -1 2808 0
+S
+#2810
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2825 0
+D7
+~
+~
+0 -1 2811 0
+D8
+~
+~
+0 -1 2809 0
+S
+#2811
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2827 0
+D1
+~
+~
+0 -1 2812 0
+D3
+~
+~
+0 -1 2826 0
+D8
+~
+~
+0 -1 2810 0
+S
+#2812
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2828 0
+D1
+~
+~
+0 -1 2813 0
+D3
+~
+~
+0 -1 2811 0
+S
+#2813
+Imperial Citadel Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2829 0
+D1
+~
+~
+0 -1 2802 0
+D2
+~
+~
+0 -1 2831 0
+D3
+~
+~
+0 -1 2812 0
+S
+#2814
+2~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2802 0
+S
+#2815
+2~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2803 0
+S
+#2816
+2~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2804 0
+S
+#2817
+2~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2805 0
+S
+#2818
+2~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2805 0
+S
+#2819
+2~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2806 0
+S
+#2820
+2~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2807 0
+S
+#2821
+2~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2808 0
+S
+#2822
+2~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2808 0
+S
+#2823
+2~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2808 0
+S
+#2824
+2~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2809 0
+S
+#2825
+2~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2810 0
+S
+#2826
+2~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2811 0
+S
+#2827
+2~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2811 0
+S
+#2828
+2~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2812 0
+S
+#2829
+2~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2813 0
+S
+#2830
+2~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2803 0
+S
+#2831
+2~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2813 0
+S
+#2832
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2833 0
+S
+#2833
+Imperial Citadel Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2845 0
+D1
+~
+~
+0 -1 2834 0
+D2
+~
+~
+0 -1 2832 0
+D3
+~
+~
+0 -1 2844 0
+S
+#2834
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2846 0
+D1
+~
+~
+0 -1 2835 0
+D2
+~
+~
+0 -1 2861 0
+D3
+~
+~
+0 -1 2833 0
+S
+#2835
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2847 0
+D1
+~
+~
+0 -1 2836 0
+D3
+~
+~
+0 -1 2834 0
+S
+#2836
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2848 0
+D1
+~
+~
+0 -1 2849 0
+D3
+~
+~
+0 -1 2835 0
+D9
+~
+~
+0 -1 2837 0
+S
+#2837
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2850 0
+D6
+~
+~
+0 -1 2836 0
+D9
+~
+~
+0 -1 2838 0
+S
+#2838
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2851 0
+D6
+~
+~
+0 -1 2837 0
+D9
+~
+~
+0 -1 2839 0
+S
+#2839
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2852 0
+D2
+~
+~
+0 -1 2853 0
+D3
+~
+~
+0 -1 2854 0
+D6
+~
+~
+0 -1 2838 0
+D7
+~
+~
+0 -1 2840 0
+S
+#2840
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2855 0
+D7
+~
+~
+0 -1 2841 0
+D8
+~
+~
+0 -1 2839 0
+S
+#2841
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2856 0
+D7
+~
+~
+0 -1 2842 0
+D8
+~
+~
+0 -1 2840 0
+S
+#2842
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2858 0
+D1
+~
+~
+0 -1 2843 0
+D3
+~
+~
+0 -1 2857 0
+D8
+~
+~
+0 -1 2841 0
+S
+#2843
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2859 0
+D1
+~
+~
+0 -1 2844 0
+D3
+~
+~
+0 -1 2842 0
+S
+#2844
+Imperial Citadel Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2860 0
+D1
+~
+~
+0 -1 2833 0
+D2
+~
+~
+0 -1 2862 0
+D3
+~
+~
+0 -1 2843 0
+S
+#2845
+3~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2843 0
+S
+#2846
+3~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2834 0
+S
+#2847
+3~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2835 0
+S
+#2848
+3~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2836 0
+S
+#2849
+3~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2836 0
+S
+#2850
+3~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2837 0
+S
+#2851
+3~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2838 0
+S
+#2852
+3~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2839 0
+S
+#2853
+3~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2839 0
+S
+#2854
+3~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2839 0
+S
+#2855
+3~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2840 0
+S
+#2856
+3~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2841 0
+S
+#2857
+3~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2842 0
+S
+#2858
+3~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2842 0
+S
+#2859
+3~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2843 0
+S
+#2860
+3~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2844 0
+S
+#2861
+3~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2834 0
+S
+#2862
+3~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2844 0
+S
+#2863
+Imperial Citadel Fourth Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2864 0
+S
+#2864
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2876 0
+D1
+~
+~
+0 -1 2865 0
+D2
+~
+~
+0 -1 2863 0
+D3
+~
+~
+0 -1 2875 0
+S
+#2865
+Imperial Citadel Fourth Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2877 0
+D1
+~
+~
+0 -1 2866 0
+D2
+~
+~
+0 -1 2892 0
+D3
+~
+~
+0 -1 2864 0
+S
+#2866
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2878 0
+D1
+~
+~
+0 -1 2867 0
+D3
+~
+~
+0 -1 2865 0
+S
+#2867
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2879 0
+D1
+~
+~
+0 -1 2880 0
+D3
+~
+~
+0 -1 2866 0
+D9
+~
+~
+0 -1 2868 0
+S
+#2868
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2881 0
+D6
+~
+~
+0 -1 2867 0
+D9
+~
+~
+0 -1 2869 0
+S
+#2869
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2882 0
+D6
+~
+~
+0 -1 2868 0
+D9
+~
+~
+0 -1 2870 0
+S
+#2870
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2883 0
+D2
+~
+~
+0 -1 2884 0
+D3
+~
+~
+0 -1 2885 0
+D6
+~
+~
+0 -1 2869 0
+D7
+~
+~
+0 -1 2871 0
+S
+#2871
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2886 0
+D7
+~
+~
+0 -1 2872 0
+D8
+~
+~
+0 -1 2870 0
+S
+#2872
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2887 0
+D7
+~
+~
+0 -1 2873 0
+D8
+~
+~
+0 -1 2871 0
+S
+#2873
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2889 0
+D1
+~
+~
+0 -1 2874 0
+D3
+~
+~
+0 -1 2888 0
+D8
+~
+~
+0 -1 2872 0
+S
+#2874
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2890 0
+D1
+~
+~
+0 -1 2875 0
+D3
+~
+~
+0 -1 2873 0
+S
+#2875
+Imperial Citadel Fourth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2891 0
+D1
+~
+~
+0 -1 2864 0
+D2
+~
+~
+0 -1 2893 0
+D3
+~
+~
+0 -1 2874 0
+S
+#2876
+4~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2864 0
+S
+#2877
+4~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2865 0
+S
+#2878
+4~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2866 0
+S
+#2879
+4~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2867 0
+S
+#2880
+4~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2867 0
+S
+#2881
+4~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2868 0
+S
+#2882
+4~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2869 0
+S
+#2883
+4~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2870 0
+S
+#2884
+4~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2870 0
+S
+#2885
+4~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2870 0
+S
+#2886
+4~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2871 0
+S
+#2887
+4~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2872 0
+S
+#2888
+4~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2873 0
+S
+#2889
+4~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2873 0
+S
+#2890
+4~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2874 0
+S
+#2891
+4~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2875 0
+S
+#2892
+4~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2865 0
+S
+#2893
+4~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2875 0
+S
+#2894
+Imperial Citadel Fifth Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2895 0
+S
+#2895
+Imperial Citadel Fifth Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2907 0
+D1
+~
+~
+0 -1 2896 0
+D2
+~
+~
+0 -1 2894 0
+D3
+~
+~
+0 -1 2906 0
+S
+#2896
+Imperial Citadel Fifth Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2908 0
+D1
+~
+~
+0 -1 2897 0
+D2
+~
+~
+0 -1 2923 0
+D3
+~
+~
+0 -1 2895 0
+S
+#2897
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2909 0
+D1
+~
+~
+0 -1 2898 0
+D3
+~
+~
+0 -1 2896 0
+S
+#2898
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2910 0
+D1
+~
+~
+0 -1 2911 0
+D3
+~
+~
+0 -1 2897 0
+D9
+~
+~
+0 -1 2899 0
+S
+#2899
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2912 0
+D6
+~
+~
+0 -1 2898 0
+D9
+~
+~
+0 -1 2900 0
+S
+#2900
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2913 0
+D6
+~
+~
+0 -1 2899 0
+D9
+~
+~
+0 -1 2901 0
+S
+#2901
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2914 0
+D2
+~
+~
+0 -1 2915 0
+D3
+~
+~
+0 -1 2916 0
+D6
+~
+~
+0 -1 2900 0
+D7
+~
+~
+0 -1 2902 0
+S
+#2902
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2917 0
+D7
+~
+~
+0 -1 2903 0
+D8
+~
+~
+0 -1 2901 0
+S
+#2903
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2918 0
+D7
+~
+~
+0 -1 2904 0
+D8
+~
+~
+0 -1 2902 0
+S
+#2904
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2920 0
+D1
+~
+~
+0 -1 2905 0
+D3
+~
+~
+0 -1 2919 0
+D8
+~
+~
+0 -1 2903 0
+S
+#2905
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2921 0
+D1
+~
+~
+0 -1 2906 0
+D3
+~
+~
+0 -1 2904 0
+S
+#2906
+Imperial Citadel Fifth Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2922 0
+D1
+~
+~
+0 -1 2895 0
+D2
+~
+~
+0 -1 2924 0
+D3
+~
+~
+0 -1 2905 0
+S
+#2907
+5~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2895 0
+S
+#2908
+5~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2896 0
+S
+#2909
+5~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2897 0
+S
+#2910
+5~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2898 0
+S
+#2911
+5~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2898 0
+S
+#2912
+5~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2899 0
+S
+#2913
+5~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2900 0
+S
+#2914
+5~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2901 0
+S
+#2915
+5~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2901 0
+S
+#2916
+5~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2901 0
+S
+#2917
+5~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2902 0
+S
+#2918
+5~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2903 0
+S
+#2919
+5~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2904 0
+S
+#2920
+5~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2904 0
+S
+#2921
+5~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2905 0
+S
+#2922
+5~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2906 0
+S
+#2923
+5~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2896 0
+S
+#2924
+5~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2906 0
+S
+#2925
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2926 0
+S
+#2926
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2927 0
+D2
+~
+~
+0 -1 2925 0
+D3
+~
+~
+0 -1 2937 0
+S
+#2927
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2928 0
+D2
+~
+~
+0 -1 2938 0
+D3
+~
+~
+0 -1 2926 0
+S
+#2928
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2929 0
+D2
+~
+~
+0 -1 2930 0
+D3
+~
+~
+0 -1 2927 0
+S
+#2929
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2928 0
+D9
+~
+~
+0 -1 2930 0
+S
+#2930
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2928 0
+D3
+~
+~
+0 -1 2938 0
+D6
+~
+~
+0 -1 2929 0
+D9
+~
+~
+0 -1 2931 0
+S
+#2931
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D6
+~
+~
+0 -1 2930 0
+D9
+~
+~
+0 -1 2932 0
+S
+#2932
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D6
+~
+~
+0 -1 2931 0
+D7
+~
+~
+0 -1 2933 0
+S
+#2933
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D7
+~
+~
+0 -1 2934 0
+D8
+~
+~
+0 -1 2932 0
+S
+#2934
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2936 0
+D1
+~
+~
+0 -1 2939 0
+D7
+~
+~
+0 -1 2935 0
+D8
+~
+~
+0 -1 2933 0
+S
+#2935
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2936 0
+D8
+~
+~
+0 -1 2934 0
+S
+#2936
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2937 0
+D2
+~
+~
+0 -1 2934 0
+D3
+~
+~
+0 -1 2935 0
+S
+#2937
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2926 0
+D2
+~
+~
+0 -1 2939 0
+D3
+~
+~
+0 -1 2936 0
+S
+#2938
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2927 0
+D1
+~
+~
+0 -1 2930 0
+S
+#2939
+Roof Of the Imperial Citadel~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2937 0
+D3
+~
+~
+0 -1 2934 0
+S
+#2940
+Front of Secret Imperial Military Installation~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2941 0
+S
+#2941
+Entrance of Secret Imperial Military Installation~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2940 0
+D1
+~
+~
+0 -1 2942 0
+D2
+~
+~
+0 -1 2944 0
+D3
+~
+~
+0 -1 2943 0
+S
+#2942
+Guard Post~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 2941 0
+S
+#2943
+Guard Post~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2941 0
+S
+#2944
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2941 0
+D1
+~
+~
+0 -1 2951 0
+D2
+~
+~
+0 -1 2945 0
+D3
+~
+~
+0 -1 2972 0
+S
+#2945
+Alpha Base Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2944 0
+D2
+~
+~
+0 -1 2946 0
+S
+#2946
+Alpha Base Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2945 0
+D2
+~
+~
+0 -1 2947 0
+S
+#2947
+Alpha Base Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2946 0
+D1
+~
+~
+0 -1 3054 0
+D2
+~
+~
+0 -1 2948 0
+D3
+~
+~
+0 -1 3052 0
+D4
+~
+~
+0 -1 3023 0
+D5
+~
+~
+0 -1 2973 0
+S
+#2948
+Alpha Base Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2947 0
+D2
+~
+~
+0 -1 2949 0
+S
+#2949
+Alpha Base Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2948 0
+D2
+~
+~
+0 -1 2950 0
+S
+#2950
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2949 0
+D1
+~
+~
+0 -1 2961 0
+D3
+~
+~
+0 -1 2962 0
+S
+#2951
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2952 0
+D3
+~
+~
+0 -1 2944 0
+S
+#2952
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2953 0
+D3
+~
+~
+0 -1 2951 0
+S
+#2953
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2954 0
+D3
+~
+~
+0 -1 2952 0
+S
+#2954
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2953 0
+D2
+~
+~
+0 -1 2955 0
+S
+#2955
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2954 0
+D2
+~
+~
+0 -1 2956 0
+S
+#2956
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2955 0
+D2
+~
+~
+0 -1 2957 0
+S
+#2957
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2956 0
+D2
+~
+~
+0 -1 2958 0
+S
+#2958
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2957 0
+D2
+~
+~
+0 -1 2959 0
+S
+#2959
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2958 0
+D3
+~
+~
+0 -1 2960 0
+S
+#2960
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2959 0
+D3
+~
+~
+0 -1 2961 0
+S
+#2961
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2960 0
+D3
+~
+~
+0 -1 2950 0
+S
+#2962
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2950 0
+D3
+~
+~
+0 -1 2963 0
+S
+#2963
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2962 0
+D3
+~
+~
+0 -1 2964 0
+S
+#2964
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2965 0
+D1
+~
+~
+0 -1 2963 0
+S
+#2965
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2966 0
+D2
+~
+~
+0 -1 2964 0
+S
+#2966
+Outer Corridor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2967 0
+D2
+~
+~
+0 -1 2965 0
+S
+#2967
+Outer Corridor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2968 0
+D2
+~
+~
+0 -1 2966 0
+S
+#2968
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2969 0
+D2
+~
+~
+0 -1 2967 0
+S
+#2969
+Outer Corridor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2970 0
+D2
+~
+~
+0 -1 2968 0
+S
+#2970
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2971 0
+D2
+~
+~
+0 -1 2969 0
+S
+#2971
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2972 0
+D3
+~
+~
+0 -1 2970 0
+S
+#2972
+Outer Corridor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2944 0
+D3
+~
+~
+0 -1 2971 0
+S
+#2973
+Primary Imperial Headquarters~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2974 0
+D1
+~
+~
+0 -1 2976 0
+D2
+~
+~
+0 -1 2978 0
+D3
+~
+~
+0 -1 2980 0
+D4
+~
+~
+0 -1 2947 0
+S
+#2974
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2982 0
+D1
+~
+~
+0 -1 2975 0
+D2
+~
+~
+0 -1 2973 0
+D3
+~
+~
+0 -1 2981 0
+S
+#2975
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2976 0
+D3
+~
+~
+0 -1 2974 0
+S
+#2976
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2975 0
+D2
+~
+~
+0 -1 2977 0
+D3
+~
+~
+0 -1 2973 0
+S
+#2977
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2976 0
+D3
+~
+~
+0 -1 2978 0
+S
+#2978
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2973 0
+D1
+~
+~
+0 -1 2977 0
+D3
+~
+~
+0 -1 2979 0
+S
+#2979
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2980 0
+D1
+~
+~
+0 -1 2978 0
+S
+#2980
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2981 0
+D1
+~
+~
+0 -1 2973 0
+D2
+~
+~
+0 -1 2979 0
+S
+#2981
+Control Room~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2974 0
+D2
+~
+~
+0 -1 2980 0
+S
+#2982
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2998 0
+D1
+~
+~
+0 -1 2983 0
+D2
+~
+~
+0 -1 2974 0
+D3
+~
+~
+0 -1 2997 0
+S
+#2983
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2999 0
+D1
+~
+~
+0 -1 2984 0
+D3
+~
+~
+0 -1 2982 0
+S
+#2984
+Habitat Ring~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 3000 0
+D1
+~
+~
+0 -1 3002 0
+D2
+~
+~
+0 -1 2985 0
+D3
+~
+~
+0 -1 2983 0
+D6
+~
+~
+0 -1 3001 0
+S
+#2985
+Habitat Ring~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 2984 0
+D1
+~
+~
+0 -1 3003 0
+D2
+~
+~
+0 -1 2986 0
+S
+#2986
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2985 0
+D1
+~
+~
+0 -1 3004 0
+D2
+~
+~
+0 -1 2987 0
+S
+#2987
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2986 0
+D1
+~
+~
+0 -1 3005 0
+D2
+~
+~
+0 -1 2988 0
+S
+#2988
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2987 0
+D1
+~
+~
+0 -1 3006 0
+D2
+~
+~
+0 -1 3008 0
+D3
+~
+~
+0 -1 2989 0
+D8
+~
+~
+0 -1 3007 0
+S
+#2989
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2988 0
+D2
+~
+~
+0 -1 3009 0
+D3
+~
+~
+0 -1 2990 0
+S
+#2990
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2989 0
+D2
+~
+~
+0 -1 3010 0
+D3
+~
+~
+0 -1 2991 0
+S
+#2991
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 2990 0
+D2
+~
+~
+0 -1 3011 0
+D3
+~
+~
+0 -1 2992 0
+S
+#2992
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2993 0
+D1
+~
+~
+0 -1 2991 0
+D2
+~
+~
+0 -1 3012 0
+D3
+~
+~
+0 -1 3014 0
+D9
+~
+~
+0 -1 3013 0
+S
+#2993
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2994 0
+D2
+~
+~
+0 -1 2992 0
+D3
+~
+~
+0 -1 3015 0
+S
+#2994
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2995 0
+D2
+~
+~
+0 -1 2993 0
+D3
+~
+~
+0 -1 3016 0
+S
+#2995
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2996 0
+D2
+~
+~
+0 -1 2994 0
+D3
+~
+~
+0 -1 3017 0
+S
+#2996
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3020 0
+D1
+~
+~
+0 -1 2997 0
+D2
+~
+~
+0 -1 2995 0
+D3
+~
+~
+0 -1 3018 0
+D7
+~
+~
+0 -1 3019 0
+S
+#2997
+Habitat Ring~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3021 0
+D1
+~
+~
+0 -1 2982 0
+D3
+~
+~
+0 -1 2996 0
+S
+#2998
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2982 0
+S
+#2999
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2983 0
+S
+#3000
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 2984 0
+S
+#3001
+Kitchen~
+~
+0 1073741824 1 0 0 0 1040
+D9
+~
+~
+0 -1 2984 0
+S
+#3002
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2984 0
+S
+#3003
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2985 0
+S
+#3004
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2986 0
+S
+#3005
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2987 0
+S
+#3006
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 2988 0
+S
+#3007
+Laundry Room~
+~
+0 1073741828 1 0 0 0 1040
+D7
+~
+~
+0 -1 2988 0
+S
+#3008
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2988 0
+S
+#3009
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2989 0
+S
+#3010
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2990 0
+S
+#3011
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2991 0
+S
+#3012
+Officer's Quarters~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 2992 0
+S
+#3013
+Recreational Room~
+~
+0 1073741828 1 0 0 0 1040
+D6
+~
+~
+0 -1 2992 0
+S
+#3014
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2992 0
+S
+#3015
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2993 0
+S
+#3016
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2994 0
+S
+#3017
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2995 0
+S
+#3018
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 2996 0
+S
+#3019
+Den~
+~
+0 1073741824 1 0 0 0 1040
+D8
+~
+~
+0 -1 2996 0
+S
+#3020
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2996 0
+S
+#3021
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 2997 0
+S
+#3022
+Secret Room~
+~
+0 1073741828 1 0 0 0 1040
+S
+#3023
+Alpha Base Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3024 0
+D2
+~
+~
+0 -1 3026 0
+D5
+~
+~
+0 -1 2947 0
+S
+#3024
+Alpha Base Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3025 0
+D2
+~
+~
+0 -1 3023 0
+S
+#3025
+Alpha Base Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3029 0
+D1
+~
+~
+0 -1 3030 0
+D2
+~
+~
+0 -1 3024 0
+D3
+~
+~
+0 -1 3033 0
+S
+#3026
+Alpha Base Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3023 0
+D2
+~
+~
+0 -1 3027 0
+S
+#3027
+Alpha Base Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3026 0
+D1
+~
+~
+0 -1 3048 0
+D2
+~
+~
+0 -1 3028 0
+D3
+~
+~
+0 -1 3049 0
+S
+#3028
+Alpha Base Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3027 0
+D1
+~
+~
+0 -1 3050 0
+D3
+~
+~
+0 -1 3051 0
+S
+#3029
+Alpha Base Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3025 0
+S
+#3030
+Habitat Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3036 0
+D1
+~
+~
+0 -1 3031 0
+D2
+~
+~
+0 -1 3037 0
+D3
+~
+~
+0 -1 3025 0
+S
+#3031
+Habitat Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3038 0
+D1
+~
+~
+0 -1 3032 0
+D2
+~
+~
+0 -1 3039 0
+D3
+~
+~
+0 -1 3030 0
+S
+#3032
+Habitat Hallway~
+~
+0 0 1 0 0 0 1040
+D0
+~
+~
+0 -1 3040 0
+D2
+~
+~
+0 -1 3041 0
+D3
+~
+~
+0 -1 3031 0
+S
+#3033
+Habitat Hallway~
+~
+0 0 1 0 0 0 1040
+D0
+~
+~
+0 -1 3042 0
+D1
+~
+~
+0 -1 3025 0
+D2
+~
+~
+0 -1 3043 0
+D3
+~
+~
+0 -1 3034 0
+S
+#3034
+Habitat Hallway~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 3044 0
+D1
+~
+~
+0 -1 3033 0
+D2
+~
+~
+0 -1 3045 0
+D3
+~
+~
+0 -1 3035 0
+S
+#3035
+Habitat Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3046 0
+D1
+~
+~
+0 -1 3034 0
+D2
+~
+~
+0 -1 3047 0
+S
+#3036
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3030 0
+S
+#3037
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3030 0
+S
+#3038
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3031 0
+S
+#3039
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3031 0
+S
+#3040
+Armory~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3032 0
+S
+#3041
+Mess Hall~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3032 0
+S
+#3042
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3033 0
+S
+#3043
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3033 0
+S
+#3044
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3034 0
+S
+#3045
+Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3034 0
+S
+#3046
+Infirmary~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3035 0
+S
+#3047
+Recreational Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3035 0
+S
+#3048
+Hangar Bay 2~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3027 0
+S
+#3049
+Hangar Bay 1~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3027 0
+S
+#3050
+Hangar Bay 4~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3028 0
+S
+#3051
+Hangar Bay 3~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3028 0
+S
+#3052
+Engineering~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3060 0
+D1
+~
+~
+0 -1 2947 0
+D2
+~
+~
+0 -1 3061 0
+D3
+~
+~
+0 -1 3053 0
+S
+#3053
+Engineering~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3062 0
+D1
+~
+~
+0 -1 3052 0
+D2
+~
+~
+0 -1 3063 0
+S
+#3054
+Engineering~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3058 0
+D1
+~
+~
+0 -1 3055 0
+D2
+~
+~
+0 -1 3059 0
+D3
+~
+~
+0 -1 2947 0
+S
+#3055
+Engineering~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3056 0
+D2
+~
+~
+0 -1 3057 0
+D3
+~
+~
+0 -1 3054 0
+S
+#3056
+Power Generator Room~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3055 0
+S
+#3057
+Power Generator Room~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3055 0
+S
+#3058
+Main Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3054 0
+S
+#3059
+Main Power Station~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3054 0
+S
+#3060
+Main Computer Station~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3052 0
+S
+#3061
+Main Engineering~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3052 0
+S
+#3062
+Power Generator Room~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3053 0
+S
+#3063
+Power Generator Room~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3053 0
+S
+#3064
+Imperial Shield Generator Room~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3066 0
+D3
+~
+~
+0 -1 3065 0
+S
+#3065
+Power Generator Room~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3064 0
+S
+#3066
+Control Room~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3064 0
+D3
+~
+~
+0 -1 3067 0
+S
+#3067
+Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3066 0
+D5
+~
+~
+0 -1 3068 0
+S
+#3068
+Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3069 0
+D2
+~
+~
+0 -1 3225 0
+D4
+~
+~
+0 -1 3067 0
+S
+#3069
+Restricted Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3070 0
+D3
+~
+~
+0 -1 3068 0
+S
+#3070
+Restricted Area~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3069 0
+D3
+~
+~
+0 -1 3071 0
+S
+#3071
+Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3070 0
+S
+#3072
+Barracks Entrance~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3073 0
+S
+#3073
+Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3072 0
+D1
+~
+~
+0 -1 3077 0
+D2
+~
+~
+0 -1 3074 0
+D3
+~
+~
+0 -1 3078 0
+S
+#3074
+Imperial Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3073 0
+D1
+~
+~
+0 -1 3079 0
+D2
+~
+~
+0 -1 3075 0
+D3
+~
+~
+0 -1 3080 0
+S
+#3075
+Imperial Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3074 0
+D1
+~
+~
+0 -1 3081 0
+D2
+~
+~
+0 -1 3076 0
+D3
+~
+~
+0 -1 3082 0
+S
+#3076
+Imperial Barracks~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3075 0
+D1
+~
+~
+0 -1 3083 0
+D2
+~
+~
+0 -1 3086 0
+D3
+~
+~
+0 -1 3084 0
+S
+#3077
+Officer's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3073 0
+S
+#3078
+Cleaning Facility~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3073 0
+S
+#3079
+Soldier's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3074 0
+S
+#3080
+Soldier's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3074 0
+S
+#3081
+Soldier's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3075 0
+S
+#3082
+Soldier's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3075 0
+S
+#3083
+Armory~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3087 0
+D3
+~
+~
+0 -1 3076 0
+S
+#3084
+Mess Hall~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3076 0
+D2
+~
+~
+0 -1 3085 0
+S
+#3085
+Infirmary~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3084 0
+S
+#3086
+Soldier's Quarters~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3076 0
+S
+#3087
+Supply Room~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3083 0
+S
+#3088
+Garage Entrance~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3089 0
+S
+#3089
+Imperial Garage~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3088 0
+D1
+~
+~
+0 -1 3093 0
+D2
+~
+~
+0 -1 3090 0
+D3
+~
+~
+0 -1 3094 0
+S
+#3090
+Imperial Garage~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3089 0
+D1
+~
+~
+0 -1 3095 0
+D2
+~
+~
+0 -1 3091 0
+D3
+~
+~
+0 -1 3096 0
+S
+#3091
+Imperial Garage~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3090 0
+D1
+~
+~
+0 -1 3097 0
+D2
+~
+~
+0 -1 3092 0
+D3
+~
+~
+0 -1 3098 0
+S
+#3092
+Imperial Garage~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3091 0
+D1
+~
+~
+0 -1 3099 0
+D3
+~
+~
+0 -1 3100 0
+S
+#3093
+Security Station~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3089 0
+S
+#3094
+Lounge~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3089 0
+S
+#3095
+Office~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3090 0
+S
+#3096
+Tool Shed~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3090 0
+S
+#3097
+Imperial Garage~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3099 0
+D3
+~
+~
+0 -1 3091 0
+S
+#3098
+Imperial Garage~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3091 0
+D2
+~
+~
+0 -1 3100 0
+S
+#3099
+Imperial Garage~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3097 0
+D3
+~
+~
+0 -1 3092 0
+S
+#3100
+Imperial Garage~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3098 0
+D1
+~
+~
+0 -1 3092 0
+S
+#3101
+Ace's Hardware Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3102 0
+S
+#3102
+Ace's Hardware Store~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3103 0
+D2
+~
+~
+0 -1 3101 0
+S
+#3103
+Workshop~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3102 0
+S
+#3104
+Byss Mall~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3105 0
+S
+#3105
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3121 0
+D1
+~
+~
+0 -1 3120 0
+D2
+~
+~
+0 -1 3104 0
+D3
+~
+~
+0 -1 3106 0
+S
+#3106
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3105 0
+D2
+~
+~
+0 -1 3170 0
+D3
+~
+~
+0 -1 3107 0
+S
+#3107
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3106 0
+D2
+~
+~
+0 -1 3169 0
+D3
+~
+~
+0 -1 3108 0
+S
+#3108
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3109 0
+D1
+~
+~
+0 -1 3107 0
+D2
+~
+~
+0 -1 3168 0
+D3
+~
+~
+0 -1 3167 0
+S
+#3109
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3110 0
+D2
+~
+~
+0 -1 3108 0
+D3
+~
+~
+0 -1 3166 0
+S
+#3110
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3164 0
+D1
+~
+~
+0 -1 3111 0
+D2
+~
+~
+0 -1 3109 0
+D3
+~
+~
+0 -1 3165 0
+S
+#3111
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3163 0
+D1
+~
+~
+0 -1 3112 0
+D3
+~
+~
+0 -1 3110 0
+S
+#3112
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3162 0
+D1
+~
+~
+0 -1 3113 0
+D3
+~
+~
+0 -1 3111 0
+S
+#3113
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3161 0
+D1
+~
+~
+0 -1 3114 0
+D3
+~
+~
+0 -1 3112 0
+S
+#3114
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3160 0
+D1
+~
+~
+0 -1 3115 0
+D3
+~
+~
+0 -1 3113 0
+S
+#3115
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3159 0
+D1
+~
+~
+0 -1 3116 0
+D3
+~
+~
+0 -1 3114 0
+S
+#3116
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3158 0
+D1
+~
+~
+0 -1 3157 0
+D2
+~
+~
+0 -1 3117 0
+D3
+~
+~
+0 -1 3115 0
+S
+#3117
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3116 0
+D1
+~
+~
+0 -1 3156 0
+D2
+~
+~
+0 -1 3118 0
+S
+#3118
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3117 0
+D1
+~
+~
+0 -1 3155 0
+D2
+~
+~
+0 -1 3173 0
+D3
+~
+~
+0 -1 3119 0
+S
+#3119
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3118 0
+D2
+~
+~
+0 -1 3172 0
+D3
+~
+~
+0 -1 3120 0
+S
+#3120
+Byss Mall First Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3119 0
+D2
+~
+~
+0 -1 3171 0
+D3
+~
+~
+0 -1 3105 0
+S
+#3121
+Stairs~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3123 0
+D2
+~
+~
+0 -1 3105 0
+S
+#3122
+Stairs~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3139 0
+D2
+~
+~
+0 -1 3131 0
+S
+#3123
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3174 0
+D1
+~
+~
+0 -1 3124 0
+D2
+~
+~
+0 -1 3121 0
+D3
+~
+~
+0 -1 3138 0
+S
+#3124
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3175 0
+D1
+~
+~
+0 -1 3125 0
+D3
+~
+~
+0 -1 3123 0
+S
+#3125
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3176 0
+D1
+~
+~
+0 -1 3126 0
+D3
+~
+~
+0 -1 3124 0
+S
+#3126
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3177 0
+D1
+~
+~
+0 -1 3178 0
+D2
+~
+~
+0 -1 3127 0
+D3
+~
+~
+0 -1 3125 0
+S
+#3127
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3126 0
+D1
+~
+~
+0 -1 3179 0
+D2
+~
+~
+0 -1 3128 0
+S
+#3128
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3127 0
+D1
+~
+~
+0 -1 3180 0
+D2
+~
+~
+0 -1 3181 0
+D3
+~
+~
+0 -1 3129 0
+S
+#3129
+Byss Mall Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3128 0
+D2
+~
+~
+0 -1 3182 0
+D3
+~
+~
+0 -1 3130 0
+S
+#3130
+Byss Mall Second Floor~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3129 0
+D2
+~
+~
+0 -1 3183 0
+D3
+~
+~
+0 -1 3131 0
+S
+#3131
+Byss Mall Second Floor~
+~
+0 4 1 0 0 0 1040
+D0
+~
+~
+0 -1 3122 0
+D1
+~
+~
+0 -1 3130 0
+D2
+~
+~
+0 -1 3184 0
+D3
+~
+~
+0 -1 3132 0
+S
+#3132
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3131 0
+D2
+~
+~
+0 -1 3185 0
+D3
+~
+~
+0 -1 3133 0
+S
+#3133
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3132 0
+D2
+~
+~
+0 -1 3186 0
+D3
+~
+~
+0 -1 3134 0
+S
+#3134
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3135 0
+D1
+~
+~
+0 -1 3133 0
+D2
+~
+~
+0 -1 3187 0
+D3
+~
+~
+0 -1 3188 0
+S
+#3135
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3136 0
+D2
+~
+~
+0 -1 3134 0
+D3
+~
+~
+0 -1 3189 0
+S
+#3136
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3191 0
+D1
+~
+~
+0 -1 3137 0
+D2
+~
+~
+0 -1 3135 0
+D3
+~
+~
+0 -1 3190 0
+S
+#3137
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3192 0
+D1
+~
+~
+0 -1 3138 0
+D3
+~
+~
+0 -1 3136 0
+S
+#3138
+Byss Mall Second Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3193 0
+D1
+~
+~
+0 -1 3123 0
+D3
+~
+~
+0 -1 3137 0
+S
+#3139
+Byss Mall Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3194 0
+D1
+~
+~
+0 -1 3140 0
+D2
+~
+~
+0 -1 3122 0
+D3
+~
+~
+0 -1 3154 0
+S
+#3140
+Byss Mall Third Floor~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3195 0
+D1
+~
+~
+0 -1 3141 0
+D3
+~
+~
+0 -1 3139 0
+S
+#3141
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3196 0
+D1
+~
+~
+0 -1 3142 0
+D3
+~
+~
+0 -1 3140 0
+S
+#3142
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3197 0
+D1
+~
+~
+0 -1 3198 0
+D2
+~
+~
+0 -1 3143 0
+D3
+~
+~
+0 -1 3141 0
+S
+#3143
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3142 0
+D1
+~
+~
+0 -1 3199 0
+D2
+~
+~
+0 -1 3144 0
+S
+#3144
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3143 0
+D1
+~
+~
+0 -1 3200 0
+D2
+~
+~
+0 -1 3201 0
+D3
+~
+~
+0 -1 3145 0
+S
+#3145
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3144 0
+D2
+~
+~
+0 -1 3202 0
+D3
+~
+~
+0 -1 3146 0
+S
+#3146
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3145 0
+D2
+~
+~
+0 -1 3203 0
+D3
+~
+~
+0 -1 3147 0
+S
+#3147
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3146 0
+D2
+~
+~
+0 -1 3204 0
+D3
+~
+~
+0 -1 3148 0
+S
+#3148
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3147 0
+D2
+~
+~
+0 -1 3205 0
+D3
+~
+~
+0 -1 3149 0
+S
+#3149
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3148 0
+D2
+~
+~
+0 -1 3206 0
+D3
+~
+~
+0 -1 3150 0
+S
+#3150
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3151 0
+D1
+~
+~
+0 -1 3149 0
+D2
+~
+~
+0 -1 3207 0
+D3
+~
+~
+0 -1 3208 0
+S
+#3151
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3152 0
+D2
+~
+~
+0 -1 3150 0
+D3
+~
+~
+0 -1 3209 0
+S
+#3152
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3211 0
+D1
+~
+~
+0 -1 3153 0
+D2
+~
+~
+0 -1 3151 0
+D3
+~
+~
+0 -1 3210 0
+S
+#3153
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3212 0
+D1
+~
+~
+0 -1 3154 0
+D3
+~
+~
+0 -1 3152 0
+S
+#3154
+Byss Mall Third Floor~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3213 0
+D1
+~
+~
+0 -1 3139 0
+D3
+~
+~
+0 -1 3153 0
+S
+#3155
+UPS Station~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3118 0
+S
+#3156
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3117 0
+S
+#3157
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3116 0
+S
+#3158
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3116 0
+S
+#3159
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3115 0
+S
+#3160
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3114 0
+S
+#3161
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3113 0
+S
+#3162
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3112 0
+S
+#3163
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3111 0
+S
+#3164
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3110 0
+S
+#3165
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3110 0
+S
+#3166
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3109 0
+S
+#3167
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3108 0
+S
+#3168
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3108 0
+S
+#3169
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3107 0
+S
+#3170
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3106 0
+S
+#3171
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3120 0
+S
+#3172
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3119 0
+S
+#3173
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3118 0
+S
+#3174
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3123 0
+S
+#3175
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3124 0
+S
+#3176
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3125 0
+S
+#3177
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3126 0
+S
+#3178
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3126 0
+S
+#3179
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3127 0
+S
+#3180
+Comlink Shack~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3128 0
+S
+#3181
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3128 0
+S
+#3182
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3129 0
+S
+#3183
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3130 0
+S
+#3184
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3131 0
+S
+#3185
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3132 0
+S
+#3186
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3133 0
+S
+#3187
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3134 0
+S
+#3188
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3134 0
+S
+#3189
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3135 0
+S
+#3190
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3136 0
+S
+#3191
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3136 0
+S
+#3192
+Empty Store~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3137 0
+S
+#3193
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3138 0
+S
+#3194
+Loco Toco~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3139 0
+S
+#3195
+Sala Bin's Chop Shop~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3140 0
+S
+#3196
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3141 0
+S
+#3197
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3142 0
+S
+#3198
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3142 0
+S
+#3199
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3143 0
+S
+#3200
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3144 0
+S
+#3201
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3144 0
+S
+#3202
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3145 0
+S
+#3203
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3146 0
+S
+#3204
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3147 0
+S
+#3205
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3148 0
+S
+#3206
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3149 0
+S
+#3207
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3150 0
+S
+#3208
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3150 0
+S
+#3209
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3151 0
+S
+#3210
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3152 0
+S
+#3211
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3152 0
+S
+#3212
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3153 0
+S
+#3213
+Empty Store~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3154 0
+S
+#3214
+Turbolaser 2~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3216 0
+D3
+~
+~
+0 -1 3215 0
+S
+#3215
+Turbolaser 1~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3214 0
+S
+#3216
+Control Room~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3214 0
+D3
+~
+~
+0 -1 3217 0
+S
+#3217
+Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3216 0
+D5
+~
+~
+0 -1 3218 0
+S
+#3218
+Floor 2~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3219 0
+D4
+~
+~
+0 -1 3217 0
+D5
+~
+~
+0 -1 3222 0
+S
+#3219
+Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3220 0
+D3
+~
+~
+0 -1 3218 0
+S
+#3220
+Control Room~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3219 0
+D3
+~
+~
+0 -1 3221 0
+S
+#3221
+Power Generator~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3220 0
+S
+#3222
+Floor 1~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3223 0
+D4
+~
+~
+0 -1 3218 0
+S
+#3223
+Security Station~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3224 0
+D3
+~
+~
+0 -1 3222 0
+S
+#3224
+Restricted Area~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3223 0
+D3
+~
+~
+0 -1 3225 0
+S
+#3225
+Restricted Area~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3068 0
+D1
+~
+~
+0 -1 3224 0
+S
+#3226
+Byss Inn~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3227 0
+D3
+~
+~
+0 -1 3228 0
+S
+#3227
+Byss Inn Bar~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3226 0
+S
+#3228
+Swimming Pool Area~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3226 0
+S
+#3229
+Byssland Apartments~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3230 0
+S
+#3230
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3246 0
+D1
+~
+~
+0 -1 3229 0
+D2
+~
+~
+0 -1 3248 0
+D3
+~
+~
+0 -1 3231 0
+S
+#3231
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3249 0
+D1
+~
+~
+0 -1 3230 0
+D2
+~
+~
+0 -1 3250 0
+D3
+~
+~
+0 -1 3232 0
+S
+#3232
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3251 0
+D1
+~
+~
+0 -1 3231 0
+D2
+~
+~
+0 -1 3252 0
+D3
+~
+~
+0 -1 3233 0
+S
+#3233
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3253 0
+D1
+~
+~
+0 -1 3232 0
+D2
+~
+~
+0 -1 3254 0
+D3
+~
+~
+0 -1 3234 0
+S
+#3234
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3255 0
+D1
+~
+~
+0 -1 3233 0
+D2
+~
+~
+0 -1 3256 0
+D3
+~
+~
+0 -1 3235 0
+S
+#3235
+Turbolift~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3234 0
+S
+#3236
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3257 0
+D1
+~
+~
+0 -1 3237 0
+D2
+~
+~
+0 -1 3258 0
+S
+#3237
+Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3259 0
+D1
+~
+~
+0 -1 3238 0
+D2
+~
+~
+0 -1 3260 0
+D3
+~
+~
+0 -1 3236 0
+S
+#3238
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3261 0
+D1
+~
+~
+0 -1 3239 0
+D2
+~
+~
+0 -1 3262 0
+D3
+~
+~
+0 -1 3237 0
+S
+#3239
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3263 0
+D1
+~
+~
+0 -1 3240 0
+D2
+~
+~
+0 -1 3264 0
+D3
+~
+~
+0 -1 3238 0
+S
+#3240
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3265 0
+D2
+~
+~
+0 -1 3266 0
+D3
+~
+~
+0 -1 3239 0
+S
+#3241
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3247 0
+D1
+~
+~
+0 -1 3242 0
+D2
+~
+~
+0 -1 3267 0
+S
+#3242
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3268 0
+D1
+~
+~
+0 -1 3243 0
+D2
+~
+~
+0 -1 3269 0
+D3
+~
+~
+0 -1 3241 0
+S
+#3243
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3270 0
+D1
+~
+~
+0 -1 3244 0
+D2
+~
+~
+0 -1 3271 0
+D3
+~
+~
+0 -1 3242 0
+S
+#3244
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3272 0
+D1
+~
+~
+0 -1 3245 0
+D2
+~
+~
+0 -1 3273 0
+D3
+~
+~
+0 -1 3243 0
+S
+#3245
+Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3274 0
+D2
+~
+~
+0 -1 3275 0
+D3
+~
+~
+0 -1 3244 0
+S
+#3246
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3230 0
+S
+#3247
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3241 0
+S
+#3248
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3230 0
+S
+#3249
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3231 0
+S
+#3250
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3231 0
+S
+#3251
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3232 0
+S
+#3252
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3232 0
+S
+#3253
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3233 0
+S
+#3254
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3233 0
+S
+#3255
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3234 0
+S
+#3256
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3234 0
+S
+#3257
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3236 0
+S
+#3258
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3236 0
+S
+#3259
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3237 0
+S
+#3260
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3237 0
+S
+#3261
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3238 0
+S
+#3262
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3238 0
+S
+#3263
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3239 0
+S
+#3264
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3239 0
+S
+#3265
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3240 0
+S
+#3266
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3240 0
+S
+#3267
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3241 0
+S
+#3268
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3242 0
+S
+#3269
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3242 0
+S
+#3270
+Empty Apartment~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3243 0
+S
+#3271
+Empty Apartment~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3243 0
+S
+#3272
+Empty Apartment~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3244 0
+S
+#3273
+Empty Apartment~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3244 0
+S
+#3274
+Empty Apartment~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3245 0
+S
+#3275
+Empty Apartment~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3245 0
+S
+#3276
+Byss Burgers~
+~
+0 1073741828 1 0 0 0 1040
+S
+#3277
+Fabrics R Us~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3278 0
+S
+#3278
+Fabrics R Us~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3277 0
+S
+#3279
+Byss Employment Center~
+~
+0 1073741824 1 0 0 0 1040
+D3
+~
+~
+0 -1 3280 0
+S
+#3280
+A Busy Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3285 0
+D1
+~
+~
+0 -1 3279 0
+D2
+~
+~
+0 -1 3286 0
+D3
+~
+~
+0 -1 3281 0
+S
+#3281
+A Busy Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3287 0
+D1
+~
+~
+0 -1 3280 0
+D2
+~
+~
+0 -1 3288 0
+D3
+~
+~
+0 -1 3282 0
+S
+#3282
+A Busy Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3289 0
+D1
+~
+~
+0 -1 3281 0
+D2
+~
+~
+0 -1 3290 0
+D3
+~
+~
+0 -1 3283 0
+S
+#3283
+A Busy Hallway~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3293 0
+D1
+~
+~
+0 -1 3282 0
+D2
+~
+~
+0 -1 3292 0
+D3
+~
+~
+0 -1 3284 0
+S
+#3284
+Opportunity Office~
+~
+0 1073741824 1 0 0 0 1040
+D1
+~
+~
+0 -1 3283 0
+S
+#3285
+Bounty Office~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3280 0
+S
+#3286
+UPS Station~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3280 0
+S
+#3287
+Jardak's Solutions~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3281 0
+S
+#3288
+Martok's Works~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3281 0
+S
+#3289
+Namrod Systems~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3282 0
+S
+#3290
+Canigetawawa Corporation~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3282 0
+S
+#3291
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3283 0
+S
+#3292
+Empire Recruitment Station~
+~
+0 1073741824 1 0 0 0 1040
+D0
+~
+~
+0 -1 3283 0
+S
+#3293
+Ashrule Incorporated~
+~
+0 1073741824 1 0 0 0 1040
+D2
+~
+~
+0 -1 3283 0
+S
+#3294
+Byss Inn~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3296 0
+D2
+~
+~
+0 -1 3295 0
+D3
+~
+~
+0 -1 3297 0
+S
+#3295
+Near A Swimming Pool~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3294 0
+S
+#3296
+Byss Inn Cafe~
+~
+0 1073741828 1 0 0 0 1040
+D3
+~
+~
+0 -1 3294 0
+S
+#3297
+A Hallway~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3300 0
+D1
+~
+~
+0 -1 3294 0
+D2
+~
+~
+0 -1 3298 0
+D3
+~
+~
+0 -1 3299 0
+S
+#3298
+Byss Inn Cleaning Facilities~
+~
+0 1073741828 1 0 0 0 1040
+D0
+~
+~
+0 -1 3297 0
+S
+#3299
+Storage Room~
+~
+0 1073741828 1 0 0 0 1040
+D1
+~
+~
+0 -1 3297 0
+S
+#3300
+Office~
+~
+0 1073741828 1 0 0 0 1040
+D2
+~
+~
+0 -1 3297 0
+S
+#3503
+Floating in a void~
+~
+0 1073741828 1 0 0 0 1040
+S
+#3710
+Floating in a void~
+~
+0 1073741828 1 0 0 0 1040
+S
+#4010
+A Small Room~
+~
+0 12 1 0 0 0 1040
+D1
+~
+~
+1 -1 4011 0
+R D 0 4010 1 0
+> act_prog p arrives from the west.~
+mpforce guard say Stop where you are.
+mpforce guard say General Javis is not seeing anyone right now.
+mpforce guard say He has ordered that all visitors be eliminated.
+mpsleep 3
+mpforce guard mpkill $n
+mpforce 2.guard mpkill $n
+~
+|
+S
+#4011
+General Javis' Office~
+~
+0 8 1 0 0 0 1040
+D3
+~
+~
+1 -1 4010 0
+R M 0 2503 1 4011
+R D 0 4011 3 0
+S
+#4449
+Void~
+~
+0 4 1 0 0 0 1040
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

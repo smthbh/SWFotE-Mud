@@ -1,0 +1,84 @@
+FotE v2.1+ Changes -Ammendments-
+--------------------------------
+I, Keberus, have been working on 2.1 and beyond by myself. But I have had a lot of help from
+Samson, Kiasyn, Valcados, Remcon, Conner, Tawnos, RapidRunner, Zeno, Phoenix Dracul, and Gatewaysysop 
+as far as them posting bugfixes that releated to the FotE codebase. I would like to thank Tawnos for
+running swfote.sourceforge.net and Samson for running www.smaugfuss.org. My contact info is
+still the same if you have any problems, post them or contact me directly and I'll try to 
+help.
+
+FotE v2.1 Changes -Ammendments-
+--------------------------------
+I, Greg (Keberus) Mosley basically bugfixed this version of FotE 2.0
+I would like to extend a special thanks to Dude, Samson (www.smaugfuss.org), Greven, Zeos,
+Moonwolf, Remcon, Zeno, Gatewaysysop, Trelar, ZeonAdmiral, and a SUPER SPECIAL thanks to 
+Egg for being one of the main frontmen/primary bug finder (he had one of the first muds 
+to openly run 2.0), and Odis for going out of his way to check out FotE v2.0 and post quite 
+a few bugs as well.
+
+Read bugfixes.txt to find out about what things were fixed/added in this
+version of the codebase. 
+
+If you have any bugs to report or need help implementing something feel free
+to drop a line. There are 4 primary ways to contact me.
+Via MSN IM           : keberus@msn.com
+Via FotE Forums      : http://swfote.sourceforge.net
+Via TnKgames Forums  : http://www.t-n-k-games.com
+Via Email            : keberus@gmail.com
+
+**NOTE SW:Fote v2.1 has all bugfixes from www.smaugfuss.org, t-n-k-games.com, and swfote.sourceforge.net
+minus the memory macro reversions and shield wearloc "fix" from smaugfuss.org, and the destroy vassigned imms
+bugfix from swfote and t-n-k** Other than those three fixes this codebase is basically up to date with those sites
+as of 09-18-05
+
+FotE v2.0 Changes -Ammendments-
+--------------------------------
+It is important to notice that if you want to change your mud name
+you will now use cedit and can 'cedit mudname <newname>' and 
+'cedit acronym <newacronym>' by default they are FotE v2.1 and it should 
+change all references automatically (Idea taken from afkmud)
+
+Be sure to read the NEW_CHANGELOG and OLD_CHANGELOG to see what kinds
+of things have been implemented
+
+Right now the max vnum is 500000 you can change that by changing the
+variable MAX_VNUMS in mud.h ....you can make it up to 2bil
+
+We did add in the basic cargo system but some people claimed they 
+didn't like it so we set up the makefile so it can be disabled 
+(just comment out the line)
+
+If your mud keeps crashing go into the area folder and see if there are
+any core.<some_number> if there is then you can use a debugging program 
+called gdb to examine where the code crashed by typing gdb ../src/swr 
+core.<what_the_number_is>....After it is opened you can then type 'bt'
+which will backtrace to the last section of code ran
+
+
+FotE v1.1 Stuff
+----------------------
+For an easier start to get your mud going, there is a premade
+level 36 administrator named 'User'. The password is 'password'.
+
+You should immediately change your name and password. This obviously goes 
+without saying, but. Who knows.
+
+Also, best way to boot the mud is "nohup startup <port> &" in src directory.
+'nohup' is an abbreviation of 'no halt user process', which prevents 
+killing the mud's process when you logoff your user in the shell.
+
+This is stated in other files, but you should read through fote1.1.README, 
+force.README, space.README, and all licenses in the /doc directory.
+
+Do not drink and code.
+
+For some amusing excerpts from the old FotE, see help quotes in-mud.
+
+If any of the original staff comes around to your mud one day, be sure to 
+say hey and what not. We'll likely say hey back. We will not, however, 
+demand access to your mud or anything along those lines. (Preemptive 
+strike here)
+
+For more information, type 'changes' in-mud. You can post your own changes 
+to the codebase by the 'addchange' command.
+

@@ -1,0 +1,106 @@
+[*****] BOOT: ---------------------[ Boot Log ]--------------------
+[*****] BOOT: load_room_reset: omni_complex (1) 'O': object 4561 doesn't exist.
+[*****] BOOT: load_room_reset: omni_complex (1) 'P': object 132 doesn't exist.
+[*****] BOOT: load_room_reset: omni_complex (1) 'P': destination object 4561 doesn't exist.
+[*****] BOOT: load_room_reset: omni_complex (1) 'P': destination object 132 doesn't exist.
+[*****] BOOT: load_room_reset: omni_complex (1) 'P': object 4561 doesn't exist.
+[*****] BOOT: load_room_reset: omni_complex (1) 'P': object 132 doesn't exist.
+[*****] BOOT: load_room_reset: omni_complex (1) 'P': destination object 4561 doesn't exist.
+[*****] BOOT: load_room_reset: tatooine.are (1) 'G': object 4508 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 134 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 133 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 133 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 151 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1152 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1152 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 134 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': object 133 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 137 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': object 133 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': destination object 137 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': object 134 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': destination object 133 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': destination object 134 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 134 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': object 136 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': object 130 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': destination object 136 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': object 150 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': destination object 130 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'P': destination object 150 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'G': object 134 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'O': object 7581 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant.are (1) 'M': mobile 1154 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 141 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'M': mobile 231 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'O': object 1926 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'O': object 1926 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 136 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 137 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 138 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 139 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 140 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 141 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 142 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 143 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 144 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 145 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 146 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 147 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'G': object 148 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant2.are (1) 'M': mobile 119 doesn't exist.
+[*****] BOOT: load_room_reset: Yavin.are (1) 'O': object 9746 doesn't exist.
+[*****] BOOT: load_room_reset: coruscant3.are (1) 'O': object 18016 doesn't exist.
+[*****] BOOT: load_room_reset: narshaddaa.are (1) 'G': object 4916 doesn't exist.

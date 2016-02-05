@@ -1,0 +1,72 @@
+#OBJECT
+Vnum         4561
+Room         109
+Rvnum        109
+Level        1
+Values       50000 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         132
+Level        1
+Values       20 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         25
+Level        2
+Values       50 0 0 0 0 0
+End
+
+#OBJECT
+Nest         3
+Vnum         4561
+Level        3
+Values       50000 0 0 0 0 0
+End
+
+#OBJECT
+Nest         4
+Vnum         132
+Level        4
+Values       20 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25
+Level        1
+Values       50 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         4561
+Level        1
+Values       50000 0 0 0 0 0
+End
+
+#OBJECT
+Nest         3
+Vnum         132
+Level        1
+Values       20 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4561
+Level        1
+Values       50000 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         132
+Level        1
+Values       20 0 0 0 0 0
+End
+
+#END

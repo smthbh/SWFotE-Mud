@@ -1,0 +1,49 @@
+#OBJECT
+Vnum         9722
+Room         9711
+Rvnum        9711
+Level        1
+Values       1000 5 9723 5 0 0
+End
+
+#OBJECT
+Vnum         9724
+Room         9711
+Rvnum        9711
+Level        1
+Values       1000 5 9725 5 0 0
+End
+
+#OBJECT
+Vnum         9726
+Room         9711
+Rvnum        9711
+Level        1
+Values       1000 5 9727 5 0 0
+End
+
+#OBJECT
+Vnum         9728
+Room         9711
+Rvnum        9711
+Level        1
+Values       1000 5 9729 5 0 0
+End
+
+#OBJECT
+Vnum         9730
+Room         9711
+Rvnum        9711
+Level        1
+Values       1000 5 9731 5 0 0
+End
+
+#OBJECT
+Vnum         9732
+Room         9711
+Rvnum        9711
+Level        1
+Values       1000 5 9733 5 0 0
+End
+
+#END

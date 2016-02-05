@@ -1,0 +1,22 @@
+#OBJECT
+Vnum         19005
+Room         19209
+Rvnum        19209
+Level        1
+End
+
+#OBJECT
+Vnum         19004
+Room         19209
+Rvnum        19209
+Level        1
+End
+
+#OBJECT
+Vnum         19003
+Room         19209
+Rvnum        19209
+Level        1
+End
+
+#END

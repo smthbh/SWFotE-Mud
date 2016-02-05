@@ -1,0 +1,84 @@
+Redid the makefile -loosely based on AFKmud's- =Keberus=
+Added in the new changes command =Keberus=
+Added in Trax and Samon's Dynamic Command Support =Keberus=
+Added in a modified version of Zarius' cmdhelps snippet =Keberus=
+Modfied Wait_state so imms dont have to =Keberus=                
+Modified add_timer so for imms the make"stuffs" happen very quickly =Keberus=
+Added in Zone Echo 'zecho' by Noplex =K=
+Added in the 'cedit savecmd' syntax in case others wish to look out the real save command =K=
+Added in Samson's new memory allocation macros =Keberus=
+Added in L. Peter Deutsch's and Samsons MD5 Password encryption =Keberus=
+Seperated Do_fun's, Spell_funs, and force skills into do_fun.h =Keberus= 
+Fixed a MAKE bug in act_move.c line 580 =Keberus=
+Added in Tawnos' ooc command snippet modified the cedit show so it says yes or no =Keberus=
+Cleaned and fixed, then added in Riketsu's grenade enhancement =K=
+Fixed a lot of known bugs from sites listed below =K= =T=
+Added in the proper headers in all the files plus a cool graphic =K=
+Added in plrbuglist and sysbuglist now you can see sysbugs or plrbugs online and clear the files (Idea from Xerves' ahelp) =K=
+Added in the new resets which makes resets independent of their respective areas and dependant on the room itself. =Trelar=
+Fixed the copyover function so that players and areas are automatically saved instead of having to force everyone. =T=
+Finished up most of the bugfixes from fote's website =T=
+Added in the buyship memfix =K=
+Wizlock now saves after copyovers =K=
+Got the "all" part of advance to finally work properly =K=
+Alphabetized the .c files in the Makefile order =K=
+Added in a slightly modified version of Jason Tift's FreeShip command =K=
+Added in the configurable compass code-fixed the spaceing =T=
+Made it so if your a higher level and invis peeps whom are lower cant see you on users =T=
+Made it so you have to be a higher level person than the person your trying to use makeimm on =T=
+Added in buzz and invite so you can buzz on someone's door and they can invite you in =K=
+Modified exempt command to toggle the exempt flag so people's pfiles can be deleted again =K=
+Put nplayer updating back in char_to_room and char_from_room so astat works properly =K=
+Fixed resetmesgs so they now properly work =K=
+Added in Trillen's Slave Snippet =T=
+Fixed Room Name Bleeding in do_exits =K=
+Added in Samson's corrected 2bil vnum snippet from Sadiq -set max for 500000 =K= 
+Applied new bugfixes from www.smaugfuss.org =K=
+Added in John Strange and Samson's version of newpassword so imms can change a players password in case they forget or are bad =K=
+Added in Cronel's Renumber Snippet and applied afkmuds way to handle the new resets =K=
+Expanded shipvnum.are to make it go from 100000 to 150000 =K=
+Fixed the bug with pfiles so it no longer counts home files =T & K=
+Added in Xerves' ahelp snippet to help identify commands/skills that need help files =K=
+Added in the debit card snippet from Odis and debitorder which allows you to get a debit card from the bank....for a fee =T=
+Added in Nuance's Split-S Skill =T=
+Added in Xerves' Logonhistory snippet =K=
+Fixed a bug with deleting the changes from the online changes list =K=
+Added in Trillen's New Tractorbeam snippet =T=
+Added in Samson's Slays Snippet =T=
+Added in Riketsu's Jetpack Snippet =T=
+Added in Samson and Matthew Bafford's Customizable Colors Snippet. **need to fix the commands so the colors work properly =K=
+Added in Zeos/AFK mud's fread_word "fix" =K=
+Applied Samson's new reset system fix for sprint_reset that bugged with nested listings =K=
+Removed the request pipe code (it didn't work anyways) =K=
+Removed all the area files in the building directory =K=
+Jacked functions.c from swfotefuss (Thanks Samson et all) =K=
+Consolidated help2.are and help.are to help.are =K=
+Redid and added in a much better version of slot machines =K=
+Fixed quite a few mem leaks thanks to http://www.mudplanet.net/bug_fixes/index.php =K=
+Upgraded to Samson's latest version of pfile scanning and such =K= =T=
+Added in Special arguments to do_pfile so you can now scan for forcers,or list certain letters of names  =T= =K= 
+Added in a way for imms to go into private rooms -level that they can is settable in cset- =T=
+Made OOC so invis imms don't show thier names anymore =T=
+Fixed setrank so you must have a clan =K=
+Added in a cset_help function that can be accessed by typing 'cset help' that lists what all arguments are and what they are for =K=
+Changed some and color coded cset so it looks much, much nicer in my opinion =K=
+Implemented Xerves' Furniture Code it seems to be working properly =K=
+Added in pcrename -Similar to FEAR's style- =K=
+Added in the piloting skill Chandelle =K=
+Redid the colors quite a bit....redid the colors command as well =K=
+Added in the properly coloring of everything thats customizable =K=
+Fixed a big problem that I hadn't noticed at first with new channel colorings =K=
+Set the default colors for new chars =K=
+Updated all credits files see 'help credits' and 'help fote' for more information =K=
+Added in cargo system that can be disabled via the makefile =T= =K=
+
+
+Thanks to the following sites for providing bugfixes
+----------------------------------------------------
+http://www.smaugfuss.org  (EXTREMELY useful for having listings of smaug/swr fixes and some swfote fixes as well)
+http://swfote.sourceforge.net  (VERY useful for swfote specific fixes)
+http://www.angelfire.com/vt/starmud/bugfix.html
+http://www.cs.utk.edu/~london/smaug/bugfix.html
+http://www.afkmud.com/sadiq/
+http://darkoth.kyndig.com/Code/smaugbugs.txt
+http://www.mudplanet.net/bug_fixes/index.php

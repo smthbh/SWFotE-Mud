@@ -1,0 +1,28 @@
+#OBJECT
+Vnum         4552
+Room         4579
+Rvnum        4579
+Level        1
+Values       20000 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4553
+Level        9
+Values       14 14 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         4562
+Level        9
+End
+
+#OBJECT
+Nest         1
+Vnum         4562
+Level        2
+End
+
+#END

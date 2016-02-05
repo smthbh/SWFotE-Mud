@@ -1,0 +1,55 @@
+**NOTE SW:Fote v2.1 has all bugfixes from www.smaugfuss.org, t-n-k-games.com, and swfote.sourceforge.net
+minus the memory macro reversions and shield wearloc "fix" from smaugfuss.org, and the destroy vassigned imms
+bugfix from swfote and t-n-k** Other than those three fixes this codebase is basically up to date with those sites
+as of 09-18-05
+
+
+SW:FotE v2.1 Bugfixes:
+------------------------
+Applied the custom slay loading fix by Keberus    
+Applied the mset clan fix by Keberus
+Applied mpsleep fix by Odis/Greven
+Applied fix for repeating channels by Keberus
+Applied fix for mset mob flags by Odis
+Applied fix for buyship crash bug by Keberus/Trelar
+Applied fix for players doing way too much damage by Keberus
+Applied fix for background colors by Keberus
+Applied fix for spell_smaug skills by Keberus/Samson
+Applied Setrank fix by Odis/Keberus
+Applied cedit command->funname fix by Odis
+Applied immune_casting checks fix by Zeno
+Applied do_get item duplication fix by Remcon
+Applied add_kill checks fix by GatewaySysop/Samson
+Applied fix for copyovered items possibly not retaing v4 or v5 values by Samson
+Applied fix for Rooms not being linked to their areas when first created by Remcon/Samson/Moonwolf 
+Applied fix for Attack and Defense types and pc_flag problems by Samson
+Applied fix for rdelete not fixing reverse exits by Samson/Remcon
+Applied fix for keypad support by Keberus
+Applied fix for setplanet import by Trelar/Keberus
+Applied fix for spell_obj_inv cloning by Samson
+Applied fix for rd_parse by Remcon
+Applied fix for save_clan possibly trying to close a null file by Remcon
+Applied fix for mob index AC check being backwards by Greven
+Applied fix for sedit letting someone rename a social using a name that's taken by Conner
+Applied fix for cedit letting someone rename a command using a name that's taken by Samson
+Applied a much better force_parse_string fix by Samson
+Fixed the makefile a bit more ..it was erroring in Linux
+Fixed a few problems with exempt and level checking in pfiles
+Uploaded a slay.dat file that works properly the other one crashed the mud when it was trying to be read in
+ 
+
+SW:FotE v2.1 Non Bugfix Alterations:
+-------------------------------------
+Made the mud cygwin compatible (including copyover)
+Added back in the command do_exempt
+Added in the rankset command for imms
+Fixed the background color syntax in do_inquire, do_codecrack, do_disableship, do_assignpilot, and do_slicebank
+Renamed bufblah and bufblahblah, and moved them to the top to stop errors with certain compilers
+Made sure User was exempt from deletion this time
+
+
+**NOTE SW:Fote v2.1 has all bugfixes from www.smaugfuss.org, t-n-k-games.com, and swfote.sourceforge.net
+minus the memory macro reversions and shield wearloc "fix" from smaugfuss.org, and the destroy vassigned imms
+bugfix from swfote and t-n-k** Other than those three fixes this codebase is basically up to date with those sites
+as of 09-18-05
+

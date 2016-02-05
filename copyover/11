@@ -1,0 +1,16 @@
+#OBJECT
+Vnum         75
+Room         11
+Rvnum        11
+Level        1
+Values       1000 1000 1 0 0 0
+End
+
+#OBJECT
+Vnum         76
+Room         11
+Rvnum        11
+Level        1
+End
+
+#END

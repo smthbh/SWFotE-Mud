@@ -1,0 +1,86 @@
+Non-bugfix stuff
+----------------
+Removed id.c and start_auth from comm.c (Apparently it's not needed)
+Removed rassign, oassign, and massign (replaced with a good vassign)
+Installed new vassign with a lot of checks to make sure vnums didn't overlap (By Samson)
+Fixed toplevel reading in pfiles, also free'd name and clan before return
+Fixed a whole slew of memory leaks in free_char in db.c
+Upgraded the way specfuns are saved/loaded in (check special.c for more details) [Taken from SW:FotEFUSS]
+Added in relation data so 'oset <vnum> on' and 'mset <vnum> on' now work again [Taken from SW:FotEFUSS]
+Removed extra port crap that was unnecessary (conclient, conjava, control2 stuff) [Keberus]
+Resources now save/load for a planet regarldess [eliminates the error and makes turning it on/off easier [Keberus]
+Added in my strip_color function and changed is_name2 and is_name2_prefix to use it as a last resort [Keberus]
+Got cargo working properly (at least I hope)
+Added in my makesimulator command
+Added showing starsystem in showplanet
+Attached planet Coruscant to Starsystem Courscant
+Added in the commands transmit[status/broadcast/call/pass] (which were there but not cedited in)
+Swapped the white and grey color codes
+Applied RapidRunners ostat enhancement for Furniture
+Added in all of the other blinking colors [From smaugfuss site]
+
+All of these fixes came from www.smaugfuss.org --Thanks to Samson et all
+**Note: The name in [] are the one(s) who came up with the fix**
+-------------
+Applied fix: Aset command does not validate input for vnum ranges [Remcon]
+Applied fix: Compile failure on 64-bit systems [Samson]
+Applied fix: mptransfer and transfer commands have infinite loop problems [Samson]
+Applied fix: load_char allows PCs to load with a vnum assigned [Samson]
+Applied fix: Bestow command handles arguments improperly [Remcon]
+Applied fix: strip_cr function has no protection against NULL strings [Samson]
+Applied fix: Ships with no clan cause problems when the protype is made [ZeonAdmiral/Keberus]
+Applied fix: Prototype check in mset command can crash the game [Qidexan/Samson]
+Applied fix: Contents in containers do not reset properly or at all [Samson]
+Applied fix: Line editor input not consistent with file I/O behaviour [Samson]
+Applied fix: Object vnum ifchecks are not recognizing multiple objects [Caius]
+Applied fix: config +vnum only works if config +roomflags is also on [Halcyon]
+Applied fix: Spell immunity checks are not working properly [Samson]
+Applied fix: Trap flags are not ordered right, missing some entries [Remcon]
+Applied fix: Error message in save.c using wrong string variable [Remcon]
+Applied fix: The bug function is susceptible to infinite looping [Remcon]
+Applied fix: Pfiles can cause infinite loops if corrupted [Samson]
+Applied fix: Scan allows blinded players to "see" with it [Halcyon]
+Applied fix: Alignment drop in murder command is not validated [Halcyon]
+Applied fix: Using mudprog editor while in a relation lock causes a crash. [Halcyon]
+Applied fix: Objects may lose data when saved [Remcon]
+Applied fix: Help editor allows NULL topic string to be edited [The Smaug Devs]
+Applied fix: Grenades explode in the wrong room [Halcyon]
+Applied fix: Explosion message spams one person over and over (not really a fix, just a diff way) [Halcyon]
+Applied fix: Smuggled objects are not being handled properly [Halcyon]
+Applied fix: Mobs can wander and flee through window exits [Remcon]
+Applied fix: Damage message displays incorrect message [Remcon]
+Applied fix: rpedit command has wrong syntax options [RapidRunner]
+Applied fix: Extracting mounted NPCs resets the wrong bit flag [Kiasyn]
+Applied fix: Mobs will ignore nomob flag in rooms when moving [Remcon]
+Applied fix: Any clan leader can outcast any member [Remcon]
+Applied fix: Action descriptions will reveal invisible players [Remcon]
+Applied fix: one_argument smashes case on all things it processes [Samson]
+Applied fix: do_exits does not check darkness before displaying the exits [Banner]
+Applied fix: File security issues in multiple modules [Samson/Remcon]
+
+
+All the fixes below came from swfote.sourceforge.net (Thanks Tawnos et all)
+**Note: The name in [] are the one(s) who came up with the fix**
+------------
+Applied fix: Ship chaffs messed up a bit [Keberus]
+Applied fix: M/R/O prog_wordlist_check [Matteo]
+Applied fix: Possibly fake bug messages when loading ship modules [Keberus]
+Applied fix: vassigned imms crashing the mud when destroyed [Keberus]
+Applied fix: Cedit doesn't check commands properly [Keberus]
+Applied fix: Ship data not freed when they are destroyed [Keberus]
+Applied fix: Cset not free'ing a few variables correctly [RapidRunner]
+Applied fix: Oset and Mset allow you to set blank names and short_desc's [RapidRunner]
+Applied fix: 'aset name' and 'aset filename' allow you to set the values as empty [RapidRunner]
+Applied fix: Setstarsystem allows you to set planet names that don't exist [Keberus/RapidRunner]
+Applied fix: Spell Smaug skills don't show any message [Keberus]
+Applied fix: Pfiles letter crashes when using capital letters [Keberus]
+Applied fix: Fixing a shipdrive in space [Michael Dracul]
+Applied fix: Commands not saving ooc settings [Keberus]
+
+
+For those who are anal retentive here are the few on smaugfuss that were already in:
+-------------
+Pfile cleanup not working properly [Keberus]
+Memory leak in setrank command [Odis]
+Crash when certain ships are bought [Keberus/Trelar]
+mpsleep code is not working properly in some cases [Greven/Odis]

@@ -1,0 +1,2239 @@
+; dlltool --export-all --output-def ../bin/cygwin/swr.def o/11.o o/act_comm.o o/act_info.o o/act_move.o o/act_obj.o o/act_wiz.o o/boards.o o/bounty.o o/build.o o/changes.o o/clans.o o/color.o o/comm.o o/comments.o o/const.o o/db.o o/editor.o o/fight.o o/finfo.o o/force.o o/fskills.o o/functions.o o/handler.o o/hashstr.o o/hunter.o o/id.o o/interp.o o/magic.o o/makeobjs.o o/marriage.o o/md5.o o/misc.o o/mud_comm.o o/mud_prog.o o/newarena.o o/pfiles.o o/planets.o o/player.o o/renumber.o o/reset.o o/save.o o/ships.o o/shops.o o/skills.o o/slay.o o/slicers.o o/slotm.o o/space.o o/special.o o/swskills.o o/tables.o o/tech.o o/track.o o/update.o
+EXPORTS
+	xp_compute @ 1
+	DelOExtraProto @ 2
+	DelRExtra @ 3
+	MOBtrigger @ 4 DATA
+	NUM_PROTOTYPES @ 5 DATA
+	PERS @ 6
+	SetOExtra @ 7
+	SetOExtraProto @ 8
+	SetRExtra @ 9
+	a_flags @ 10 DATA
+	a_types @ 11 DATA
+	ability_name @ 12 DATA
+	accept_new @ 13
+	acctname @ 14
+	act @ 15
+	act_flags @ 16 DATA
+	act_string @ 17
+	actiondesc @ 18
+	add_char @ 19
+	add_command @ 20
+	add_follower @ 21
+	add_help @ 22
+	add_kill @ 23
+	add_market_ship @ 24
+	add_member @ 25
+	add_obj_reset @ 26
+	add_reinforcements @ 27
+	add_reset @ 28
+	add_social @ 29
+	add_timer @ 30
+	add_to_wizlist @ 31
+	advance_level @ 32
+	advatoi @ 33
+	affect_bit_name @ 34
+	affect_join @ 35
+	affect_loc_name @ 36
+	affect_modify @ 37
+	affect_remove @ 38
+	affect_strip @ 39
+	affect_to_char @ 40
+	aggr_update @ 41
+	align_compute @ 42
+	aoran @ 43
+	append_file @ 44
+	append_to_file @ 45
+	apply_ac @ 46
+	appraise_all @ 47
+	area_flags @ 48 DATA
+	area_update @ 49
+	arena_pot @ 50 DATA
+	assign_area @ 51
+	attack_flags @ 52 DATA
+	attack_table @ 53 DATA
+	auction @ 54 DATA
+	auction_update @ 55
+	auth_update @ 56
+	autofly @ 57
+	barena @ 58 DATA
+	bet_pot @ 59 DATA
+	better_mental_state @ 60
+	bfs_clear_queue @ 61
+	bfs_dequeue @ 62
+	bfs_enqueue @ 63
+	blaha @ 64 DATA
+	bname @ 65 DATA
+	boost_economy @ 66
+	boot_db @ 67
+	boot_log @ 68
+	boot_time @ 69 DATA
+	bsearch_skill @ 70
+	bsearch_skill_exact @ 71
+	bug @ 72
+	bug_buf @ 73 DATA
+	build_name @ 74 DATA
+	bus2_planet @ 75 DATA
+	bus3_planet @ 76 DATA
+	bus4_planet @ 77 DATA
+	bus_planet @ 78 DATA
+	bus_pos @ 79 DATA
+	bus_stop @ 80 DATA
+	bus_vnum @ 81 DATA
+	calcslots @ 82
+	can_carry_n @ 83
+	can_carry_w @ 84
+	can_drop_obj @ 85
+	can_dual @ 86
+	can_layer @ 87
+	can_learn_lang @ 88
+	can_medit @ 89
+	can_mmodify @ 90
+	can_oedit @ 91
+	can_omodify @ 92
+	can_post @ 93
+	can_read @ 94
+	can_remove @ 95
+	can_rmodify @ 96
+	can_see @ 97
+	can_see_obj @ 98
+	can_take_proto @ 99
+	capitalize @ 100
+	cargo_names @ 101 DATA
+	centertext @ 102
+	ch_bsearch_skill @ 103
+	ch_printf @ 104
+	ch_printf_color @ 105
+	ch_slookup @ 106
+	cha_app @ 107 DATA
+	chance @ 108
+	chance_attrib @ 109
+	change_justify @ 110
+	changes_table @ 111 DATA
+	char_check @ 112
+	char_died @ 113
+	char_from_room @ 114
+	char_to_room @ 115
+	char_update @ 116
+	check_bad_desc @ 117
+	check_blind @ 118
+	check_dodge @ 119
+	check_for_trap @ 120
+	check_force_skill @ 121
+	check_grip @ 122
+	check_hash @ 123
+	check_illegal_psteal @ 124
+	check_killer @ 125
+	check_multi @ 126
+	check_parry @ 127
+	check_parse_name @ 128
+	check_pfiles @ 129
+	check_pilot @ 130
+	check_playing @ 131
+	check_pos @ 132
+	check_reconnect @ 133
+	check_reflect @ 134
+	check_room_for_traps @ 135
+	check_save @ 136
+	check_skill @ 137
+	check_social @ 138
+	check_vnums @ 139
+	checkslots @ 140
+	chrmax @ 141
+	circle_follow @ 142
+	claim_disintegration @ 143
+	clean_char_queue @ 144
+	clean_mob @ 145
+	clean_obj @ 146
+	clean_obj_queue @ 147
+	clean_resets @ 148
+	clean_room @ 149
+	clean_room_queue @ 150
+	clear_char @ 151
+	clear_vrooms @ 152
+	clone_editdata @ 153
+	clone_object @ 154
+	close_area @ 155
+	close_socket @ 156
+	color_align @ 157
+	color_str @ 158
+	color_str_len @ 159
+	color_strnlen @ 160
+	colorcode @ 161
+	command_hash @ 162 DATA
+	comment_remove @ 163
+	con_app @ 164 DATA
+	conclient @ 165 DATA
+	conjava @ 166 DATA
+	const_color_align @ 167
+	const_color_str_len @ 168
+	const_color_strnlen @ 169
+	control @ 170 DATA
+	control2 @ 171 DATA
+	copy_buffer @ 172
+	copy_files_contents @ 173
+	copyover_recover @ 174
+	corpse_descs @ 175 DATA
+	corus_shuttle @ 176 DATA
+	could_dual @ 177
+	count_obj_list @ 178
+	count_users @ 179
+	countlangs @ 180
+	create_mobile @ 181
+	create_money @ 182
+	create_object @ 183
+	crystal_table @ 184 DATA
+	cset_help @ 185
+	cur_char @ 186 DATA
+	cur_char_died @ 187 DATA
+	cur_obj @ 188 DATA
+	cur_obj_extracted @ 189 DATA
+	cur_obj_serial @ 190 DATA
+	cur_qchars @ 191 DATA
+	cur_qobjs @ 192 DATA
+	cur_room @ 193 DATA
+	current_date @ 194
+	current_mpsleep @ 195 DATA
+	current_time @ 196 DATA
+	d_corpse_descs @ 197 DATA
+	d_next @ 198 DATA
+	dam_message @ 199
+	damage @ 200
+	damage_obj @ 201
+	damage_ship @ 202
+	damage_ship_ch @ 203
+	damage_ship_ch_ion @ 204
+	day_name @ 205 DATA
+	days @ 206 DATA
+	de_equip_char @ 207
+	death_cry @ 208
+	decorate_room @ 209
+	default_prompt @ 210
+	default_set @ 211 DATA
+	defense_flags @ 212 DATA
+	delete_change @ 213
+	delete_mob @ 214
+	delete_obj @ 215
+	delete_reset @ 216
+	delete_room @ 217
+	deleted @ 218 DATA
+	destroy_ship @ 219
+	dex_app @ 220 DATA
+	dice @ 221
+	dice_parse @ 222
+	die_follower @ 223
+	dir_name @ 224 DATA
+	disable @ 225 DATA
+	disarm @ 226
+	discard_editdata @ 227
+	disintegration @ 228
+	display_prompt @ 229
+	do_aaccept @ 230
+	do_aassign @ 231
+	do_accelerate @ 232
+	do_accept @ 233
+	do_add_patrol @ 234
+	do_addbounty @ 235
+	do_addchange @ 236
+	do_addpilot @ 237
+	do_addsenator @ 238
+	do_adecline @ 239
+	do_advance @ 240
+	do_affected @ 241
+	do_afk @ 242
+	do_ahall @ 243
+	do_ahelp @ 244
+	do_aid @ 245
+	do_allow @ 246
+	do_allships @ 247
+	do_allspeeders @ 248
+	do_ambush @ 249
+	do_ammo @ 250
+	do_ansi @ 251
+	do_answer @ 252
+	do_apply @ 253
+	do_appoint @ 254
+	do_appraise @ 255
+	do_areas @ 256
+	do_arena @ 257
+	do_arm @ 258
+	do_aset @ 259
+	do_ask @ 260
+	do_assignpilot @ 261
+	do_astat @ 262
+	do_at @ 263
+	do_auction @ 264
+	do_authorize @ 265
+	do_autopilot @ 266
+	do_autorecharge @ 267
+	do_autotrack @ 268
+	do_avtalk @ 269
+	do_awho @ 270
+	do_backstab @ 271
+	do_backup @ 272
+	do_balzhur @ 273
+	do_bamfin @ 274
+	do_bamfout @ 275
+	do_ban @ 276
+	do_bank @ 277
+	do_barrel_roll @ 278
+	do_bash @ 279
+	do_bashdoor @ 280
+	do_battle_command @ 281
+	do_beep @ 282
+	do_beg @ 283
+	do_berserk @ 284
+	do_bestow @ 285
+	do_bestowarea @ 286
+	do_bet @ 287
+	do_bind @ 288
+	do_bio @ 289
+	do_bite @ 290
+	do_board @ 291
+	do_boards @ 292
+	do_bodybag @ 293
+	do_bomb @ 294
+	do_bounties @ 295
+	do_brandish @ 296
+	do_brew @ 297
+	do_bribe @ 298
+	do_bset @ 299
+	do_bstat @ 300
+	do_bug @ 301
+	do_bury @ 302
+	do_buy @ 303
+	do_buyhome @ 304
+	do_buymobship @ 305
+	do_buyship @ 306
+	do_buytroops @ 307
+	do_buzz @ 308
+	do_calculate @ 309
+	do_capture @ 310
+	do_cast @ 311
+	do_cedit @ 312
+	do_chaff @ 313
+	do_challenge @ 314
+	do_chandelle @ 315
+	do_changes @ 316
+	do_channels @ 317
+	do_chaos @ 318
+	do_chat @ 319
+	do_check_vnums @ 320
+	do_checkbeacons @ 321
+	do_checkprints @ 322
+	do_checkwar @ 323
+	do_chedit @ 324
+	do_circle @ 325
+	do_clan_donate @ 326
+	do_clan_withdraw @ 327
+	do_clanbuyship @ 328
+	do_clanbuytroops @ 329
+	do_clangiveship @ 330
+	do_clans @ 331
+	do_clansalvage @ 332
+	do_clanstat @ 333
+	do_clantalk @ 334
+	do_claw @ 335
+	do_cleanroom @ 336
+	do_climb @ 337
+	do_clone @ 338
+	do_close @ 339
+	do_closebay @ 340
+	do_closehatch @ 341
+	do_cmdtable @ 342
+	do_codecrack @ 343
+	do_color @ 344
+	do_commands @ 345
+	do_comment @ 346
+	do_compare @ 347
+	do_concealment @ 348
+	do_config @ 349
+	do_consider @ 350
+	do_contract @ 351
+	do_copyover @ 352
+	do_copyship @ 353
+	do_credits @ 354
+	do_cset @ 355
+	do_cut @ 356
+	do_debitorder @ 357
+	do_deception @ 358
+	do_decline @ 359
+	do_demote @ 360
+	do_deny @ 361
+	do_describe @ 362
+	do_description @ 363
+	do_destro @ 364
+	do_destroy @ 365
+	do_detrap @ 366
+	do_dig @ 367
+	do_disableship @ 368
+	do_disarm @ 369
+	do_disarmgrenade @ 370
+	do_disconnect @ 371
+	do_disguise @ 372
+	do_dismount @ 373
+	do_divorce @ 374
+	do_dmesg @ 375
+	do_down @ 376
+	do_drag @ 377
+	do_drink @ 378
+	do_drive @ 379
+	do_drop @ 380
+	do_droptroops @ 381
+	do_dualstab @ 382
+	do_east @ 383
+	do_eat @ 384
+	do_echo @ 385
+	do_elite_guard @ 386
+	do_email @ 387
+	do_emote @ 388
+	do_empower @ 389
+	do_empty @ 390
+	do_end_game @ 391
+	do_endsimulator @ 392
+	do_enlist @ 393
+	do_enter @ 394
+	do_equipment @ 395
+	do_examine @ 396
+	do_exempt @ 397
+	do_exits @ 398
+	do_feed @ 399
+	do_fhset @ 400
+	do_fhstat @ 401
+	do_fill @ 402
+	do_fire @ 403
+	do_first_aid @ 404
+	do_fixchar @ 405
+	do_flee @ 406
+	do_fly @ 407
+	do_foldarea @ 408
+	do_follow @ 409
+	do_for @ 410
+	do_force @ 411
+	do_forceclose @ 412
+	do_fquit @ 413
+	do_freeship @ 414
+	do_freeze @ 415
+	do_fset @ 416
+	do_fslay @ 417
+	do_fstat @ 418
+	do_gag @ 419
+	do_game @ 420
+	do_gather_intelligence @ 421
+	do_gatherclans @ 422
+	do_gemcutting @ 423
+	do_generate_market @ 424
+	do_get @ 425
+	do_give @ 426
+	do_giveship @ 427
+	do_giveslug @ 428
+	do_glance @ 429
+	do_gocial @ 430
+	do_gold @ 431
+	do_goto @ 432
+	do_gouge @ 433
+	do_group @ 434
+	do_gtell @ 435
+	do_guilds @ 436
+	do_guildtalk @ 437
+	do_hail @ 438
+	do_hale @ 439
+	do_hedit @ 440
+	do_hell @ 441
+	do_help @ 442
+	do_hide @ 443
+	do_hijack @ 444
+	do_hitall @ 445
+	do_hlist @ 446
+	do_holonet @ 447
+	do_holylight @ 448
+	do_homepage @ 449
+	do_hset @ 450
+	do_hyperspace @ 451
+	do_i103 @ 452
+	do_i104 @ 453
+	do_i105 @ 454
+	do_ide @ 455
+	do_idea @ 456
+	do_idealog @ 457
+	do_immortalize @ 458
+	do_immtalk @ 459
+	do_imports @ 460
+	do_induct @ 461
+	do_info @ 462
+	do_inquire @ 463
+	do_installarea @ 464
+	do_installmodule @ 465
+	do_instaroom @ 466
+	do_instazone @ 467
+	do_introduce @ 468
+	do_inventory @ 469
+	do_invis @ 470
+	do_invite @ 471
+	do_jail @ 472
+	do_juke @ 473
+	do_jumpvector @ 474
+	do_keypad @ 475
+	do_kick @ 476
+	do_kill @ 477
+	do_land @ 478
+	do_languages @ 479
+	do_last @ 480
+	do_launch @ 481
+	do_launch2 @ 482
+	do_leave @ 483
+	do_leaveship @ 484
+	do_level @ 485
+	do_light @ 486
+	do_link @ 487
+	do_list @ 488
+	do_litterbug @ 489
+	do_load @ 490
+	do_load_cargo @ 491
+	do_loadarea @ 492
+	do_loadup @ 493
+	do_lock @ 494
+	do_log @ 495
+	do_look @ 496
+	do_low_purge @ 497
+	do_mailroom @ 498
+	do_make @ 499
+	do_make_master @ 500
+	do_makearmor @ 501
+	do_makebeacon @ 502
+	do_makebinders @ 503
+	do_makeblade @ 504
+	do_makeblaster @ 505
+	do_makeboard @ 506
+	do_makebug @ 507
+	do_makeclan @ 508
+	do_makecomlink @ 509
+	do_makecommsystem @ 510
+	do_makecontainer @ 511
+	do_makedatapad @ 512
+	do_makeduallightsaber @ 513
+	do_makefree @ 514
+	do_makegoggles @ 515
+	do_makegrenade @ 516
+	do_makejetpack @ 517
+	do_makejewelry @ 518
+	do_makelandmine @ 519
+	do_makelight @ 520
+	do_makelightsaber @ 521
+	do_makemissile @ 522
+	do_makemobship @ 523
+	do_makemodule @ 524
+	do_makepike @ 525
+	do_makeplanet @ 526
+	do_makeprototypeship @ 527
+	do_makerepair @ 528
+	do_makeshield @ 529
+	do_makeship @ 530
+	do_makeshipbomb @ 531
+	do_makeshop @ 532
+	do_makesimulator @ 533
+	do_makeslay @ 534
+	do_makespice @ 535
+	do_makestarsystem @ 536
+	do_makewizlist @ 537
+	do_marry @ 538
+	do_mass_propeganda @ 539
+	do_massign @ 540
+	do_mcreate @ 541
+	do_mdelete @ 542
+	do_members @ 543
+	do_memory @ 544
+	do_mfind @ 545
+	do_mine @ 546
+	do_minvoke @ 547
+	do_mlist @ 548
+	do_mobrepair @ 549
+	do_mount @ 550
+	do_mp_close_passage @ 551
+	do_mp_damage @ 552
+	do_mp_deposit @ 553
+	do_mp_open_passage @ 554
+	do_mp_practice @ 555
+	do_mp_restore @ 556
+	do_mp_slay @ 557
+	do_mp_withdraw @ 558
+	do_mpadvance @ 559
+	do_mpapply @ 560
+	do_mpapplyb @ 561
+	do_mpasound @ 562
+	do_mpat @ 563
+	do_mpdream @ 564
+	do_mpecho @ 565
+	do_mpechoaround @ 566
+	do_mpechoat @ 567
+	do_mpedit @ 568
+	do_mpforce @ 569
+	do_mpgain @ 570
+	do_mpgoto @ 571
+	do_mpinvis @ 572
+	do_mpjunk @ 573
+	do_mpkill @ 574
+	do_mpmload @ 575
+	do_mpnothing @ 576
+	do_mpoload @ 577
+	do_mppkset @ 578
+	do_mppurge @ 579
+	do_mpstat @ 580
+	do_mptransfer @ 581
+	do_mrange @ 582
+	do_mset @ 583
+	do_mstat @ 584
+	do_murde @ 585
+	do_murder @ 586
+	do_music @ 587
+	do_mwhere @ 588
+	do_name @ 589
+	do_newbiechat @ 590
+	do_newbieset @ 591
+	do_newclan @ 592
+	do_newexits @ 593
+	do_newpassword @ 594
+	do_newzones @ 595
+	do_noemote @ 596
+	do_noresolve @ 597
+	do_north @ 598
+	do_northeast @ 599
+	do_northwest @ 600
+	do_note @ 601
+	do_notell @ 602
+	do_noteroom @ 603
+	do_notitle @ 604
+	do_nullifybeacons @ 605
+	do_oassign @ 606
+	do_ocreate @ 607
+	do_odelete @ 608
+	do_ofind @ 609
+	do_oinvoke @ 610
+	do_oldmstat @ 611
+	do_oldreply @ 612
+	do_oldscore @ 613
+	do_oldtell @ 614
+	do_olist @ 615
+	do_ooc @ 616
+	do_opedit @ 617
+	do_open @ 618
+	do_openbay @ 619
+	do_openhatch @ 620
+	do_opstat @ 621
+	do_orange @ 622
+	do_order @ 623
+	do_orderclanship @ 624
+	do_orders @ 625
+	do_ordership @ 626
+	do_ordertalk @ 627
+	do_oset @ 628
+	do_ostat @ 629
+	do_ot @ 630
+	do_outcast @ 631
+	do_outlaw @ 632
+	do_owhere @ 633
+	do_pager @ 634
+	do_pardon @ 635
+	do_password @ 636
+	do_pcrename @ 637
+	do_peace @ 638
+	do_pfiles @ 639
+	do_pick @ 640
+	do_pickshiplock @ 641
+	do_planets @ 642
+	do_plantbeacon @ 643
+	do_plantbug @ 644
+	do_playslots @ 645
+	do_plrbuglist @ 646
+	do_pluogus @ 647
+	do_poison_weapon @ 648
+	do_postguard @ 649
+	do_practice @ 650
+	do_prompt @ 651
+	do_propeganda @ 652
+	do_propose @ 653
+	do_prototypes @ 654
+	do_pull @ 655
+	do_punch @ 656
+	do_purge @ 657
+	do_push @ 658
+	do_put @ 659
+	do_quaff @ 660
+	do_quest @ 661
+	do_qui @ 662
+	do_quit @ 663
+	do_radar @ 664
+	do_rank @ 665
+	do_rankset @ 666
+	do_rassign @ 667
+	do_rat @ 668
+	do_rdelete @ 669
+	do_reboo @ 670
+	do_reboot @ 671
+	do_recall @ 672
+	do_recharge @ 673
+	do_recho @ 674
+	do_recite @ 675
+	do_redit @ 676
+	do_refuel @ 677
+	do_regoto @ 678
+	do_reinforcements @ 679
+	do_reload @ 680
+	do_rembounty @ 681
+	do_remclan @ 682
+	do_remcontract @ 683
+	do_remember @ 684
+	do_remove @ 685
+	do_removebug @ 686
+	do_removemodule @ 687
+	do_removeship @ 688
+	do_rempilot @ 689
+	do_remsenator @ 690
+	do_remslay @ 691
+	do_rent @ 692
+	do_renumber @ 693
+	do_repair @ 694
+	do_repairset @ 695
+	do_repairshops @ 696
+	do_repairstat @ 697
+	do_reply @ 698
+	do_report @ 699
+	do_request @ 700
+	do_rescue @ 701
+	do_reset @ 702
+	do_resetship @ 703
+	do_resign @ 704
+	do_rest @ 705
+	do_restore @ 706
+	do_restorefile @ 707
+	do_restoretime @ 708
+	do_restrict @ 709
+	do_retire @ 710
+	do_retran @ 711
+	do_retreat @ 712
+	do_retune @ 713
+	do_return @ 714
+	do_revert @ 715
+	do_reward @ 716
+	do_rip @ 717
+	do_rlist @ 718
+	do_rpconvert @ 719
+	do_rpedit @ 720
+	do_rpstat @ 721
+	do_rset @ 722
+	do_rstat @ 723
+	do_sabotage @ 724
+	do_sacrifice @ 725
+	do_salvage @ 726
+	do_save @ 727
+	do_savearea @ 728
+	do_say @ 729
+	do_scan @ 730
+	do_scanbugs @ 731
+	do_score @ 732
+	do_screenname @ 733
+	do_scribe @ 734
+	do_search @ 735
+	do_sedit @ 736
+	do_seduce @ 737
+	do_sell @ 738
+	do_sellhome @ 739
+	do_sellship @ 740
+	do_senate @ 741
+	do_set_boot_time @ 742
+	do_setblaster @ 743
+	do_setclan @ 744
+	do_setinfrared @ 745
+	do_setplanet @ 746
+	do_setrank @ 747
+	do_setship @ 748
+	do_setslay @ 749
+	do_setstarsystem @ 750
+	do_setwage @ 751
+	do_shiplist @ 752
+	do_shiplock @ 753
+	do_shipmaintenance @ 754
+	do_shiprepair @ 755
+	do_ships @ 756
+	do_shipstat @ 757
+	do_shiptalk @ 758
+	do_shops @ 759
+	do_shopset @ 760
+	do_shopstat @ 761
+	do_shout @ 762
+	do_shove @ 763
+	do_showbeacons @ 764
+	do_showbugs @ 765
+	do_showclan @ 766
+	do_showcontracts @ 767
+	do_showmodules @ 768
+	do_showplanet @ 769
+	do_showship @ 770
+	do_showslay @ 771
+	do_showsocial @ 772
+	do_showstarsystem @ 773
+	do_shutdow @ 774
+	do_shutdown @ 775
+	do_silence @ 776
+	do_sit @ 777
+	do_sla @ 778
+	do_slay @ 779
+	do_sleep @ 780
+	do_slice @ 781
+	do_slicebank @ 782
+	do_slist @ 783
+	do_slog @ 784
+	do_slookup @ 785
+	do_smalltalk @ 786
+	do_smoke @ 787
+	do_sneak @ 788
+	do_snipe @ 789
+	do_snoop @ 790
+	do_sober @ 791
+	do_socials @ 792
+	do_sound @ 793
+	do_south @ 794
+	do_southeast @ 795
+	do_southwest @ 796
+	do_spacetalk @ 797
+	do_speak @ 798
+	do_special_forces @ 799
+	do_speeders @ 800
+	do_split @ 801
+	do_split_s @ 802
+	do_spousetalk @ 803
+	do_sset @ 804
+	do_stand @ 805
+	do_starsystems @ 806
+	do_status @ 807
+	do_std @ 808
+	do_steal @ 809
+	do_sting @ 810
+	do_stun @ 811
+	do_suicide @ 812
+	do_switch @ 813
+	do_sysbuglist @ 814
+	do_systemtalk @ 815
+	do_tail @ 816
+	do_takedrug @ 817
+	do_tamp @ 818
+	do_target @ 819
+	do_teach @ 820
+	do_tell @ 821
+	do_tellsnoop @ 822
+	do_throw @ 823
+	do_time @ 824
+	do_timecmd @ 825
+	do_title @ 826
+	do_torture @ 827
+	do_track @ 828
+	do_tractorbeam @ 829
+	do_train @ 830
+	do_trajectory @ 831
+	do_transfer @ 832
+	do_transmit_broadcast @ 833
+	do_transmit_call @ 834
+	do_transmit_pass @ 835
+	do_transmit_status @ 836
+	do_transship @ 837
+	do_transshipss @ 838
+	do_trust @ 839
+	do_tune @ 840
+	do_typo @ 841
+	do_typoslist @ 842
+	do_unbind @ 843
+	do_ungag @ 844
+	do_unhell @ 845
+	do_unlink @ 846
+	do_unload @ 847
+	do_unload_cargo @ 848
+	do_unlock @ 849
+	do_unoutlaw @ 850
+	do_unsilence @ 851
+	do_up @ 852
+	do_use @ 853
+	do_users @ 854
+	do_value @ 855
+	do_vassign @ 856
+	do_viewskills @ 857
+	do_visible @ 858
+	do_vnums @ 859
+	do_vsearch @ 860
+	do_wake @ 861
+	do_war @ 862
+	do_wartalk @ 863
+	do_wear @ 864
+	do_weather @ 865
+	do_west @ 866
+	do_where @ 867
+	do_whisper @ 868
+	do_who @ 869
+	do_whoinvis @ 870
+	do_whois @ 871
+	do_wimpy @ 872
+	do_wizhelp @ 873
+	do_wizlist @ 874
+	do_wizlock @ 875
+	do_wwwimage @ 876
+	do_yell @ 877
+	do_zap @ 878
+	do_zecho @ 879
+	do_zones @ 880
+	draw_force_line @ 881
+	draw_force_line_rev @ 882
+	drawalign @ 883
+	drawlife @ 884
+	drawmove @ 885
+	drive_ship @ 886
+	droid_name @ 887 DATA
+	drunk_randoms @ 888
+	drunk_speech @ 889
+	dual_flip @ 890 DATA
+	echo_off_str @ 891 DATA
+	echo_on_str @ 892 DATA
+	echo_to_all @ 893
+	echo_to_cockpit @ 894
+	echo_to_room @ 895
+	echo_to_room_dnr @ 896
+	echo_to_ship @ 897
+	echo_to_system @ 898
+	economize_mobgold @ 899
+	economy_has @ 900
+	edit_buffer @ 901
+	editdata_to_str @ 902
+	editor_abort @ 903
+	editor_clear_buf @ 904
+	editor_delete_line @ 905
+	editor_desc_printf @ 906
+	editor_escaped_cmd @ 907
+	editor_format_lines @ 908
+	editor_goto_line @ 909
+	editor_help @ 910
+	editor_insert_line @ 911
+	editor_list @ 912
+	editor_print_info @ 913
+	editor_save @ 914
+	editor_search_and_replace @ 915
+	empty_obj @ 916
+	encumbrance @ 917
+	end_timer @ 918
+	equip_char @ 919
+	ex_flags @ 920 DATA
+	exc_set @ 921 DATA
+	exit_comp @ 922
+	exp_level @ 923
+	explode @ 924
+	explode_emissile @ 925
+	extra_bit_name @ 926
+	extract_area_names @ 927
+	extract_char @ 928
+	extract_exit @ 929
+	extract_missile @ 930
+	extract_obj @ 931
+	extract_room @ 932
+	extract_ship @ 933
+	extract_timer @ 934
+	extracted_char_queue @ 935 DATA
+	extracted_obj_queue @ 936 DATA
+	fBootDb @ 937 DATA
+	fLogAll @ 938 DATA
+	fLogPC @ 939 DATA
+	failed_casting @ 940
+	falling @ 941 DATA
+	fame_list @ 942 DATA
+	file_ver @ 943 DATA
+	find_area @ 944
+	find_bet_winners @ 945
+	find_board @ 946
+	find_command @ 947
+	find_door @ 948
+	find_first_step @ 949
+	find_fixer @ 950
+	find_game_winner @ 951
+	find_keeper @ 952
+	find_location @ 953
+	find_obj @ 954
+	find_oreset @ 955
+	find_quill @ 956
+	find_skill @ 957
+	find_social @ 958
+	find_spell @ 959
+	find_tongue @ 960
+	find_translation @ 961
+	find_vnum_block @ 962
+	find_weapon @ 963
+	finer_one_argument @ 964
+	first_area @ 965 DATA
+	first_asort @ 966 DATA
+	first_ban @ 967 DATA
+	first_board @ 968 DATA
+	first_bounty @ 969 DATA
+	first_bsort @ 970 DATA
+	first_build @ 971 DATA
+	first_char @ 972 DATA
+	first_clan @ 973 DATA
+	first_descriptor @ 974 DATA
+	first_disintegration @ 975 DATA
+	first_force_help @ 976 DATA
+	first_force_skill @ 977 DATA
+	first_guard @ 978 DATA
+	first_help @ 979 DATA
+	first_map @ 980 DATA
+	first_market_ship @ 981 DATA
+	first_missile @ 982 DATA
+	first_mpsleep @ 983 DATA
+	first_object @ 984 DATA
+	first_planet @ 985 DATA
+	first_prototype_room @ 986 DATA
+	first_repair @ 987 DATA
+	first_senator @ 988 DATA
+	first_ship @ 989 DATA
+	first_shop @ 990 DATA
+	first_slay @ 991 DATA
+	first_starsystem @ 992 DATA
+	first_teleport @ 993 DATA
+	first_wiz @ 994 DATA
+	fix_area_exits @ 995
+	fix_char @ 996
+	fix_exits @ 997
+	flag_string @ 998
+	flush_buffer @ 999
+	fold_area @ 1000
+	force_get_level @ 1001
+	force_get_objective @ 1002
+	force_get_possessive @ 1003
+	force_get_pronoun @ 1004
+	force_get_victim @ 1005
+	force_learn_from_failure @ 1006
+	force_learn_from_success @ 1007
+	force_parse_string @ 1008
+	force_promote_ready @ 1009
+	force_send_to_room @ 1010
+	force_test_skill_use @ 1011
+	format_obj_to_char @ 1012
+	format_str @ 1013
+	found_prey @ 1014
+	fpArea @ 1015 DATA
+	fpLOG @ 1016 DATA
+	fpReserve @ 1017 DATA
+	frc_app @ 1018 DATA
+	fread_char @ 1019
+	fread_clan @ 1020
+	fread_command @ 1021
+	fread_comment @ 1022
+	fread_float @ 1023
+	fread_forcehelp @ 1024
+	fread_forceskill @ 1025
+	fread_fpfile @ 1026
+	fread_letter @ 1027
+	fread_line @ 1028
+	fread_number @ 1029
+	fread_obj @ 1030
+	fread_pfile @ 1031
+	fread_planet @ 1032
+	fread_prototype_room @ 1033
+	fread_ship @ 1034
+	fread_skill @ 1035
+	fread_slay @ 1036
+	fread_social @ 1037
+	fread_starsystem @ 1038
+	fread_string @ 1039
+	fread_string_nohash @ 1040
+	fread_sysdata @ 1041
+	fread_timedata @ 1042
+	fread_to_eol @ 1043
+	fread_word @ 1044
+	free_char @ 1045
+	free_command @ 1046
+	free_desc @ 1047
+	free_fight @ 1048
+	free_help @ 1049
+	free_note @ 1050
+	free_renumber_data @ 1051
+	free_social @ 1052
+	fskill_awareness @ 1053
+	fskill_convert @ 1054
+	fskill_fdisguise @ 1055
+	fskill_fhelp @ 1056
+	fskill_finfo @ 1057
+	fskill_finish @ 1058
+	fskill_force_lightning @ 1059
+	fskill_fshield @ 1060
+	fskill_heal @ 1061
+	fskill_identify @ 1062
+	fskill_instruct @ 1063
+	fskill_makedualsaber @ 1064
+	fskill_makelightsaber @ 1065
+	fskill_master @ 1066
+	fskill_promote @ 1067
+	fskill_protect @ 1068
+	fskill_refresh @ 1069
+	fskill_slash @ 1070
+	fskill_squeeze @ 1071
+	fskill_student @ 1072
+	fskill_whirlwind @ 1073
+	fwrite_char @ 1074
+	fwrite_comments @ 1075
+	fwrite_obj @ 1076
+	fwrite_skill @ 1077
+	gain_addiction @ 1078
+	gain_condition @ 1079
+	gain_exp @ 1080
+	gain_exp2 @ 1081
+	game_length @ 1082 DATA
+	game_loop @ 1083
+	gather_one_list @ 1084
+	gather_renumber_data @ 1085
+	gch_prev @ 1086 DATA
+	generate_com_freq @ 1087
+	generate_exit @ 1088
+	generate_hp @ 1089
+	generate_itemlevel @ 1090
+	genslots @ 1091
+	get_actflag @ 1092
+	get_aflag @ 1093
+	get_age @ 1094
+	get_area @ 1095
+	get_areaflag @ 1096
+	get_attackflag @ 1097
+	get_atype @ 1098
+	get_board @ 1099
+	get_char_from_comfreq @ 1100
+	get_char_room @ 1101
+	get_char_room_mp @ 1102
+	get_char_world @ 1103
+	get_char_world_ooc @ 1104
+	get_clan @ 1105
+	get_color @ 1106
+	get_cost @ 1107
+	get_cover @ 1108
+	get_curr_cha @ 1109
+	get_curr_con @ 1110
+	get_curr_dex @ 1111
+	get_curr_frc @ 1112
+	get_curr_int @ 1113
+	get_curr_lck @ 1114
+	get_curr_str @ 1115
+	get_curr_wis @ 1116
+	get_defenseflag @ 1117
+	get_dir @ 1118
+	get_disintegration @ 1119
+	get_door @ 1120
+	get_eq_char @ 1121
+	get_exflag @ 1122
+	get_exit @ 1123
+	get_exit_num @ 1124
+	get_exit_number @ 1125
+	get_exit_to @ 1126
+	get_exp @ 1127
+	get_exp_worth @ 1128
+	get_extra_descr @ 1129
+	get_force_help @ 1130
+	get_force_skill @ 1131
+	get_force_skill_function @ 1132
+	get_help @ 1133
+	get_langflag @ 1134
+	get_mob_index @ 1135
+	get_mpflag @ 1136
+	get_npc_race @ 1137
+	get_obj @ 1138
+	get_obj_carry @ 1139
+	get_obj_here @ 1140
+	get_obj_index @ 1141
+	get_obj_list @ 1142
+	get_obj_list_rev @ 1143
+	get_obj_number @ 1144
+	get_obj_resistance @ 1145
+	get_obj_type @ 1146
+	get_obj_wear @ 1147
+	get_obj_weight @ 1148
+	get_obj_world @ 1149
+	get_oflag @ 1150
+	get_otype @ 1151
+	get_partflag @ 1152
+	get_pcflag @ 1153
+	get_planet @ 1154
+	get_plrflag @ 1155
+	get_race @ 1156
+	get_reboot_string @ 1157
+	get_repaircost @ 1158
+	get_rflag @ 1159
+	get_rflag2 @ 1160
+	get_risflag @ 1161
+	get_room_index @ 1162
+	get_saction @ 1163
+	get_saveflag @ 1164
+	get_sclass @ 1165
+	get_sdamage @ 1166
+	get_sflag @ 1167
+	get_ship @ 1168
+	get_ship2 @ 1169
+	get_ship_here @ 1170
+	get_ship_value @ 1171
+	get_shipflag @ 1172
+	get_skill @ 1173
+	get_skilltype @ 1174
+	get_slay @ 1175
+	get_slot_string @ 1176
+	get_sp_rflag @ 1177
+	get_spower @ 1178
+	get_ssave @ 1179
+	get_starget @ 1180
+	get_taxes @ 1181
+	get_timer @ 1182
+	get_timerptr @ 1183
+	get_trap @ 1184
+	get_trapflag @ 1185
+	get_trigflag @ 1186
+	get_trust @ 1187
+	get_vip_flag @ 1188
+	get_waiting_desc @ 1189
+	get_wanted_flag @ 1190
+	get_wearloc @ 1191
+	get_wflag @ 1192
+	getcolor @ 1193
+	global_objcode @ 1194 DATA
+	global_retcode @ 1195 DATA
+	go_ahead_str @ 1196 DATA
+	gobj_prev @ 1197 DATA
+	grab_word @ 1198
+	group_gain @ 1199
+	group_object @ 1200
+	gsn_adarian @ 1201 DATA
+	gsn_addpatrol @ 1202 DATA
+	gsn_aid @ 1203 DATA
+	gsn_ambush @ 1204 DATA
+	gsn_aqua_breath @ 1205 DATA
+	gsn_assignpilot @ 1206 DATA
+	gsn_backstab @ 1207 DATA
+	gsn_barabel @ 1208 DATA
+	gsn_bargain @ 1209 DATA
+	gsn_barrelroll @ 1210 DATA
+	gsn_bash @ 1211 DATA
+	gsn_bashdoor @ 1212 DATA
+	gsn_basic @ 1213 DATA
+	gsn_battle_command @ 1214 DATA
+	gsn_beg @ 1215 DATA
+	gsn_berserk @ 1216 DATA
+	gsn_binary @ 1217 DATA
+	gsn_bind @ 1218 DATA
+	gsn_bite @ 1219 DATA
+	gsn_blasters @ 1220 DATA
+	gsn_blindness @ 1221 DATA
+	gsn_bludgeons @ 1222 DATA
+	gsn_bomb @ 1223 DATA
+	gsn_bowcasters @ 1224 DATA
+	gsn_brew @ 1225 DATA
+	gsn_bribe @ 1226 DATA
+	gsn_chandelle @ 1227 DATA
+	gsn_charm_person @ 1228 DATA
+	gsn_checkbeacons @ 1229 DATA
+	gsn_checkprints @ 1230 DATA
+	gsn_chill_touch @ 1231 DATA
+	gsn_circle @ 1232 DATA
+	gsn_claw @ 1233 DATA
+	gsn_climb @ 1234 DATA
+	gsn_codecrack @ 1235 DATA
+	gsn_commsystem @ 1236 DATA
+	gsn_concealment @ 1237 DATA
+	gsn_coynite @ 1238 DATA
+	gsn_curse @ 1239 DATA
+	gsn_deception @ 1240 DATA
+	gsn_defel @ 1241 DATA
+	gsn_detrap @ 1242 DATA
+	gsn_devaronian @ 1243 DATA
+	gsn_dig @ 1244 DATA
+	gsn_disable @ 1245 DATA
+	gsn_disarm @ 1246 DATA
+	gsn_disguise @ 1247 DATA
+	gsn_dodge @ 1248 DATA
+	gsn_droid @ 1249 DATA
+	gsn_dual_wield @ 1250 DATA
+	gsn_dualstab @ 1251 DATA
+	gsn_duinuogwuin @ 1252 DATA
+	gsn_eliteguard @ 1253 DATA
+	gsn_enhanced_damage @ 1254 DATA
+	gsn_ewok @ 1255 DATA
+	gsn_falleen @ 1256 DATA
+	gsn_fifth_attack @ 1257 DATA
+	gsn_fireball @ 1258 DATA
+	gsn_firrerreo @ 1259 DATA
+	gsn_first_aid @ 1260 DATA
+	gsn_first_skill @ 1261 DATA
+	gsn_first_spell @ 1262 DATA
+	gsn_first_tongue @ 1263 DATA
+	gsn_first_weapon @ 1264 DATA
+	gsn_flexible_arms @ 1265 DATA
+	gsn_force_pikes @ 1266 DATA
+	gsn_fourth_attack @ 1267 DATA
+	gsn_gag @ 1268 DATA
+	gsn_gamorrean @ 1269 DATA
+	gsn_gand @ 1270 DATA
+	gsn_gather_intelligence @ 1271 DATA
+	gsn_gemcutting @ 1272 DATA
+	gsn_gotal @ 1273 DATA
+	gsn_gouge @ 1274 DATA
+	gsn_grip @ 1275 DATA
+	gsn_hapan @ 1276 DATA
+	gsn_hide @ 1277 DATA
+	gsn_hijack @ 1278 DATA
+	gsn_hitall @ 1279 DATA
+	gsn_hutt @ 1280 DATA
+	gsn_inquire @ 1281 DATA
+	gsn_installmodule @ 1282 DATA
+	gsn_invis @ 1283 DATA
+	gsn_ithorian @ 1284 DATA
+	gsn_jail @ 1285 DATA
+	gsn_jawa @ 1286 DATA
+	gsn_juke @ 1287 DATA
+	gsn_kick @ 1288 DATA
+	gsn_kubaz @ 1289 DATA
+	gsn_largespace @ 1290 DATA
+	gsn_launchers @ 1291 DATA
+	gsn_lightning_bolt @ 1292 DATA
+	gsn_lightsabers @ 1293 DATA
+	gsn_makearmor @ 1294 DATA
+	gsn_makebeacon @ 1295 DATA
+	gsn_makebinders @ 1296 DATA
+	gsn_makeblade @ 1297 DATA
+	gsn_makeblaster @ 1298 DATA
+	gsn_makebug @ 1299 DATA
+	gsn_makecomlink @ 1300 DATA
+	gsn_makecommsystem @ 1301 DATA
+	gsn_makecontainer @ 1302 DATA
+	gsn_makedatapad @ 1303 DATA
+	gsn_makeduallightsaber @ 1304 DATA
+	gsn_makeempgrenade @ 1305 DATA
+	gsn_makegoggles @ 1306 DATA
+	gsn_makegrenade @ 1307 DATA
+	gsn_makejetpack @ 1308 DATA
+	gsn_makejewelry @ 1309 DATA
+	gsn_makelandmine @ 1310 DATA
+	gsn_makelight @ 1311 DATA
+	gsn_makelightsaber @ 1312 DATA
+	gsn_makemissile @ 1313 DATA
+	gsn_makemodule @ 1314 DATA
+	gsn_makepike @ 1315 DATA
+	gsn_makeshield @ 1316 DATA
+	gsn_makeshipbomb @ 1317 DATA
+	gsn_mass_invis @ 1318 DATA
+	gsn_masspropeganda @ 1319 DATA
+	gsn_mediumspace @ 1320 DATA
+	gsn_mine @ 1321 DATA
+	gsn_mon_calamari @ 1322 DATA
+	gsn_mount @ 1323 DATA
+	gsn_navigation @ 1324 DATA
+	gsn_noghri @ 1325 DATA
+	gsn_nullifybeacons @ 1326 DATA
+	gsn_parry @ 1327 DATA
+	gsn_peek @ 1328 DATA
+	gsn_pick_lock @ 1329 DATA
+	gsn_pickshiplock @ 1330 DATA
+	gsn_plantbeacon @ 1331 DATA
+	gsn_plantbug @ 1332 DATA
+	gsn_poison @ 1333 DATA
+	gsn_poison_weapon @ 1334 DATA
+	gsn_possess @ 1335 DATA
+	gsn_postguard @ 1336 DATA
+	gsn_propeganda @ 1337 DATA
+	gsn_punch @ 1338 DATA
+	gsn_quarren @ 1339 DATA
+	gsn_reflect @ 1340 DATA
+	gsn_reinforcements @ 1341 DATA
+	gsn_removebug @ 1342 DATA
+	gsn_removemodule @ 1343 DATA
+	gsn_repair @ 1344 DATA
+	gsn_rescue @ 1345 DATA
+	gsn_retreat @ 1346 DATA
+	gsn_rodian @ 1347 DATA
+	gsn_sabotage @ 1348 DATA
+	gsn_scan @ 1349 DATA
+	gsn_scanbugs @ 1350 DATA
+	gsn_scribe @ 1351 DATA
+	gsn_search @ 1352 DATA
+	gsn_second_attack @ 1353 DATA
+	gsn_seduce @ 1354 DATA
+	gsn_shieldwork @ 1355 DATA
+	gsn_shipdesign @ 1356 DATA
+	gsn_shipmaintenance @ 1357 DATA
+	gsn_shiprepair @ 1358 DATA
+	gsn_shipsystems @ 1359 DATA
+	gsn_shistavanen @ 1360 DATA
+	gsn_showbeacons @ 1361 DATA
+	gsn_showbugs @ 1362 DATA
+	gsn_showmodules @ 1363 DATA
+	gsn_silent @ 1364 DATA
+	gsn_sleep @ 1365 DATA
+	gsn_slice @ 1366 DATA
+	gsn_slicebank @ 1367 DATA
+	gsn_smallspace @ 1368 DATA
+	gsn_smalltalk @ 1369 DATA
+	gsn_sneak @ 1370 DATA
+	gsn_snipe @ 1371 DATA
+	gsn_spacecombat @ 1372 DATA
+	gsn_spacecombat2 @ 1373 DATA
+	gsn_spacecombat3 @ 1374 DATA
+	gsn_specialforces @ 1375 DATA
+	gsn_spice_refining @ 1376 DATA
+	gsn_split_s @ 1377 DATA
+	gsn_spy @ 1378 DATA
+	gsn_steal @ 1379 DATA
+	gsn_sting @ 1380 DATA
+	gsn_stun @ 1381 DATA
+	gsn_sullustan @ 1382 DATA
+	gsn_tail @ 1383 DATA
+	gsn_talonous_arms @ 1384 DATA
+	gsn_third_attack @ 1385 DATA
+	gsn_throw @ 1386 DATA
+	gsn_togorian @ 1387 DATA
+	gsn_top_sn @ 1388 DATA
+	gsn_torture @ 1389 DATA
+	gsn_track @ 1390 DATA
+	gsn_tractorbeams @ 1391 DATA
+	gsn_trandoshan @ 1392 DATA
+	gsn_truesight @ 1393 DATA
+	gsn_twilek @ 1394 DATA
+	gsn_verpine @ 1395 DATA
+	gsn_vibro_blades @ 1396 DATA
+	gsn_weaponsystems @ 1397 DATA
+	gsn_wookiee @ 1398 DATA
+	gsn_yevethan @ 1399 DATA
+	halucinated_object @ 1400
+	halucinations @ 1401
+	has_key @ 1402
+	hash_dump @ 1403
+	hash_stats @ 1404
+	height_name @ 1405 DATA
+	help_fix @ 1406
+	help_greeting @ 1407 DATA
+	herb_lookup @ 1408
+	herb_table @ 1409 DATA
+	hi_lim @ 1410 DATA
+	hide_tilde @ 1411
+	hit_gain @ 1412
+	hit_prompt @ 1413
+	htmlcolor @ 1414
+	hunt_victim @ 1415
+	immune_casting @ 1416
+	in_arena @ 1417
+	in_hard_range @ 1418
+	in_hash_table @ 1419
+	in_set @ 1420 DATA
+	in_soft_range @ 1421
+	in_start_arena @ 1422 DATA
+	init_descriptor @ 1423
+	init_mm @ 1424
+	init_pfile_scan_time @ 1425
+	init_socket @ 1426
+	init_supermob @ 1427
+	initialize_economy @ 1428
+	instaroom @ 1429
+	int_app @ 1430 DATA
+	interpolate @ 1431
+	interpret @ 1432
+	is_affected @ 1433
+	is_disintegration @ 1434
+	is_facing @ 1435
+	is_fearing @ 1436
+	is_hating @ 1437
+	is_hunting @ 1438
+	is_immune @ 1439
+	is_legal_kill @ 1440
+	is_name @ 1441
+	is_name2 @ 1442
+	is_name2_prefix @ 1443
+	is_name_prefix @ 1444
+	is_note_to @ 1445
+	is_number @ 1446
+	is_online @ 1447
+	is_rental @ 1448
+	is_safe @ 1449
+	is_safe_nm @ 1450
+	is_same_group @ 1451
+	is_trapped @ 1452
+	is_wielding_poisoned @ 1453
+	is_wizvis @ 1454
+	isavowel @ 1455
+	item_type_name @ 1456
+	jcount @ 1457 DATA
+	jedi_bonus @ 1458
+	knows_language @ 1459
+	knowsof @ 1460
+	land_bus @ 1461
+	landship @ 1462
+	lang_array @ 1463 DATA
+	lang_names @ 1464 DATA
+	last_area @ 1465 DATA
+	last_asort @ 1466 DATA
+	last_ban @ 1467 DATA
+	last_board @ 1468 DATA
+	last_bounty @ 1469 DATA
+	last_bsort @ 1470 DATA
+	last_build @ 1471 DATA
+	last_char @ 1472 DATA
+	last_clan @ 1473 DATA
+	last_descriptor @ 1474 DATA
+	last_disintegration @ 1475 DATA
+	last_force_help @ 1476 DATA
+	last_force_skill @ 1477 DATA
+	last_guard @ 1478 DATA
+	last_help @ 1479 DATA
+	last_market_ship @ 1480 DATA
+	last_missile @ 1481 DATA
+	last_mpsleep @ 1482 DATA
+	last_object @ 1483 DATA
+	last_planet @ 1484 DATA
+	last_prototype_room @ 1485 DATA
+	last_repair @ 1486 DATA
+	last_restore_all_time @ 1487 DATA
+	last_senator @ 1488 DATA
+	last_ship @ 1489 DATA
+	last_shop @ 1490 DATA
+	last_slay @ 1491 DATA
+	last_starsystem @ 1492 DATA
+	last_teleport @ 1493 DATA
+	last_wiz @ 1494 DATA
+	lastplayercmd @ 1495 DATA
+	launch_bus @ 1496
+	launchship @ 1497
+	lck_app @ 1498 DATA
+	learn_from_failure @ 1499
+	learn_from_success @ 1500
+	legal_loot @ 1501
+	level_exp @ 1502
+	liq_table @ 1503 DATA
+	lo_lim @ 1504 DATA
+	load_area @ 1505
+	load_area_file @ 1506
+	load_author @ 1507
+	load_banlist @ 1508
+	load_boards @ 1509
+	load_bounties @ 1510
+	load_buildlist @ 1511
+	load_changes @ 1512
+	load_char_obj @ 1513
+	load_clan_file @ 1514
+	load_clans @ 1515
+	load_commands @ 1516
+	load_corpses @ 1517
+	load_economy @ 1518
+	load_flags @ 1519
+	load_force_help @ 1520
+	load_force_skills @ 1521
+	load_forcehelp @ 1522
+	load_forceskill @ 1523
+	load_hall_of_fame @ 1524
+	load_helps @ 1525
+	load_herb_table @ 1526
+	load_market_list @ 1527
+	load_mobiles @ 1528
+	load_mudprogs @ 1529
+	load_objects @ 1530
+	load_objprogs @ 1531
+	load_planet_file @ 1532
+	load_planets @ 1533
+	load_prototype @ 1534
+	load_prototype_header @ 1535
+	load_prototype_rooms @ 1536
+	load_ranges @ 1537
+	load_repairs @ 1538
+	load_resetmsg @ 1539
+	load_resets @ 1540
+	load_room_reset @ 1541
+	load_roomprogs @ 1542
+	load_rooms @ 1543
+	load_senate @ 1544
+	load_ship_file @ 1545
+	load_ship_prototypes @ 1546
+	load_ships @ 1547
+	load_shops @ 1548
+	load_skill_table @ 1549
+	load_slays @ 1550
+	load_socials @ 1551
+	load_space @ 1552
+	load_specials @ 1553
+	load_starsystem @ 1554
+	load_systemdata @ 1555
+	load_timedata @ 1556
+	loading_char @ 1557 DATA
+	locate_targets @ 1558
+	log_buf @ 1559 DATA
+	log_printf @ 1560
+	log_string_plus @ 1561
+	lookup_spec @ 1562
+	lost_arena @ 1563
+	lower_economy @ 1564
+	mag_flags @ 1565 DATA
+	magic_bit_name @ 1566
+	mail_count @ 1567
+	main @ 1568
+	make_blood @ 1569
+	make_bloodstain @ 1570
+	make_color_sequence_desc @ 1571
+	make_corpse @ 1572
+	make_exit @ 1573
+	make_fire @ 1574
+	make_mobile @ 1575
+	make_new_line @ 1576
+	make_object @ 1577
+	make_poly_mob @ 1578
+	make_prototype_rooms @ 1579
+	make_prototype_ship @ 1580
+	make_random_marketlist @ 1581
+	make_reset @ 1582
+	make_room @ 1583
+	make_rprogs @ 1584
+	make_scraps @ 1585
+	make_trap @ 1586
+	make_wizlist @ 1587
+	mana_gain @ 1588
+	maxChanges @ 1589 DATA
+	max_fight @ 1590
+	max_level @ 1591
+	max_weight @ 1592
+	maxdesc @ 1593 DATA
+	md5_append @ 1594
+	md5_finish @ 1595
+	md5_init @ 1596
+	mob_act_add @ 1597
+	mob_act_list @ 1598 DATA
+	mob_index_hash @ 1599 DATA
+	mob_snipe @ 1600
+	mobile_update @ 1601
+	month_name @ 1602 DATA
+	move_char @ 1603
+	move_gain @ 1604
+	move_ships @ 1605
+	movement_loss @ 1606 DATA
+	mpedit @ 1607
+	mprog_act_trigger @ 1608
+	mprog_bribe_trigger @ 1609
+	mprog_custom_trigger @ 1610
+	mprog_death_trigger @ 1611
+	mprog_do_command @ 1612
+	mprog_do_ifcheck @ 1613
+	mprog_driver @ 1614
+	mprog_entry_trigger @ 1615
+	mprog_fight_trigger @ 1616
+	mprog_file_read @ 1617
+	mprog_flags @ 1618 DATA
+	mprog_give_trigger @ 1619
+	mprog_greet_trigger @ 1620
+	mprog_hitprcnt_trigger @ 1621
+	mprog_hour_trigger @ 1622
+	mprog_keyword_check @ 1623
+	mprog_name_to_type @ 1624
+	mprog_next_command @ 1625
+	mprog_percent_check @ 1626
+	mprog_random_trigger @ 1627
+	mprog_read_programs @ 1628
+	mprog_script_trigger @ 1629
+	mprog_seval @ 1630
+	mprog_speech_trigger @ 1631
+	mprog_time_check @ 1632
+	mprog_time_trigger @ 1633
+	mprog_translate @ 1634
+	mprog_type_to_name @ 1635
+	mprog_veval @ 1636
+	mprog_wordlist_check @ 1637
+	mpsleep_update @ 1638
+	ms_find_obj @ 1639
+	mud_down @ 1640 DATA
+	multi_hit @ 1641
+	my_strftime @ 1642
+	name_expand @ 1643
+	name_stamp_stats @ 1644
+	nanny @ 1645
+	new_boot_struct @ 1646 DATA
+	new_boot_time @ 1647 DATA
+	new_boot_time_t @ 1648 DATA
+	new_descriptor @ 1649
+	new_missile @ 1650
+	new_pfile_struct @ 1651 DATA
+	new_pfile_time @ 1652 DATA
+	new_pfile_time_t @ 1653 DATA
+	newdesc @ 1654 DATA
+	nifty_is_name @ 1655
+	nifty_is_name_prefix @ 1656
+	nonblock @ 1657
+	note_attach @ 1658
+	note_remove @ 1659
+	now_time @ 1660 DATA
+	npc_race @ 1661 DATA
+	num_changes @ 1662
+	num_descriptors @ 1663 DATA
+	num_in_arena @ 1664
+	num_pfiles @ 1665 DATA
+	number_argument @ 1666
+	number_bits @ 1667
+	number_door @ 1668
+	number_fuzzy @ 1669
+	number_mm @ 1670
+	number_percent @ 1671
+	number_range @ 1672
+	nummobsloaded @ 1673 DATA
+	numobjsloaded @ 1674 DATA
+	o_flags @ 1675 DATA
+	o_types @ 1676 DATA
+	obj_act_add @ 1677
+	obj_act_list @ 1678 DATA
+	obj_act_update @ 1679
+	obj_cast_spell @ 1680
+	obj_extracted @ 1681
+	obj_fall @ 1682
+	obj_from_char @ 1683
+	obj_from_obj @ 1684
+	obj_from_room @ 1685
+	obj_hitroll @ 1686
+	obj_index_hash @ 1687 DATA
+	obj_short @ 1688
+	obj_to_char @ 1689
+	obj_to_obj @ 1690
+	obj_to_room @ 1691
+	obj_update @ 1692
+	off_shld_lvl @ 1693
+	one_argument @ 1694
+	one_argument2 @ 1695
+	one_hit @ 1696
+	oprog_act_trigger @ 1697
+	oprog_custom_trigger @ 1698
+	oprog_damage_trigger @ 1699
+	oprog_drop_trigger @ 1700
+	oprog_examine_trigger @ 1701
+	oprog_file_read @ 1702
+	oprog_get_trigger @ 1703
+	oprog_greet_trigger @ 1704
+	oprog_percent_check @ 1705
+	oprog_pull_trigger @ 1706
+	oprog_push_trigger @ 1707
+	oprog_random_trigger @ 1708
+	oprog_read_programs @ 1709
+	oprog_remove_trigger @ 1710
+	oprog_repair_trigger @ 1711
+	oprog_sac_trigger @ 1712
+	oprog_script_trigger @ 1713
+	oprog_speech_trigger @ 1714
+	oprog_use_trigger @ 1715
+	oprog_wear_trigger @ 1716
+	oprog_wordlist_check @ 1717
+	ostat_plus @ 1718
+	out_set @ 1719 DATA
+	pAbort @ 1720 DATA
+	pager_output @ 1721
+	pager_printf @ 1722
+	pager_printf_color @ 1723
+	parse_prog_string @ 1724
+	parsebet @ 1725
+	part_flags @ 1726 DATA
+	pbname @ 1727 DATA
+	pc_displays @ 1728 DATA
+	pc_flags @ 1729 DATA
+	personal_lookup @ 1730
+	pfile_scan @ 1731
+	pfile_time @ 1732 DATA
+	physicalobjects @ 1733 DATA
+	planet_flags @ 1734 DATA
+	playslots_help @ 1735
+	plr_flags @ 1736 DATA
+	port @ 1737 DATA
+	ppl_challenged @ 1738 DATA
+	ppl_in_arena @ 1739 DATA
+	prepend_to_file @ 1740
+	primary_beam_name @ 1741
+	primary_beam_name_proto @ 1742
+	printslots @ 1743
+	printwinnings @ 1744
+	process_spell_components @ 1745
+	progbug @ 1746
+	pullorpush @ 1747
+	queue_extracted_char @ 1748
+	queue_extracted_obj @ 1749
+	quick_link @ 1750
+	quitting_char @ 1751 DATA
+	r_flags @ 1752 DATA
+	r_flags2 @ 1753 DATA
+	race_table @ 1754 DATA
+	randomize_exits @ 1755
+	raw_kill @ 1756
+	rd_parse @ 1757
+	re_equip_char @ 1758
+	read_auth @ 1759
+	read_board @ 1760
+	read_fpfile @ 1761
+	read_from_buffer @ 1762
+	read_from_descriptor @ 1763
+	read_last_file @ 1764
+	read_note @ 1765
+	read_pfile @ 1766
+	reboot_check @ 1767
+	reboot_time @ 1768 DATA
+	recharge_ships @ 1769
+	release_supermob @ 1770
+	rem_group_affects @ 1771
+	remand @ 1772
+	rembg @ 1773
+	remove_area_names @ 1774
+	remove_bexit_flag @ 1775
+	remove_disintegration @ 1776
+	remove_market_ship @ 1777
+	remove_member @ 1778
+	remove_obj @ 1779
+	remove_portal @ 1780
+	remove_timer @ 1781
+	rent_ship @ 1782
+	renumber_area @ 1783
+	renumber_put_resets @ 1784
+	repair_one_obj @ 1785
+	reset_area @ 1786
+	reset_colors @ 1787
+	reset_room @ 1788
+	resetship @ 1789
+	rev_dir @ 1790 DATA
+	ris_damage @ 1791
+	ris_flags @ 1792 DATA
+	ris_save @ 1793
+	room_act_add @ 1794
+	room_act_list @ 1795 DATA
+	room_act_update @ 1796
+	room_enqueue @ 1797
+	room_explode @ 1798
+	room_explode_1 @ 1799
+	room_explode_2 @ 1800
+	room_index_hash @ 1801 DATA
+	room_is_dark @ 1802
+	room_is_private @ 1803
+	room_sents @ 1804 DATA
+	rpedit @ 1805
+	rprog_act_trigger @ 1806
+	rprog_custom_trigger @ 1807
+	rprog_death_trigger @ 1808
+	rprog_enter_trigger @ 1809
+	rprog_file_read @ 1810
+	rprog_hour_trigger @ 1811
+	rprog_leave_trigger @ 1812
+	rprog_percent_check @ 1813
+	rprog_random_trigger @ 1814
+	rprog_read_programs @ 1815
+	rprog_rest_trigger @ 1816
+	rprog_rfight_trigger @ 1817
+	rprog_script_trigger @ 1818
+	rprog_sleep_trigger @ 1819
+	rprog_speech_trigger @ 1820
+	rprog_time_check @ 1821
+	rprog_time_trigger @ 1822
+	rprog_wordlist_check @ 1823
+	rset_supermob @ 1824
+	save_banlist @ 1825
+	save_changes @ 1826
+	save_char_obj @ 1827
+	save_clan @ 1828
+	save_clan_storeroom @ 1829
+	save_clone @ 1830
+	save_commands @ 1831
+	save_disintegrations @ 1832
+	save_equipment @ 1833 DATA
+	save_flag @ 1834 DATA
+	save_forcehelp @ 1835
+	save_forceskill @ 1836
+	save_herb_table @ 1837
+	save_home @ 1838
+	save_market_list @ 1839
+	save_planet @ 1840
+	save_profile @ 1841
+	save_prototype @ 1842
+	save_senate @ 1843
+	save_ship @ 1844
+	save_skill_table @ 1845
+	save_slays @ 1846
+	save_socials @ 1847
+	save_starsystem @ 1848
+	save_sysdata @ 1849
+	save_timedata @ 1850
+	saves_breath @ 1851
+	saves_para_petri @ 1852
+	saves_poison_death @ 1853
+	saves_spell_staff @ 1854
+	saves_wands @ 1855
+	saving_char @ 1856 DATA
+	say_spell @ 1857
+	scan_forcers @ 1858
+	scount @ 1859 DATA
+	scramble @ 1860
+	secondary_beam_name @ 1861
+	secondary_beam_name_proto @ 1862
+	secondslash @ 1863
+	sect_names @ 1864 DATA
+	sector_name @ 1865 DATA
+	send_ansi_title @ 1866
+	send_ascii_title @ 1867
+	send_auth @ 1868
+	send_rip_screen @ 1869
+	send_rip_title @ 1870
+	send_timer @ 1871
+	send_to_char @ 1872
+	send_to_char_color @ 1873
+	send_to_char_noand @ 1874
+	send_to_desc_color @ 1875
+	send_to_desc_color2 @ 1876
+	send_to_pager @ 1877
+	send_to_pager_color @ 1878
+	sent_total @ 1879 DATA
+	separate_obj @ 1880
+	set_alarm @ 1881
+	set_bexit_flag @ 1882
+	set_boot_time @ 1883 DATA
+	set_boot_time_struct @ 1884 DATA
+	set_char_color @ 1885
+	set_cur_char @ 1886
+	set_cur_obj @ 1887
+	set_editor_desc @ 1888
+	set_fighting @ 1889
+	set_pager_color @ 1890
+	set_pager_input @ 1891
+	set_pfile_time @ 1892 DATA
+	set_pfile_time_struct @ 1893 DATA
+	set_supermob @ 1894
+	set_title @ 1895
+	ship_bit_name @ 1896
+	ship_flags @ 1897 DATA
+	ship_from_cockpit @ 1898
+	ship_from_coseat @ 1899
+	ship_from_engine @ 1900
+	ship_from_entrance @ 1901
+	ship_from_gunseat @ 1902
+	ship_from_hanger @ 1903
+	ship_from_navseat @ 1904
+	ship_from_pilot @ 1905
+	ship_from_pilotseat @ 1906
+	ship_from_room @ 1907
+	ship_from_starsystem @ 1908
+	ship_from_turret @ 1909
+	ship_in_room @ 1910
+	ship_prototypes @ 1911 DATA
+	ship_to_room @ 1912
+	ship_to_starsystem @ 1913
+	show_char_to_char @ 1914
+	show_char_to_char_0 @ 1915
+	show_char_to_char_1 @ 1916
+	show_colors @ 1917
+	show_condition @ 1918
+	show_file @ 1919
+	show_hash @ 1920
+	show_high_hash @ 1921
+	show_jack_pot @ 1922
+	show_list_to_char @ 1923
+	show_pfiles @ 1924
+	show_ships_to_char @ 1925
+	show_spys @ 1926
+	show_tilde @ 1927
+	show_title @ 1928
+	show_visible_affects_to_char @ 1929
+	show_vnums @ 1930
+	showaffect @ 1931
+	showland @ 1932
+	showstarsystem @ 1933
+	shutdown_mud @ 1934
+	silent_end @ 1935
+	similar_help_files @ 1936
+	simple_damage @ 1937
+	sith_penalty @ 1938
+	skill_comp @ 1939
+	skill_function @ 1940
+	skill_lookup @ 1941
+	skill_notfound @ 1942
+	skill_table @ 1943 DATA
+	skill_tname @ 1944 DATA
+	slot_lookup @ 1945
+	smash_tilde @ 1946
+	smaug_crypt @ 1947
+	smush_tilde @ 1948
+	social_index @ 1949 DATA
+	sort_area @ 1950
+	sort_exits @ 1951
+	sort_skill_table @ 1952
+	sound_to_room @ 1953
+	sound_to_ship @ 1954
+	spec_auth @ 1955
+	spec_clan_guard @ 1956
+	spec_customs_alcohol @ 1957
+	spec_customs_smut @ 1958
+	spec_customs_spice @ 1959
+	spec_customs_weapons @ 1960
+	spec_dark_jedi @ 1961
+	spec_fido @ 1962
+	spec_giveslug @ 1963
+	spec_ground_troop @ 1964
+	spec_guardian @ 1965
+	spec_janitor @ 1966
+	spec_jedi @ 1967
+	spec_jedi_healer @ 1968
+	spec_lookup @ 1969
+	spec_make_apprentice_jedi @ 1970
+	spec_make_apprentice_sith @ 1971
+	spec_make_master_jedi @ 1972
+	spec_new_republic_trooper @ 1973
+	spec_newbie_pilot @ 1974
+	spec_poison @ 1975
+	spec_police @ 1976
+	spec_police_attack @ 1977
+	spec_police_fine @ 1978
+	spec_police_jail @ 1979
+	spec_stormtrooper @ 1980
+	spec_thief @ 1981
+	spell_acetum_primus @ 1982
+	spell_acid_blast @ 1983
+	spell_acid_breath @ 1984
+	spell_action @ 1985 DATA
+	spell_affect @ 1986
+	spell_affectchar @ 1987
+	spell_animate_dead @ 1988
+	spell_area_attack @ 1989
+	spell_astral_walk @ 1990
+	spell_attack @ 1991
+	spell_black_fist @ 1992
+	spell_black_hand @ 1993
+	spell_black_lightning @ 1994
+	spell_blindness @ 1995
+	spell_burning_hands @ 1996
+	spell_call_lightning @ 1997
+	spell_calm @ 1998
+	spell_cause_critical @ 1999
+	spell_cause_light @ 2000
+	spell_cause_serious @ 2001
+	spell_caustic_fount @ 2002
+	spell_change_sex @ 2003
+	spell_charm_person @ 2004
+	spell_chill_touch @ 2005
+	spell_class @ 2006 DATA
+	spell_colour_spray @ 2007
+	spell_control_weather @ 2008
+	spell_create_food @ 2009
+	spell_create_mob @ 2010
+	spell_create_obj @ 2011
+	spell_create_water @ 2012
+	spell_cure_addiction @ 2013
+	spell_cure_blindness @ 2014
+	spell_cure_poison @ 2015
+	spell_curse @ 2016
+	spell_damage @ 2017 DATA
+	spell_detect_poison @ 2018
+	spell_dispel_evil @ 2019
+	spell_dispel_magic @ 2020
+	spell_disruption @ 2021
+	spell_dream @ 2022
+	spell_earthquake @ 2023
+	spell_enchant_weapon @ 2024
+	spell_energy_drain @ 2025
+	spell_ethereal_fist @ 2026
+	spell_faerie_fire @ 2027
+	spell_faerie_fog @ 2028
+	spell_farsight @ 2029
+	spell_fire_breath @ 2030
+	spell_fireball @ 2031
+	spell_flag @ 2032 DATA
+	spell_flamestrike @ 2033
+	spell_force_disarm @ 2034
+	spell_forcepush @ 2035
+	spell_frost_breath @ 2036
+	spell_function @ 2037
+	spell_galvanic_whip @ 2038
+	spell_gas_breath @ 2039
+	spell_gate @ 2040
+	spell_hand_of_chaos @ 2041
+	spell_helical_flow @ 2042
+	spell_identify @ 2043
+	spell_injure @ 2044
+	spell_invis @ 2045
+	spell_knock @ 2046
+	spell_know_alignment @ 2047
+	spell_lightning_bolt @ 2048
+	spell_lightning_breath @ 2049
+	spell_locate_object @ 2050
+	spell_magic_missile @ 2051
+	spell_magnetic_thrust @ 2052
+	spell_midas_touch @ 2053
+	spell_mind_wrack @ 2054
+	spell_mind_wrench @ 2055
+	spell_mist_walk @ 2056
+	spell_notfound @ 2057
+	spell_null @ 2058
+	spell_obj_inv @ 2059
+	spell_pass_door @ 2060
+	spell_plant_pass @ 2061
+	spell_poison @ 2062
+	spell_polymorph @ 2063
+	spell_portal @ 2064
+	spell_possess @ 2065
+	spell_power @ 2066 DATA
+	spell_quantum_spike @ 2067
+	spell_recharge @ 2068
+	spell_remove_curse @ 2069
+	spell_remove_invis @ 2070
+	spell_remove_trap @ 2071
+	spell_revive @ 2072
+	spell_saves @ 2073 DATA
+	spell_scorching_surge @ 2074
+	spell_shocking_grasp @ 2075
+	spell_sleep @ 2076
+	spell_smaug @ 2077
+	spell_solar_flight @ 2078
+	spell_sonic_resonance @ 2079
+	spell_spectral_furor @ 2080
+	spell_spiral_blast @ 2081
+	spell_steal_life @ 2082
+	spell_suggest @ 2083
+	spell_sulfurous_spray @ 2084
+	spell_summon @ 2085
+	spell_teleport @ 2086
+	spell_transport @ 2087
+	spell_ventriloquate @ 2088
+	spell_weaken @ 2089
+	spell_word_of_recall @ 2090
+	spice_table @ 2091 DATA
+	split_obj @ 2092
+	sportschan @ 2093
+	spring_trap @ 2094
+	sprint_reset @ 2095
+	starsystem_from_name @ 2096
+	starsystem_from_room @ 2097
+	starsystem_from_vnum @ 2098
+	start_arena @ 2099
+	start_auth @ 2100
+	start_editing_nolimit @ 2101
+	start_fearing @ 2102
+	start_game @ 2103
+	start_hating @ 2104
+	start_hunting @ 2105
+	start_time @ 2106 DATA
+	start_timer @ 2107
+	station_name @ 2108 DATA
+	station_vnum @ 2109 DATA
+	stop_editing @ 2110
+	stop_fearing @ 2111
+	stop_fighting @ 2112
+	stop_follower @ 2113
+	stop_hating @ 2114
+	stop_hunting @ 2115
+	stop_idling @ 2116
+	strArea @ 2117 DATA
+	str_alloc @ 2118
+	str_app @ 2119 DATA
+	str_boot_time @ 2120 DATA
+	str_cmp @ 2121
+	str_dup @ 2122
+	str_free @ 2123
+	str_infix @ 2124
+	str_prefix @ 2125
+	str_similarity @ 2126
+	str_suffix @ 2127
+	str_to_editdata @ 2128
+	string_hash @ 2129 DATA
+	strip_cr @ 2130
+	strlen_color @ 2131
+	strlinwrp @ 2132
+	strlower @ 2133
+	strrep @ 2134
+	strupper @ 2135
+	subtract_times @ 2136
+	successful_casting @ 2137
+	supermob @ 2138 DATA
+	sysdata @ 2139 DATA
+	tail_chain @ 2140
+	talk_auction @ 2141
+	talk_channel @ 2142
+	target_name @ 2143 DATA
+	target_type @ 2144 DATA
+	tele_update @ 2145
+	teleport @ 2146
+	teleportch @ 2147
+	text_replace @ 2148
+	time_info @ 2149 DATA
+	time_left_in_game @ 2150 DATA
+	time_to_start @ 2151 DATA
+	timechar @ 2152 DATA
+	times_killed @ 2153
+	tiny_affect_loc_name @ 2154
+	title @ 2155 DATA
+	to_channel @ 2156
+	toggle_bexit_flag @ 2157
+	top_affect @ 2158 DATA
+	top_area @ 2159 DATA
+	top_ed @ 2160 DATA
+	top_exit @ 2161 DATA
+	top_help @ 2162 DATA
+	top_herb @ 2163 DATA
+	top_mob_index @ 2164 DATA
+	top_obj_index @ 2165 DATA
+	top_repair @ 2166 DATA
+	top_reset @ 2167 DATA
+	top_room @ 2168 DATA
+	top_shop @ 2169 DATA
+	top_sn @ 2170 DATA
+	top_vroom @ 2171 DATA
+	toroom @ 2172
+	towizfile @ 2173
+	translate_exits @ 2174
+	translate_objvals @ 2175
+	translate_reset @ 2176
+	trap_door @ 2177 DATA
+	trap_flags @ 2178 DATA
+	trig_flags @ 2179 DATA
+	trip @ 2180
+	turbocar_stop @ 2181 DATA
+	unequip_char @ 2182
+	unlink_command @ 2183
+	unlink_social @ 2184
+	untargetship @ 2185
+	update_bus @ 2186
+	update_force @ 2187
+	update_handler @ 2188
+	update_pos @ 2189
+	update_space @ 2190
+	update_taxes @ 2191
+	update_time @ 2192
+	update_traffic @ 2193
+	update_userec @ 2194
+	valid_color @ 2195 DATA
+	valid_edge @ 2196
+	violence_update @ 2197
+	vroom_hash @ 2198 DATA
+	w_flags @ 2199 DATA
+	warn_in_prog @ 2200
+	warn_progs @ 2201
+	weapon_prof_bonus_check @ 2202
+	weapon_table @ 2203 DATA
+	wear_locs @ 2204 DATA
+	wear_obj @ 2205
+	weather_info @ 2206 DATA
+	weather_update @ 2207
+	where_name @ 2208 DATA
+	wherehome @ 2209
+	who_fighting @ 2210
+	will_fall @ 2211
+	wipe_area_resets @ 2212
+	wipe_resets @ 2213
+	wis_app @ 2214 DATA
+	wordwrap @ 2215
+	worsen_mental_state @ 2216
+	write_all_forcehelps @ 2217
+	write_all_forceskills @ 2218
+	write_all_prototypes @ 2219
+	write_area_list @ 2220
+	write_board @ 2221
+	write_boards_txt @ 2222
+	write_clan_list @ 2223
+	write_corpses @ 2224
+	write_fame_list @ 2225
+	write_forcehelp_list @ 2226
+	write_forceskill_list @ 2227
+	write_last_file @ 2228
+	write_one_fame_node @ 2229
+	write_planet_list @ 2230
+	write_prototype_list @ 2231
+	write_ship_list @ 2232
+	write_starsystem_list @ 2233
+	write_to_buffer @ 2234
+	write_to_descriptor @ 2235
+	write_to_pager @ 2236
+	DelOExtra @ 2237

@@ -1,0 +1,241 @@
+48
+Trax and Samson's Dynamic Command support has been implemented~
+Keberus~
+05/02/05~
+1115058519
+
+New changes have been implemented~
+Keberus~
+05/02/05~
+1115058530
+
+Redid the makefile~
+Keberus~
+05/02/05~
+1115058689
+
+added in a modified version of Zarius' cmdhelps snippet~
+Keberus~
+05/02/05~
+1115059470
+
+Modfied Wait_state so imms dont have to~
+Keberus~
+05/02/05~
+1115060464
+
+Modified add_timer so for imms the make"stuffs" happen very quickly~
+Keberus~
+05/02/05~
+1115060490
+
+Added in Zone Echo "zecho" by Noplex ~
+Keberus~
+05/02/05~
+1115060772
+
+Added in the 'cedit savecmd' syntax in case peeps want to check out save command~
+Keberus~
+05/02/05~
+1115060910
+
+Installed Samson's new memory allocation macros~
+Keberus~
+05/02/05~
+1115063000
+
+Added in a fixed up and corrected version of Riketsu's grenade enhancement snippet~
+Keberus~
+05/03/05~
+1115153056
+
+Trelar and I did all the bugfixes from other sites~
+Keberus~
+05/15/05~
+1116191378
+
+The mud name and acronym now only have to be set using cedit and it should change all references to them (idea from afkmud)~
+Keberus~
+05/15/05~
+1116191409
+
+Wizlock should now save on copyovers~
+Keberus~
+05/15/05~
+1116191463
+
+Added in Tawnos' command ooc~
+Keberus~
+05/24/05~
+1116949954
+
+Added in buzz and invite so you can buzz on someones door and they can invite you in their room~
+Keberus~
+05/24/05~
+1116958282
+
+Modified exempt command to toggle the exempt flag so people's pfiles can be deleted again~
+Keberus~
+05/24/05~
+1116958698
+
+Added in Trillen's Slave Snippet~
+Trelar~
+05/26/05~
+1117137661
+
+the command newpassword is in for high enough level imms to be able to loadup and change a players password if they forgot it...to to be sure its them first~
+Keberus~
+05/29/05~
+1117398067
+
+Added in Cronel's Renumber Snippet and applied afkmuds way to handle the new resets ~
+Keberus~
+05/29/05~
+1117399275
+
+Fixed pfile counting so it doesn't count homes or clones in the count~
+Keberus~
+05/29/05~
+1117407840
+
+Added in Nuance's Split-S Skill~
+Trelar~
+05/29/05~
+1117413728
+
+Added in the configurable compass code with some spacing modifications~
+Keberus~
+05/29/05~
+1117416312
+
+Added in a Samson's corrected 2bil vnum snippet from Sadiq -set max for 500000~
+Keberus~
+05/29/05~
+1117416366
+
+Expanded shipvnum.are to make it go from 100000 to 150000~
+Keberus~
+05/29/05~
+1117416377
+
+Added in Xerves' Logon History Snippet~
+Keberus~
+05/29/05~
+1117416411
+
+Added in Xerves' ahelp snippet to help identify commands/skills that need help files~
+Keberus~
+05/29/05~
+1117416542
+
+Added in Odis' debit card snippet~
+Keberus~
+05/29/05~
+1117416629
+
+Added in debitorder which allows you to get a debit card from the bank...for a fee~
+Keberus~
+05/29/05~
+1117416650
+
+Added in Samson's customizable slay snippet~
+Trelar~
+06/01/05~
+1117643547
+
+Added in Riketsu's Jetpack Snippet~
+Keberus~
+06/02/05~
+1117770437
+
+Added in Samson and Matthew Bafford's Customizable Colors Snippet. &R**need to fix the commands so the colors work properly~
+Keberus~
+06/02/05~
+1117774340
+
+Added in Zeos /AFKmud's fread_word "fix" ~
+Keberus~
+06/04/05~
+1117933802
+
+Added in Trillen's newer tractorbeam snippet~
+Trelar~
+06/05/05~
+1118000190
+
+Fixed up and implemented a much better version of my slot machines snippet~
+Keberus~
+06/05/05~
+1118000203
+
+Upgraded to Samson's latest version of pfile pruning snippet~
+Keberus~
+06/05/05~
+1118029420
+
+Added in special arguments in do_pfiles so you can now scan for forcers or list certain letters of the alphabet~
+Keberus~
+06/05/05~
+1118029445
+
+added in a way for imms to go into private rooms -can set the minlevel in cset-~
+Keberus~
+06/05/05~
+1118029523
+
+made ooc so invis imms don't show thier names anymore~
+Keberus~
+06/05/05~
+1118029562
+
+fixed setrank so it doesnt crash when peeps dont have a clan and try to use it~
+Keberus~
+06/05/05~
+1118031090
+
+added in an accessible help for cset use 'cset help' for more information~
+Keberus~
+06/05/05~
+1118032861
+
+Implemented Xerves' Furniture Code it seems to be working properly~
+Keberus~
+06/11/05~
+1118504664
+
+Added in pcrename -Similar to FEAR's style-~
+Keberus~
+06/11/05~
+1118506865
+
+Added in the piloting skill Chandelle~
+Keberus~
+06/11/05~
+1118507528
+
+Modified the colors command and organized implemented colors~
+Keberus~
+06/12/05~
+1118606008
+
+Fixed the color codes for the rest of the commands~
+Keberus~
+06/12/05~
+1118606018
+
+Fixed a big problem that I hadn't noticed at first with new channel colorings~
+Keberus~
+06/12/05~
+1118617908
+
+Updated all credits files see 'help credits' and 'help fote' for more information~
+Keberus~
+06/12/05~
+1118620743
+
+Cargo V2 added in with the ability to not use cargo settable in Makefile~
+Trelar~
+06/12/05~
+1118628844
+

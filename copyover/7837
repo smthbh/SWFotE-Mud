@@ -1,0 +1,19 @@
+#OBJECT
+Vnum         7509
+Room         7837
+Rvnum        7837
+Level        1
+Cost         0
+Values       4 4 5 0 0 0
+End
+
+#OBJECT
+Vnum         9009
+Room         7837
+Rvnum        7837
+Level        1
+Cost         0
+Values       10 10 1 0 0 0
+End
+
+#END

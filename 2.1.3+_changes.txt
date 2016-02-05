@@ -1,0 +1,57 @@
+Non-Bugfix Alterations
+------------
+(Version 2.1.5) Added in Keberus' random deaths snippet
+(Version 2.1.5) Added in Keberus' fakeslay snippet
+(Version 2.1.5) Added in Keberus' crash snippet
+(Version 2.1.5) Added in Keberus' pfreload snippet
+(Version 2.1.5) Added in Erwin Andreasen's doas snippet
+(Version 2.1.5) Added in swfotefuss' MCCP support
+(Version 2.1.5) Added in swfotefuss' enhanced copyover code
+(Version 2.1.5) Added in Star Wars Development Team's Emergency Copyover code with some DoD modifications
+
+
+All of these fixes came from www.smaugfuss.org --Thanks to Samson et all
+**Note: The name in [] are the one(s) who came up with the fix**
+-------------
+(Version 2.1.3) Applied fix: Crashes and memory leaks in OLC functions [Valcados]
+(Version 2.1.3) Applied fix: Modifying prototype item affects can corrupt player stats [Valcados]
+(Version 2.1.3) Applied fix: Aggressing mobs won't attack players using writing buffers [Valcados]
+(Version 2.1.3) Applied fix: leave_prog can crash the game by closing an exit [Samson/Remcon]
+(Version 2.1.3) Applied fix: Mudprog ifchecks do not support proper nesting [Valcados]
+(Version 2.1.3) Applied fix: Scavenging mobs claim to pick up prototype items [Valcados]
+(Version 2.1.3) Applied fix: hset command does not validate the level field [Kiasyn]
+(Version 2.1.3) Applied fix: Invis command does not verify NPC status for ch->act flag [Kiasyn]
+(Version 2.1.3) Applied fix: Hardcoded vnums using numerical value [Kiasyn/Remcon/Conner]
+(Version 2.1.3) Applied fix: Numerous problems with the switch command [Valcados]
+(Version 2.1.4) AF: Autogold/sac/loot do not work proplery[Valcados]
+(Version 2.1.4) AF: Deleting a room with the at command can lead to disaster [Samson] 
+(Version 2.1.4) AF: Problem with negative port numbers[Remcon]
+
+All of these fixes came from swfote.sourceforge.net --Thanks to Tawnos et all
+**Note: The name in [] are the one(s) who came up with the fix**
+-------------
+(Version 2.1.3) Applied fix: Destroyed ships are not freed when desired [Keberus]
+(Version 2.1.3) Applied fix: do_fset and do_fhset do not clean up all necessary strings [Keberus]
+(Version 2.1.3) Applied fix: do_remclan does not clean up all necessary strings [Keberus]
+(Version 2.1.4) AF: Obj->killer not handled properly in makeobjs.c [Keberus]
+(Version 2.1.4) AF: Obj->killer not free'd properly in free_obj [Keberus]
+(Version 2.1.4) AF: For Customs still not working quite right in special.c, my fault [Keberus]
+(Version 2.1.4) AF:  "pfiles letter" crashes the mud [Keberus]
+(Version 2.1.4) AF: do_setstarsystem and do_setship allow you to set bad names/filenames[Keberus/Remcon]
+(Version 2.1.4) AF: Ships sometimes get stuck in limbo [Keberus/Guido]
+(Version 2.1.4) AF: Fixed free_clan to DISPOSE filename instead of STRFREE it [Keberus]
+(Version 2.1.4) AF: Fixed do_introduce, do_remember, and do_describe memory corruption problems [Keberus/Phoenix Dracul]
+(Version 2.1.4) AF: Fixed a few problems with bexits beyond vnums 32766 in build.c [Keberus/Phoenix Dracul]
+(Version 2.1.4) AF: Changed fskill_fdisguise to STRALLOC diguise instead of str_dup it [Keberus/Phoenix Dracul]
+(Version 2.1.4) AF: Changed COND_THIRST and COND_FULL so you don't fight yourself in update.c [Keberus/Phoenix Dracul]
+(Version 2.1.4) AF: Fixed "setclan type" so it works properly [Keberus]
+(Version 2.1.4) AF: Fixed fskill_promote to make sure the victim has a master before checking against it [Keberus/Phoenix Dracul]
+(Version 2.1.5) AF: Applied the wear_locs missing a few strings [Keberus/Phoenix Dracul]
+(Version 2.1.5) AF: Fixed the way bestowments are handled in do_clone [Guido/Keberus]
+(Version 2.1.5) AF: Changed all the bug() calls to log_printf() in reset.c [Tawnos/Keberus]
+(Version 2.1.5) AF: Arm allows you to re-arm grenades [Phoenix Dracul/Keberus]
+(Version 2.1.5) AF: Put in fixed do_droptrops function [Keberus]
+(Version 2.1.5) AF: Plandbug can crash the mud [Phoenix Dracul/Keberus]
+(Version 2.1.5) AF: Fwrite_obj doesn't check against NULL obj_data [Keberus/Phoenix Dracul]
+(Version 2.1.5) AF: Slot_lookup aborts if slot is bad [Samson/AFKmud/Keberus]
+(Version 2.1.5) AF: Included making a dependencies file for CYGWIN users [Samson/AFKmud/Keberus]
